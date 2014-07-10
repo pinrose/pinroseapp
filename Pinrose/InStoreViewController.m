@@ -7,12 +7,21 @@
 //
 
 #import "InStoreViewController.h"
+#import "InStoreViewControllerQuestion1.h"
 
 @interface InStoreViewController ()
 
 @end
 
 @implementation InStoreViewController
+- (IBAction)startButton:(UIButton *)sender {
+    InStoreViewControllerQuestion1 *Q1 = [[InStoreViewControllerQuestion1 alloc] initWithNibName:nil bundle:nil];
+    
+    [self presentViewController:Q1 animated:YES completion:^
+     {
+         NULL;
+     }];
+}
 
 - (void)viewDidLoad
 {

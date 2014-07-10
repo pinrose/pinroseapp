@@ -21,6 +21,12 @@
 		EECAA65E196F0372008A7E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA640196F0372008A7E50 /* UIKit.framework */; };
 		EECAA666196F0372008A7E50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EECAA664196F0372008A7E50 /* InfoPlist.strings */; };
 		EECAA668196F0372008A7E50 /* PinroseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA667196F0372008A7E50 /* PinroseTests.m */; };
+		EECAA675196F0409008A7E50 /* InStoreViewControllerQuestion1.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA673196F0409008A7E50 /* InStoreViewControllerQuestion1.m */; };
+		EECAA676196F0409008A7E50 /* InStoreViewControllerQuestion1.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA674196F0409008A7E50 /* InStoreViewControllerQuestion1.xib */; };
+		EECAA67A196F041C008A7E50 /* InStoreViewControllerDontThink.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA678196F041C008A7E50 /* InStoreViewControllerDontThink.m */; };
+		EECAA67B196F041C008A7E50 /* InStoreViewControllerDontThink.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA679196F041C008A7E50 /* InStoreViewControllerDontThink.xib */; };
+		EECAA67F196F042A008A7E50 /* InStoreViewControllerQuestion2.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA67D196F042A008A7E50 /* InStoreViewControllerQuestion2.m */; };
+		EECAA680196F042A008A7E50 /* InStoreViewControllerQuestion2.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA67E196F042A008A7E50 /* InStoreViewControllerQuestion2.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,15 @@
 		EECAA663196F0372008A7E50 /* PinroseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinroseTests-Info.plist"; sourceTree = "<group>"; };
 		EECAA665196F0372008A7E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EECAA667196F0372008A7E50 /* PinroseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinroseTests.m; sourceTree = "<group>"; };
+		EECAA672196F0409008A7E50 /* InStoreViewControllerQuestion1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerQuestion1.h; sourceTree = "<group>"; };
+		EECAA673196F0409008A7E50 /* InStoreViewControllerQuestion1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerQuestion1.m; sourceTree = "<group>"; };
+		EECAA674196F0409008A7E50 /* InStoreViewControllerQuestion1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerQuestion1.xib; sourceTree = "<group>"; };
+		EECAA677196F041C008A7E50 /* InStoreViewControllerDontThink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerDontThink.h; sourceTree = "<group>"; };
+		EECAA678196F041C008A7E50 /* InStoreViewControllerDontThink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerDontThink.m; sourceTree = "<group>"; };
+		EECAA679196F041C008A7E50 /* InStoreViewControllerDontThink.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerDontThink.xib; sourceTree = "<group>"; };
+		EECAA67C196F042A008A7E50 /* InStoreViewControllerQuestion2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerQuestion2.h; sourceTree = "<group>"; };
+		EECAA67D196F042A008A7E50 /* InStoreViewControllerQuestion2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerQuestion2.m; sourceTree = "<group>"; };
+		EECAA67E196F042A008A7E50 /* InStoreViewControllerQuestion2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerQuestion2.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +127,7 @@
 		EECAA642196F0372008A7E50 /* Pinrose */ = {
 			isa = PBXGroup;
 			children = (
+				EECAA671196F03E9008A7E50 /* Questions */,
 				EECAA64B196F0372008A7E50 /* InStoreAppDelegate.h */,
 				EECAA64C196F0372008A7E50 /* InStoreAppDelegate.m */,
 				EECAA64E196F0372008A7E50 /* Main.storyboard */,
@@ -150,6 +166,22 @@
 				EECAA664196F0372008A7E50 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EECAA671196F03E9008A7E50 /* Questions */ = {
+			isa = PBXGroup;
+			children = (
+				EECAA672196F0409008A7E50 /* InStoreViewControllerQuestion1.h */,
+				EECAA673196F0409008A7E50 /* InStoreViewControllerQuestion1.m */,
+				EECAA674196F0409008A7E50 /* InStoreViewControllerQuestion1.xib */,
+				EECAA677196F041C008A7E50 /* InStoreViewControllerDontThink.h */,
+				EECAA678196F041C008A7E50 /* InStoreViewControllerDontThink.m */,
+				EECAA679196F041C008A7E50 /* InStoreViewControllerDontThink.xib */,
+				EECAA67C196F042A008A7E50 /* InStoreViewControllerQuestion2.h */,
+				EECAA67D196F042A008A7E50 /* InStoreViewControllerQuestion2.m */,
+				EECAA67E196F042A008A7E50 /* InStoreViewControllerQuestion2.xib */,
+			);
+			name = Questions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECAA680196F042A008A7E50 /* InStoreViewControllerQuestion2.xib in Resources */,
 				EECAA655196F0372008A7E50 /* Images.xcassets in Resources */,
 				EECAA647196F0372008A7E50 /* InfoPlist.strings in Resources */,
 				EECAA650196F0372008A7E50 /* Main.storyboard in Resources */,
+				EECAA676196F0409008A7E50 /* InStoreViewControllerQuestion1.xib in Resources */,
+				EECAA67B196F041C008A7E50 /* InStoreViewControllerDontThink.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +287,9 @@
 			files = (
 				EECAA649196F0372008A7E50 /* main.m in Sources */,
 				EECAA64D196F0372008A7E50 /* InStoreAppDelegate.m in Sources */,
+				EECAA675196F0409008A7E50 /* InStoreViewControllerQuestion1.m in Sources */,
+				EECAA67A196F041C008A7E50 /* InStoreViewControllerDontThink.m in Sources */,
+				EECAA67F196F042A008A7E50 /* InStoreViewControllerQuestion2.m in Sources */,
 				EECAA653196F0372008A7E50 /* InStoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
