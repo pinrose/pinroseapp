@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EECAA63D196F0372008A7E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63C196F0372008A7E50 /* Foundation.framework */; };
+		EECAA63F196F0372008A7E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63E196F0372008A7E50 /* CoreGraphics.framework */; };
+		EECAA641196F0372008A7E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA640196F0372008A7E50 /* UIKit.framework */; };
+		EECAA647196F0372008A7E50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EECAA645196F0372008A7E50 /* InfoPlist.strings */; };
+		EECAA649196F0372008A7E50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA648196F0372008A7E50 /* main.m */; };
+		EECAA64D196F0372008A7E50 /* InStoreAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA64C196F0372008A7E50 /* InStoreAppDelegate.m */; };
+		EECAA650196F0372008A7E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECAA64E196F0372008A7E50 /* Main.storyboard */; };
+		EECAA653196F0372008A7E50 /* InStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA652196F0372008A7E50 /* InStoreViewController.m */; };
+		EECAA655196F0372008A7E50 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECAA654196F0372008A7E50 /* Images.xcassets */; };
+		EECAA65C196F0372008A7E50 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA65B196F0372008A7E50 /* XCTest.framework */; };
+		EECAA65D196F0372008A7E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63C196F0372008A7E50 /* Foundation.framework */; };
+		EECAA65E196F0372008A7E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA640196F0372008A7E50 /* UIKit.framework */; };
+		EECAA666196F0372008A7E50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EECAA664196F0372008A7E50 /* InfoPlist.strings */; };
+		EECAA668196F0372008A7E50 /* PinroseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA667196F0372008A7E50 /* PinroseTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EECAA65F196F0372008A7E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EECAA631196F0372008A7E50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECAA638196F0372008A7E50;
+			remoteInfo = Pinrose;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EECAA639196F0372008A7E50 /* Pinrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinrose.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECAA63C196F0372008A7E50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EECAA63E196F0372008A7E50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EECAA640196F0372008A7E50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EECAA644196F0372008A7E50 /* Pinrose-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Pinrose-Info.plist"; sourceTree = "<group>"; };
+		EECAA646196F0372008A7E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EECAA648196F0372008A7E50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EECAA64A196F0372008A7E50 /* Pinrose-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pinrose-Prefix.pch"; sourceTree = "<group>"; };
+		EECAA64B196F0372008A7E50 /* InStoreAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InStoreAppDelegate.h; sourceTree = "<group>"; };
+		EECAA64C196F0372008A7E50 /* InStoreAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InStoreAppDelegate.m; sourceTree = "<group>"; };
+		EECAA64F196F0372008A7E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EECAA651196F0372008A7E50 /* InStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InStoreViewController.h; sourceTree = "<group>"; };
+		EECAA652196F0372008A7E50 /* InStoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InStoreViewController.m; sourceTree = "<group>"; };
+		EECAA654196F0372008A7E50 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EECAA65A196F0372008A7E50 /* PinroseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinroseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECAA65B196F0372008A7E50 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EECAA663196F0372008A7E50 /* PinroseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PinroseTests-Info.plist"; sourceTree = "<group>"; };
+		EECAA665196F0372008A7E50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EECAA667196F0372008A7E50 /* PinroseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinroseTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EECAA636196F0372008A7E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECAA63F196F0372008A7E50 /* CoreGraphics.framework in Frameworks */,
+				EECAA641196F0372008A7E50 /* UIKit.framework in Frameworks */,
+				EECAA63D196F0372008A7E50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECAA657196F0372008A7E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECAA65C196F0372008A7E50 /* XCTest.framework in Frameworks */,
+				EECAA65E196F0372008A7E50 /* UIKit.framework in Frameworks */,
+				EECAA65D196F0372008A7E50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EECAA630196F0372008A7E50 = {
+			isa = PBXGroup;
+			children = (
+				EECAA642196F0372008A7E50 /* Pinrose */,
+				EECAA661196F0372008A7E50 /* PinroseTests */,
+				EECAA63B196F0372008A7E50 /* Frameworks */,
+				EECAA63A196F0372008A7E50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EECAA63A196F0372008A7E50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECAA639196F0372008A7E50 /* Pinrose.app */,
+				EECAA65A196F0372008A7E50 /* PinroseTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EECAA63B196F0372008A7E50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EECAA63C196F0372008A7E50 /* Foundation.framework */,
+				EECAA63E196F0372008A7E50 /* CoreGraphics.framework */,
+				EECAA640196F0372008A7E50 /* UIKit.framework */,
+				EECAA65B196F0372008A7E50 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EECAA642196F0372008A7E50 /* Pinrose */ = {
+			isa = PBXGroup;
+			children = (
+				EECAA64B196F0372008A7E50 /* InStoreAppDelegate.h */,
+				EECAA64C196F0372008A7E50 /* InStoreAppDelegate.m */,
+				EECAA64E196F0372008A7E50 /* Main.storyboard */,
+				EECAA651196F0372008A7E50 /* InStoreViewController.h */,
+				EECAA652196F0372008A7E50 /* InStoreViewController.m */,
+				EECAA654196F0372008A7E50 /* Images.xcassets */,
+				EECAA643196F0372008A7E50 /* Supporting Files */,
+			);
+			path = Pinrose;
+			sourceTree = "<group>";
+		};
+		EECAA643196F0372008A7E50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECAA644196F0372008A7E50 /* Pinrose-Info.plist */,
+				EECAA645196F0372008A7E50 /* InfoPlist.strings */,
+				EECAA648196F0372008A7E50 /* main.m */,
+				EECAA64A196F0372008A7E50 /* Pinrose-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EECAA661196F0372008A7E50 /* PinroseTests */ = {
+			isa = PBXGroup;
+			children = (
+				EECAA667196F0372008A7E50 /* PinroseTests.m */,
+				EECAA662196F0372008A7E50 /* Supporting Files */,
+			);
+			path = PinroseTests;
+			sourceTree = "<group>";
+		};
+		EECAA662196F0372008A7E50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECAA663196F0372008A7E50 /* PinroseTests-Info.plist */,
+				EECAA664196F0372008A7E50 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EECAA638196F0372008A7E50 /* Pinrose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECAA66B196F0372008A7E50 /* Build configuration list for PBXNativeTarget "Pinrose" */;
+			buildPhases = (
+				EECAA635196F0372008A7E50 /* Sources */,
+				EECAA636196F0372008A7E50 /* Frameworks */,
+				EECAA637196F0372008A7E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pinrose;
+			productName = Pinrose;
+			productReference = EECAA639196F0372008A7E50 /* Pinrose.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EECAA659196F0372008A7E50 /* PinroseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECAA66E196F0372008A7E50 /* Build configuration list for PBXNativeTarget "PinroseTests" */;
+			buildPhases = (
+				EECAA656196F0372008A7E50 /* Sources */,
+				EECAA657196F0372008A7E50 /* Frameworks */,
+				EECAA658196F0372008A7E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EECAA660196F0372008A7E50 /* PBXTargetDependency */,
+			);
+			name = PinroseTests;
+			productName = PinroseTests;
+			productReference = EECAA65A196F0372008A7E50 /* PinroseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EECAA631196F0372008A7E50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = InStore;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					EECAA659196F0372008A7E50 = {
+						TestTargetID = EECAA638196F0372008A7E50;
+					};
+				};
+			};
+			buildConfigurationList = EECAA634196F0372008A7E50 /* Build configuration list for PBXProject "Pinrose" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EECAA630196F0372008A7E50;
+			productRefGroup = EECAA63A196F0372008A7E50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECAA638196F0372008A7E50 /* Pinrose */,
+				EECAA659196F0372008A7E50 /* PinroseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EECAA637196F0372008A7E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECAA655196F0372008A7E50 /* Images.xcassets in Resources */,
+				EECAA647196F0372008A7E50 /* InfoPlist.strings in Resources */,
+				EECAA650196F0372008A7E50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECAA658196F0372008A7E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECAA666196F0372008A7E50 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EECAA635196F0372008A7E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECAA649196F0372008A7E50 /* main.m in Sources */,
+				EECAA64D196F0372008A7E50 /* InStoreAppDelegate.m in Sources */,
+				EECAA653196F0372008A7E50 /* InStoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECAA656196F0372008A7E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECAA668196F0372008A7E50 /* PinroseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EECAA660196F0372008A7E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECAA638196F0372008A7E50 /* Pinrose */;
+			targetProxy = EECAA65F196F0372008A7E50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EECAA645196F0372008A7E50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECAA646196F0372008A7E50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EECAA64E196F0372008A7E50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECAA64F196F0372008A7E50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EECAA664196F0372008A7E50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECAA665196F0372008A7E50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EECAA669196F0372008A7E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EECAA66A196F0372008A7E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EECAA66C196F0372008A7E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinrose/Pinrose-Prefix.pch";
+				INFOPLIST_FILE = "Pinrose/Pinrose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EECAA66D196F0372008A7E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinrose/Pinrose-Prefix.pch";
+				INFOPLIST_FILE = "Pinrose/Pinrose-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EECAA66F196F0372008A7E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pinrose.app/Pinrose";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinrose/Pinrose-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PinroseTests/PinroseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EECAA670196F0372008A7E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Pinrose.app/Pinrose";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Pinrose/Pinrose-Prefix.pch";
+				INFOPLIST_FILE = "PinroseTests/PinroseTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EECAA634196F0372008A7E50 /* Build configuration list for PBXProject "Pinrose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECAA669196F0372008A7E50 /* Debug */,
+				EECAA66A196F0372008A7E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECAA66B196F0372008A7E50 /* Build configuration list for PBXNativeTarget "Pinrose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECAA66C196F0372008A7E50 /* Debug */,
+				EECAA66D196F0372008A7E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EECAA66E196F0372008A7E50 /* Build configuration list for PBXNativeTarget "PinroseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECAA66F196F0372008A7E50 /* Debug */,
+				EECAA670196F0372008A7E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EECAA631196F0372008A7E50 /* Project object */;
+}
