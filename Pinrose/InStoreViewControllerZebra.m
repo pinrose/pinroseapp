@@ -7,12 +7,24 @@
 //
 
 #import "InStoreViewControllerZebra.h"
+#import "InStoreViewControllerTextures.h"
 
 @interface InStoreViewControllerZebra ()
 
 @end
 
 @implementation InStoreViewControllerZebra
+- (IBAction)zebra1Button:(UIButton *)sender {
+    InStoreViewControllerTextures *texture = [[InStoreViewControllerTextures alloc] initWithNibName:nil bundle:nil];
+    
+    [self presentViewController:texture animated:YES completion:NULL];
+}
+- (IBAction)zebra2Button:(UIButton *)sender {
+    InStoreViewControllerTextures   *texture = [[InStoreViewControllerTextures alloc] initWithNibName:nil bundle:nil];
+    
+    [self presentViewController:texture animated:YES completion:NULL];
+}
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
