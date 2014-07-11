@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DE276B0D-EC59-431A-831E-155D66F1FEEC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Pinrose</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2372CEB2-CCC1-48C8-AABC-571FA6A37F25</key>
+		<string>ssh://github.com/joelwass/pinroseapp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Pinrose.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2372CEB2-CCC1-48C8-AABC-571FA6A37F25</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/joelwass/pinroseapp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2372CEB2-CCC1-48C8-AABC-571FA6A37F25</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2372CEB2-CCC1-48C8-AABC-571FA6A37F25</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pinrose</string>
+		</dict>
+	</array>
+</dict>
+</plist>

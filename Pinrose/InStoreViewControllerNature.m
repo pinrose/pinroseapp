@@ -14,22 +14,17 @@
 @end
 
 @implementation InStoreViewControllerNature
-- (IBAction)nature1Button:(id)sender {
-    InStoreViewControllerSunsets *sunsets = [[InStoreViewControllerSunsets alloc] initWithNibName:nil bundle:nil];
+- (IBAction)nature1Button:(UIButton *)sender {
+    InStoreViewControllerSunsets *sunset = [[InStoreViewControllerSunsets alloc] initWithNibName:nil bundle:nil];
     
-    [self presentViewController:sunsets animated:YES completion:^
-     {
-         NULL;
-     }];
+    [self presentViewController:sunset animated:YES completion:NULL];
 }
 - (IBAction)nature2Button:(UIButton *)sender {
-    InStoreViewControllerSunsets *sunsets = [[InStoreViewControllerSunsets alloc] initWithNibName:nil bundle:nil];
+    InStoreViewControllerSunsets *sunset = [[InStoreViewControllerSunsets alloc] initWithNibName:nil bundle:nil];
     
-    [self presentViewController:sunsets animated:YES completion:^
-     {
-         NULL;
-     }];
+    [self presentViewController:sunset animated:YES completion:NULL];
 }
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

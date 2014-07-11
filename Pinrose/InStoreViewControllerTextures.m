@@ -13,6 +13,12 @@
 @end
 
 @implementation InStoreViewControllerTextures
+- (IBAction)texture1Button:(UIButton *)sender {
+}
+- (IBAction)texture2Button:(UIButton *)sender {
+}
+- (IBAction)texture3Button:(UIButton *)sender {
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

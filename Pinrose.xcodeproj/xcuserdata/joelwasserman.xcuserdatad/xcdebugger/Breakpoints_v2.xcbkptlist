@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pinrose/InStoreViewControllerQuestion1.m"
-            timestampString = "426708631.014213"
+            timestampString = "426788160.570739"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "-nextQuestion:"
             landmarkType = "5">
          </BreakpointContent>

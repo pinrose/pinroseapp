@@ -17,12 +17,12 @@
 - (IBAction)zebra1Button:(UIButton *)sender {
     InStoreViewControllerTextures *texture = [[InStoreViewControllerTextures alloc] initWithNibName:nil bundle:nil];
     
-    [self presentViewController:texture animated:YES completion:NULL];
+    [self presentViewController:texture animated:YES completion:^{NULL;}];
 }
 - (IBAction)zebra2Button:(UIButton *)sender {
     InStoreViewControllerTextures   *texture = [[InStoreViewControllerTextures alloc] initWithNibName:nil bundle:nil];
     
-    [self presentViewController:texture animated:YES completion:NULL];
+    [self presentViewController:texture animated:YES completion:^{NULL;}];
 }
 
 

@@ -8,6 +8,7 @@
 
 #import "InStoreViewControllerQuestion1.h"
 #import "InStoreViewControllerDontThink.h"
+#import "InStoreViewController.h"
 
 @interface InStoreViewControllerQuestion1 ()
 
