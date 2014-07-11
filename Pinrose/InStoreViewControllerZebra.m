@@ -1,28 +1,18 @@
 //
-//  InStoreViewControllerDontThink.m
+//  InStoreViewControllerZebra.m
 //  Pinrose
 //
 //  Created by Joel Wasserman on 7/10/14.
 //  Copyright (c) 2014 Joel Wasserman. All rights reserved.
 //
 
-#import "InStoreViewControllerDontThink.h"
-#import "InStoreViewControllerQuestion2.h"
+#import "InStoreViewControllerZebra.h"
 
-
-@interface InStoreViewControllerDontThink ()
+@interface InStoreViewControllerZebra ()
 
 @end
 
-@implementation InStoreViewControllerDontThink
-- (IBAction)question2Button:(UIButton *)sender {
-    InStoreViewControllerQuestion2 *Q2 = [[InStoreViewControllerQuestion2 alloc] initWithNibName:nil bundle:nil];
-    
-    [self presentViewController:Q2 animated:YES completion:^
-     {
-         NULL;
-     }];
-}
+@implementation InStoreViewControllerZebra
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

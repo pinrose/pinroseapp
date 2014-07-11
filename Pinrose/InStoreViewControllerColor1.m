@@ -1,38 +1,37 @@
 //
-//  InStoreViewControllerQuestion2.m
+//  InStoreViewControllerColor1.m
 //  Pinrose
 //
 //  Created by Joel Wasserman on 7/10/14.
 //  Copyright (c) 2014 Joel Wasserman. All rights reserved.
 //
 
-#import "InStoreViewControllerQuestion2.h"
-#import "InStoreViewControllerLips.h"
+#import "InStoreViewControllerColor1.h"
+#import "InStoreViewControllerColor2.h"
 
-@interface InStoreViewControllerQuestion2 ()
 
+@interface InStoreViewControllerColor1 ()
 
 @end
 
-@implementation InStoreViewControllerQuestion2
-- (IBAction)explosionButton:(UIButton *)sender {
-    InStoreViewControllerLips *lips = [[InStoreViewControllerLips alloc] initWithNibName:nil bundle:nil];
+@implementation InStoreViewControllerColor1
+- (IBAction)color1Button:(UIButton *)sender {
+    InStoreViewControllerColor2 *color2 = [[InStoreViewControllerColor2 alloc] initWithNibName:nil bundle:nil];
     
-    [self presentViewController:lips animated:YES completion:^
+    [self presentViewController:color2 animated:YES completion:^
      {
          NULL;
      }];
-
 }
 
-- (IBAction)cloudButton:(UIButton *)sender {
-    InStoreViewControllerLips *lips = [[InStoreViewControllerLips alloc] initWithNibName:nil bundle:nil];
+
+- (IBAction)color2Button:(UIButton *)sender {
+    InStoreViewControllerColor2 *color2 = [[InStoreViewControllerColor2 alloc] initWithNibName:nil bundle:nil];
     
-    [self presentViewController:lips animated:YES completion:^
+    [self presentViewController:color2 animated:YES completion:^
      {
          NULL;
      }];
-
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

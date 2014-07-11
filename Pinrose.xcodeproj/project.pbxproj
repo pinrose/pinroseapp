@@ -37,6 +37,26 @@
 		EECAA690196F2967008A7E50 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA68F196F2967008A7E50 /* Security.framework */; };
 		EECAA692196F296E008A7E50 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA691196F296E008A7E50 /* StoreKit.framework */; };
 		EECAA694196F2978008A7E50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA693196F2978008A7E50 /* SystemConfiguration.framework */; };
+		EECAA6D3196F5033008A7E50 /* InStoreViewControllerLips.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA6D1196F5033008A7E50 /* InStoreViewControllerLips.m */; };
+		EECAA6D4196F5033008A7E50 /* InStoreViewControllerLips.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA6D2196F5033008A7E50 /* InStoreViewControllerLips.xib */; };
+		EECAA6D8196F52C5008A7E50 /* InStoreViewControllerColor1.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA6D6196F52C5008A7E50 /* InStoreViewControllerColor1.m */; };
+		EECAA6D9196F52C5008A7E50 /* InStoreViewControllerColor1.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA6D7196F52C5008A7E50 /* InStoreViewControllerColor1.xib */; };
+		EECAA6DD196F54AE008A7E50 /* InStoreViewControllerColor2.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA6DB196F54AE008A7E50 /* InStoreViewControllerColor2.m */; };
+		EECAA6DE196F54AE008A7E50 /* InStoreViewControllerColor2.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA6DC196F54AE008A7E50 /* InStoreViewControllerColor2.xib */; };
+		EECAA6E2196F55D2008A7E50 /* InStoreViewControllerPaintings.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA6E0196F55D2008A7E50 /* InStoreViewControllerPaintings.m */; };
+		EECAA6E3196F55D2008A7E50 /* InStoreViewControllerPaintings.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA6E1196F55D2008A7E50 /* InStoreViewControllerPaintings.xib */; };
+		EECAA6E7196F5847008A7E50 /* InStoreViewControllerNature.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA6E5196F5847008A7E50 /* InStoreViewControllerNature.m */; };
+		EECAA6E8196F5847008A7E50 /* InStoreViewControllerNature.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA6E6196F5847008A7E50 /* InStoreViewControllerNature.xib */; };
+		EECAA6EC196F683F008A7E50 /* InStoreViewControllerSunsets.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA6EA196F683F008A7E50 /* InStoreViewControllerSunsets.m */; };
+		EECAA6ED196F683F008A7E50 /* InStoreViewControllerSunsets.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA6EB196F683F008A7E50 /* InStoreViewControllerSunsets.xib */; };
+		EECAA6F1196F68F9008A7E50 /* InStoreViewControllerAnimals.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA6EF196F68F9008A7E50 /* InStoreViewControllerAnimals.m */; };
+		EECAA6F2196F68F9008A7E50 /* InStoreViewControllerAnimals.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA6F0196F68F9008A7E50 /* InStoreViewControllerAnimals.xib */; };
+		EECAA6F6196F6A80008A7E50 /* InStoreViewControllerBathroom.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA6F4196F6A80008A7E50 /* InStoreViewControllerBathroom.m */; };
+		EECAA6F7196F6A80008A7E50 /* InStoreViewControllerBathroom.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA6F5196F6A80008A7E50 /* InStoreViewControllerBathroom.xib */; };
+		EECAA6FB196F6C2D008A7E50 /* InStoreViewControllerZebra.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA6F9196F6C2D008A7E50 /* InStoreViewControllerZebra.m */; };
+		EECAA6FC196F6C2D008A7E50 /* InStoreViewControllerZebra.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA6FA196F6C2D008A7E50 /* InStoreViewControllerZebra.xib */; };
+		EECAA700196F6C3F008A7E50 /* InStoreViewControllerTextures.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA6FE196F6C3F008A7E50 /* InStoreViewControllerTextures.m */; };
+		EECAA701196F6C3F008A7E50 /* InStoreViewControllerTextures.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA6FF196F6C3F008A7E50 /* InStoreViewControllerTextures.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +108,36 @@
 		EECAA68F196F2967008A7E50 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		EECAA691196F296E008A7E50 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		EECAA693196F2978008A7E50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EECAA6D0196F5033008A7E50 /* InStoreViewControllerLips.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerLips.h; sourceTree = "<group>"; };
+		EECAA6D1196F5033008A7E50 /* InStoreViewControllerLips.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerLips.m; sourceTree = "<group>"; };
+		EECAA6D2196F5033008A7E50 /* InStoreViewControllerLips.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerLips.xib; sourceTree = "<group>"; };
+		EECAA6D5196F52C5008A7E50 /* InStoreViewControllerColor1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerColor1.h; sourceTree = "<group>"; };
+		EECAA6D6196F52C5008A7E50 /* InStoreViewControllerColor1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerColor1.m; sourceTree = "<group>"; };
+		EECAA6D7196F52C5008A7E50 /* InStoreViewControllerColor1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerColor1.xib; sourceTree = "<group>"; };
+		EECAA6DA196F54AE008A7E50 /* InStoreViewControllerColor2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerColor2.h; sourceTree = "<group>"; };
+		EECAA6DB196F54AE008A7E50 /* InStoreViewControllerColor2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerColor2.m; sourceTree = "<group>"; };
+		EECAA6DC196F54AE008A7E50 /* InStoreViewControllerColor2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerColor2.xib; sourceTree = "<group>"; };
+		EECAA6DF196F55D2008A7E50 /* InStoreViewControllerPaintings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerPaintings.h; sourceTree = "<group>"; };
+		EECAA6E0196F55D2008A7E50 /* InStoreViewControllerPaintings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerPaintings.m; sourceTree = "<group>"; };
+		EECAA6E1196F55D2008A7E50 /* InStoreViewControllerPaintings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerPaintings.xib; sourceTree = "<group>"; };
+		EECAA6E4196F5847008A7E50 /* InStoreViewControllerNature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerNature.h; sourceTree = "<group>"; };
+		EECAA6E5196F5847008A7E50 /* InStoreViewControllerNature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerNature.m; sourceTree = "<group>"; };
+		EECAA6E6196F5847008A7E50 /* InStoreViewControllerNature.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerNature.xib; sourceTree = "<group>"; };
+		EECAA6E9196F683F008A7E50 /* InStoreViewControllerSunsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerSunsets.h; sourceTree = "<group>"; };
+		EECAA6EA196F683F008A7E50 /* InStoreViewControllerSunsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerSunsets.m; sourceTree = "<group>"; };
+		EECAA6EB196F683F008A7E50 /* InStoreViewControllerSunsets.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerSunsets.xib; sourceTree = "<group>"; };
+		EECAA6EE196F68F9008A7E50 /* InStoreViewControllerAnimals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerAnimals.h; sourceTree = "<group>"; };
+		EECAA6EF196F68F9008A7E50 /* InStoreViewControllerAnimals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerAnimals.m; sourceTree = "<group>"; };
+		EECAA6F0196F68F9008A7E50 /* InStoreViewControllerAnimals.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerAnimals.xib; sourceTree = "<group>"; };
+		EECAA6F3196F6A80008A7E50 /* InStoreViewControllerBathroom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerBathroom.h; sourceTree = "<group>"; };
+		EECAA6F4196F6A80008A7E50 /* InStoreViewControllerBathroom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerBathroom.m; sourceTree = "<group>"; };
+		EECAA6F5196F6A80008A7E50 /* InStoreViewControllerBathroom.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerBathroom.xib; sourceTree = "<group>"; };
+		EECAA6F8196F6C2D008A7E50 /* InStoreViewControllerZebra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerZebra.h; sourceTree = "<group>"; };
+		EECAA6F9196F6C2D008A7E50 /* InStoreViewControllerZebra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerZebra.m; sourceTree = "<group>"; };
+		EECAA6FA196F6C2D008A7E50 /* InStoreViewControllerZebra.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerZebra.xib; sourceTree = "<group>"; };
+		EECAA6FD196F6C3F008A7E50 /* InStoreViewControllerTextures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerTextures.h; sourceTree = "<group>"; };
+		EECAA6FE196F6C3F008A7E50 /* InStoreViewControllerTextures.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerTextures.m; sourceTree = "<group>"; };
+		EECAA6FF196F6C3F008A7E50 /* InStoreViewControllerTextures.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerTextures.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +270,36 @@
 				EECAA67C196F042A008A7E50 /* InStoreViewControllerQuestion2.h */,
 				EECAA67D196F042A008A7E50 /* InStoreViewControllerQuestion2.m */,
 				EECAA67E196F042A008A7E50 /* InStoreViewControllerQuestion2.xib */,
+				EECAA6D0196F5033008A7E50 /* InStoreViewControllerLips.h */,
+				EECAA6D1196F5033008A7E50 /* InStoreViewControllerLips.m */,
+				EECAA6D2196F5033008A7E50 /* InStoreViewControllerLips.xib */,
+				EECAA6D5196F52C5008A7E50 /* InStoreViewControllerColor1.h */,
+				EECAA6D6196F52C5008A7E50 /* InStoreViewControllerColor1.m */,
+				EECAA6D7196F52C5008A7E50 /* InStoreViewControllerColor1.xib */,
+				EECAA6DA196F54AE008A7E50 /* InStoreViewControllerColor2.h */,
+				EECAA6DB196F54AE008A7E50 /* InStoreViewControllerColor2.m */,
+				EECAA6DC196F54AE008A7E50 /* InStoreViewControllerColor2.xib */,
+				EECAA6DF196F55D2008A7E50 /* InStoreViewControllerPaintings.h */,
+				EECAA6E0196F55D2008A7E50 /* InStoreViewControllerPaintings.m */,
+				EECAA6E1196F55D2008A7E50 /* InStoreViewControllerPaintings.xib */,
+				EECAA6E4196F5847008A7E50 /* InStoreViewControllerNature.h */,
+				EECAA6E5196F5847008A7E50 /* InStoreViewControllerNature.m */,
+				EECAA6E6196F5847008A7E50 /* InStoreViewControllerNature.xib */,
+				EECAA6E9196F683F008A7E50 /* InStoreViewControllerSunsets.h */,
+				EECAA6EA196F683F008A7E50 /* InStoreViewControllerSunsets.m */,
+				EECAA6EB196F683F008A7E50 /* InStoreViewControllerSunsets.xib */,
+				EECAA6EE196F68F9008A7E50 /* InStoreViewControllerAnimals.h */,
+				EECAA6EF196F68F9008A7E50 /* InStoreViewControllerAnimals.m */,
+				EECAA6F0196F68F9008A7E50 /* InStoreViewControllerAnimals.xib */,
+				EECAA6F3196F6A80008A7E50 /* InStoreViewControllerBathroom.h */,
+				EECAA6F4196F6A80008A7E50 /* InStoreViewControllerBathroom.m */,
+				EECAA6F5196F6A80008A7E50 /* InStoreViewControllerBathroom.xib */,
+				EECAA6F8196F6C2D008A7E50 /* InStoreViewControllerZebra.h */,
+				EECAA6F9196F6C2D008A7E50 /* InStoreViewControllerZebra.m */,
+				EECAA6FA196F6C2D008A7E50 /* InStoreViewControllerZebra.xib */,
+				EECAA6FD196F6C3F008A7E50 /* InStoreViewControllerTextures.h */,
+				EECAA6FE196F6C3F008A7E50 /* InStoreViewControllerTextures.m */,
+				EECAA6FF196F6C3F008A7E50 /* InStoreViewControllerTextures.xib */,
 			);
 			name = Questions;
 			sourceTree = "<group>";
@@ -301,12 +381,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECAA6E8196F5847008A7E50 /* InStoreViewControllerNature.xib in Resources */,
 				EECAA680196F042A008A7E50 /* InStoreViewControllerQuestion2.xib in Resources */,
 				EECAA655196F0372008A7E50 /* Images.xcassets in Resources */,
+				EECAA6F2196F68F9008A7E50 /* InStoreViewControllerAnimals.xib in Resources */,
 				EECAA647196F0372008A7E50 /* InfoPlist.strings in Resources */,
+				EECAA6F7196F6A80008A7E50 /* InStoreViewControllerBathroom.xib in Resources */,
+				EECAA6DE196F54AE008A7E50 /* InStoreViewControllerColor2.xib in Resources */,
+				EECAA6D9196F52C5008A7E50 /* InStoreViewControllerColor1.xib in Resources */,
+				EECAA6FC196F6C2D008A7E50 /* InStoreViewControllerZebra.xib in Resources */,
+				EECAA6D4196F5033008A7E50 /* InStoreViewControllerLips.xib in Resources */,
 				EECAA650196F0372008A7E50 /* Main.storyboard in Resources */,
+				EECAA701196F6C3F008A7E50 /* InStoreViewControllerTextures.xib in Resources */,
 				EECAA676196F0409008A7E50 /* InStoreViewControllerQuestion1.xib in Resources */,
 				EECAA67B196F041C008A7E50 /* InStoreViewControllerDontThink.xib in Resources */,
+				EECAA6ED196F683F008A7E50 /* InStoreViewControllerSunsets.xib in Resources */,
+				EECAA6E3196F55D2008A7E50 /* InStoreViewControllerPaintings.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,12 +415,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EECAA6E2196F55D2008A7E50 /* InStoreViewControllerPaintings.m in Sources */,
+				EECAA700196F6C3F008A7E50 /* InStoreViewControllerTextures.m in Sources */,
 				EECAA649196F0372008A7E50 /* main.m in Sources */,
 				EECAA64D196F0372008A7E50 /* InStoreAppDelegate.m in Sources */,
 				EECAA675196F0409008A7E50 /* InStoreViewControllerQuestion1.m in Sources */,
+				EECAA6D8196F52C5008A7E50 /* InStoreViewControllerColor1.m in Sources */,
+				EECAA6EC196F683F008A7E50 /* InStoreViewControllerSunsets.m in Sources */,
 				EECAA67A196F041C008A7E50 /* InStoreViewControllerDontThink.m in Sources */,
+				EECAA6DD196F54AE008A7E50 /* InStoreViewControllerColor2.m in Sources */,
 				EECAA67F196F042A008A7E50 /* InStoreViewControllerQuestion2.m in Sources */,
+				EECAA6E7196F5847008A7E50 /* InStoreViewControllerNature.m in Sources */,
 				EECAA653196F0372008A7E50 /* InStoreViewController.m in Sources */,
+				EECAA6D3196F5033008A7E50 /* InStoreViewControllerLips.m in Sources */,
+				EECAA6F1196F68F9008A7E50 /* InStoreViewControllerAnimals.m in Sources */,
+				EECAA6FB196F6C2D008A7E50 /* InStoreViewControllerZebra.m in Sources */,
+				EECAA6F6196F6A80008A7E50 /* InStoreViewControllerBathroom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

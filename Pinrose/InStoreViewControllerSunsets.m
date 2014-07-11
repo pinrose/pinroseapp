@@ -1,38 +1,34 @@
 //
-//  InStoreViewControllerQuestion2.m
+//  InStoreViewControllerSunsets.m
 //  Pinrose
 //
 //  Created by Joel Wasserman on 7/10/14.
 //  Copyright (c) 2014 Joel Wasserman. All rights reserved.
 //
 
-#import "InStoreViewControllerQuestion2.h"
-#import "InStoreViewControllerLips.h"
+#import "InStoreViewControllerSunsets.h"
+#import "InStoreViewControllerAnimals.h"
 
-@interface InStoreViewControllerQuestion2 ()
-
+@interface InStoreViewControllerSunsets ()
 
 @end
 
-@implementation InStoreViewControllerQuestion2
-- (IBAction)explosionButton:(UIButton *)sender {
-    InStoreViewControllerLips *lips = [[InStoreViewControllerLips alloc] initWithNibName:nil bundle:nil];
+@implementation InStoreViewControllerSunsets
+- (IBAction)sunset1Button:(UIButton *)sender {
+    InStoreViewControllerAnimals *animals = [[InStoreViewControllerAnimals alloc] initWithNibName:nil bundle:nil];
     
-    [self presentViewController:lips animated:YES completion:^
+    [self presentViewController:animals animated:YES completion:^
      {
          NULL;
      }];
-
 }
-
-- (IBAction)cloudButton:(UIButton *)sender {
-    InStoreViewControllerLips *lips = [[InStoreViewControllerLips alloc] initWithNibName:nil bundle:nil];
+- (IBAction)sunset2Button:(UIButton *)sender {
+    InStoreViewControllerAnimals *animals = [[InStoreViewControllerAnimals alloc] initWithNibName:nil bundle:nil];
     
-    [self presentViewController:lips animated:YES completion:^
+    [self presentViewController:animals animated:YES completion:^
      {
          NULL;
      }];
-
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
