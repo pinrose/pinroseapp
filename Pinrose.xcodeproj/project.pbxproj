@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */; };
+		EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */; };
+		EEB5522719709D4E000EEDDF /* InStoreViewControllerHomeModal.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */; };
+		EEB5522819709D4E000EEDDF /* InStoreViewControllerHomeModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5522619709D4E000EEDDF /* InStoreViewControllerHomeModal.xib */; };
 		EECAA63D196F0372008A7E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63C196F0372008A7E50 /* Foundation.framework */; };
 		EECAA63F196F0372008A7E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63E196F0372008A7E50 /* CoreGraphics.framework */; };
 		EECAA641196F0372008A7E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA640196F0372008A7E50 /* UIKit.framework */; };
@@ -70,6 +74,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerAge.h; sourceTree = "<group>"; };
+		EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerAge.m; sourceTree = "<group>"; };
+		EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerAge.xib; sourceTree = "<group>"; };
+		EEB5522419709D4E000EEDDF /* InStoreViewControllerHomeModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerHomeModal.h; sourceTree = "<group>"; };
+		EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerHomeModal.m; sourceTree = "<group>"; };
+		EEB5522619709D4E000EEDDF /* InStoreViewControllerHomeModal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerHomeModal.xib; sourceTree = "<group>"; };
 		EECAA639196F0372008A7E50 /* Pinrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinrose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECAA63C196F0372008A7E50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EECAA63E196F0372008A7E50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -264,11 +274,17 @@
 				EECAA672196F0409008A7E50 /* InStoreViewControllerQuestion1.h */,
 				EECAA673196F0409008A7E50 /* InStoreViewControllerQuestion1.m */,
 				EECAA674196F0409008A7E50 /* InStoreViewControllerQuestion1.xib */,
+				EEB5522419709D4E000EEDDF /* InStoreViewControllerHomeModal.h */,
+				EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */,
+				EEB5522619709D4E000EEDDF /* InStoreViewControllerHomeModal.xib */,
 				EECAA677196F041C008A7E50 /* InStoreViewControllerDontThink.h */,
 				EECAA678196F041C008A7E50 /* InStoreViewControllerDontThink.m */,
 				EECAA679196F041C008A7E50 /* InStoreViewControllerDontThink.xib */,
 				EECAA67C196F042A008A7E50 /* InStoreViewControllerQuestion2.h */,
 				EECAA67D196F042A008A7E50 /* InStoreViewControllerQuestion2.m */,
+				EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */,
+				EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */,
+				EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */,
 				EECAA67E196F042A008A7E50 /* InStoreViewControllerQuestion2.xib */,
 				EECAA6D0196F5033008A7E50 /* InStoreViewControllerLips.h */,
 				EECAA6D1196F5033008A7E50 /* InStoreViewControllerLips.m */,
@@ -394,6 +410,8 @@
 				EECAA650196F0372008A7E50 /* Main.storyboard in Resources */,
 				EECAA701196F6C3F008A7E50 /* InStoreViewControllerTextures.xib in Resources */,
 				EECAA676196F0409008A7E50 /* InStoreViewControllerQuestion1.xib in Resources */,
+				EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */,
+				EEB5522819709D4E000EEDDF /* InStoreViewControllerHomeModal.xib in Resources */,
 				EECAA67B196F041C008A7E50 /* InStoreViewControllerDontThink.xib in Resources */,
 				EECAA6ED196F683F008A7E50 /* InStoreViewControllerSunsets.xib in Resources */,
 				EECAA6E3196F55D2008A7E50 /* InStoreViewControllerPaintings.xib in Resources */,
@@ -417,6 +435,7 @@
 			files = (
 				EECAA6E2196F55D2008A7E50 /* InStoreViewControllerPaintings.m in Sources */,
 				EECAA700196F6C3F008A7E50 /* InStoreViewControllerTextures.m in Sources */,
+				EEB5522719709D4E000EEDDF /* InStoreViewControllerHomeModal.m in Sources */,
 				EECAA649196F0372008A7E50 /* main.m in Sources */,
 				EECAA64D196F0372008A7E50 /* InStoreAppDelegate.m in Sources */,
 				EECAA675196F0409008A7E50 /* InStoreViewControllerQuestion1.m in Sources */,
@@ -424,6 +443,7 @@
 				EECAA6EC196F683F008A7E50 /* InStoreViewControllerSunsets.m in Sources */,
 				EECAA67A196F041C008A7E50 /* InStoreViewControllerDontThink.m in Sources */,
 				EECAA6DD196F54AE008A7E50 /* InStoreViewControllerColor2.m in Sources */,
+				EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */,
 				EECAA67F196F042A008A7E50 /* InStoreViewControllerQuestion2.m in Sources */,
 				EECAA6E7196F5847008A7E50 /* InStoreViewControllerNature.m in Sources */,
 				EECAA653196F0372008A7E50 /* InStoreViewController.m in Sources */,
@@ -645,6 +665,7 @@
 				EECAA66D196F0372008A7E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EECAA66E196F0372008A7E50 /* Build configuration list for PBXNativeTarget "PinroseTests" */ = {
 			isa = XCConfigurationList;
@@ -653,6 +674,7 @@
 				EECAA670196F0372008A7E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
