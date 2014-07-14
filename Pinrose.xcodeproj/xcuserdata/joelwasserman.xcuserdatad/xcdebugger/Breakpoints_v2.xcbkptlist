@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pinrose/InStoreViewControllerQuestion1.m"
-            timestampString = "426817345.651679"
+            timestampString = "427048543.565351"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "-nextQuestion:"
             landmarkType = "5">
          </BreakpointContent>
@@ -39,13 +39,57 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pinrose/InStoreViewControllerQuestion1.m"
-            timestampString = "426817335.036386"
+            filePath = "Pinrose/InStoreViewControllerQuestion1.h"
+            timestampString = "426999100.516197"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "-homeButton:"
+            startingLineNumber = "11"
+            endingLineNumber = "11">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[InStoreViewControllerQuestion1 popoverController]"
+                  moduleName = "Pinrose"
+                  urlString = "file:///Users/joelwasserman/Documents/Programming/xCode/Pinrose/Pinrose/InStoreViewControllerQuestion1.h"
+                  timestampString = "426999100.534009"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[InStoreViewControllerQuestion1 setPopoverController:]"
+                  moduleName = "Pinrose"
+                  urlString = "file:///Users/joelwasserman/Documents/Programming/xCode/Pinrose/Pinrose/InStoreViewControllerQuestion1.h"
+                  timestampString = "426999100.535306"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pinrose/InStoreViewControllerQuestion1.m"
+            timestampString = "427048303.418292"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "-alertView:clickedButtonAtIndex:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

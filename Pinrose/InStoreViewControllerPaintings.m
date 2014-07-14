@@ -8,6 +8,7 @@
 
 #import "InStoreViewControllerPaintings.h"
 #import "InStoreViewControllerNature.h"
+#import "InStoreViewController.h"
 
 @interface InStoreViewControllerPaintings ()
 
@@ -29,6 +30,25 @@
      {
          NULL;
      }];
+}
+- (IBAction)homeButton:(UIButton *)sender {
+    UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Are you sure you want to go home?"
+                                                     message:@"\n"
+                                                    delegate:self
+                                           cancelButtonTitle:@"Cancel"
+                                           otherButtonTitles:@"Home", nil];
+    
+    [prompt show];
+    
+}
+- (void)alertView:(UIAlertView *)alertView
+clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (buttonIndex == 1){
+        InStoreViewController *home = [[InStoreViewController alloc] initWithNibName:nil bundle:nil];
+        [self presentViewController:home animated:YES completion:NULL];
+    }else{
+        
+    }
 }
 - (IBAction)painting3Button:(UIButton *)sender {
     InStoreViewControllerNature *nature = [[InStoreViewControllerNature alloc] initWithNibName:nil bundle:nil];

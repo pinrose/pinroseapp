@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
 
-@interface InStoreViewControllerQuestion1 : UIViewController <UIPopoverControllerDelegate> {
-    UIPopoverController *popoverController;
+@interface InStoreViewControllerQuestion1 : UIViewController<UIAlertViewDelegate> {
+  
 }
 
-@property (nonatomic, retain) UIPopoverController *popoverController;
+
 @property (nonatomic, retain) UIButton *homeButton;
 
 @end

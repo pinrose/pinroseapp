@@ -16,31 +16,26 @@
 @end
 
 @implementation InStoreViewControllerQuestion1
-@synthesize popoverController;
 
 - (IBAction)homeButton:(UIButton *)sender {
-    
-    if (self.popoverController == nil) {
-        InStoreViewControllerHomeModal *home =
-        [[InStoreViewControllerHomeModal alloc]
-         initWithNibName:@"InStoreViewControllerHomeModal"
-         bundle:[NSBundle mainBundle]];
-        
-        UIPopoverController *popover =
-        [[UIPopoverController alloc] initWithContentViewController:home];
-        
-        popover.delegate = self;
-        //[home release];
-        
-        self.popoverController = popover;
-        //[popover release];
-    }
 
-    CGRect popoverRect = [self.view convertRect:[_homeButton frame]
-                                       fromView:[_homeButton superview]];
+    UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Are you sure you want to go home?"
+              message:@"\n"
+             delegate:self
+    cancelButtonTitle:@"Cancel"
+    otherButtonTitles:@"Home", nil];
+
+    [prompt show];
+
+}
+- (void)alertView:(UIAlertView *)alertView
+clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (buttonIndex == 1){
+        InStoreViewController *home = [[InStoreViewController alloc] initWithNibName:nil bundle:nil];
+        [self presentViewController:home animated:YES completion:NULL];
+}else{
     
-    //popoverRect.size.width = MIN(popoverRect.size.width, 100);
-    [popoverController presentPopoverFromRect:CGRectMake(450, 20, 150, 150) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionUp animated:YES];
+    }
 }
 - (IBAction)nextQuestion:(UIButton *)sender {
     InStoreViewControllerDontThink *dontThink = [[InStoreViewControllerDontThink alloc] initWithNibName:nil bundle:nil];

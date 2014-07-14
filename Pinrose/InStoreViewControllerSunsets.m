@@ -8,6 +8,7 @@
 
 #import "InStoreViewControllerSunsets.h"
 #import "InStoreViewControllerAnimals.h"
+#import "InStoreViewController.h"
 
 @interface InStoreViewControllerSunsets ()
 
@@ -29,6 +30,25 @@
      {
          NULL;
      }];
+}
+- (IBAction)homeButton:(UIButton *)sender {
+    UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Are you sure you want to go home?"
+                                                     message:@"\n"
+                                                    delegate:self
+                                           cancelButtonTitle:@"Cancel"
+                                           otherButtonTitles:@"Home", nil];
+    
+    [prompt show];
+    
+}
+- (void)alertView:(UIAlertView *)alertView
+clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (buttonIndex == 1){
+        InStoreViewController *home = [[InStoreViewController alloc] initWithNibName:nil bundle:nil];
+        [self presentViewController:home animated:YES completion:NULL];
+    }else{
+        
+    }
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil

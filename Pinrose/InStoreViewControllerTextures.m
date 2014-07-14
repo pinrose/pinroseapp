@@ -7,6 +7,8 @@
 //
 
 #import "InStoreViewControllerTextures.h"
+#import "InStoreViewControllerAge.h"
+#import "InStoreViewController.h"
 
 @interface InStoreViewControllerTextures ()
 
@@ -14,10 +16,38 @@
 
 @implementation InStoreViewControllerTextures
 - (IBAction)texture1Button:(UIButton *)sender {
+    InStoreViewControllerAge *age = [[InStoreViewControllerAge alloc] initWithNibName:nil bundle:nil];
+    
+    [self presentViewController:age animated:YES completion:NULL];
 }
 - (IBAction)texture2Button:(UIButton *)sender {
+    InStoreViewControllerAge *age = [[InStoreViewControllerAge alloc] initWithNibName:nil bundle:nil];
+    
+    [self presentViewController:age animated:YES completion:NULL];
 }
 - (IBAction)texture3Button:(UIButton *)sender {
+    InStoreViewControllerAge *age = [[InStoreViewControllerAge alloc] initWithNibName:nil bundle:nil];
+    
+    [self presentViewController:age animated:YES completion:NULL];
+}
+- (IBAction)homeButton:(UIButton *)sender {
+    UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Are you sure you want to go home?"
+                                                     message:@"\n"
+                                                    delegate:self
+                                           cancelButtonTitle:@"Cancel"
+                                           otherButtonTitles:@"Home", nil];
+    
+    [prompt show];
+    
+}
+- (void)alertView:(UIAlertView *)alertView
+clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (buttonIndex == 1){
+        InStoreViewController *home = [[InStoreViewController alloc] initWithNibName:nil bundle:nil];
+        [self presentViewController:home animated:YES completion:NULL];
+    }else{
+        
+    }
 }
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
