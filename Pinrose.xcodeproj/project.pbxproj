@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		EE9B639A197475FA00AD9BDB /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B6399197475FA00AD9BDB /* AudioController.m */; };
+		EE9B63A3197492DA00AD9BDB /* Beat1.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A0197492DA00AD9BDB /* Beat1.aif */; };
+		EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A1197492DA00AD9BDB /* high hat strut.aif */; };
+		EE9B63A5197492DA00AD9BDB /* southern rock.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A2197492DA00AD9BDB /* southern rock.aif */; };
 		EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */; };
 		EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */; };
 		EEB5522719709D4E000EEDDF /* InStoreViewControllerHomeModal.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */; };
@@ -75,11 +78,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EE9B6395197462D000AD9BDB /* Beat1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beat1.caf; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/Beat1.caf"; sourceTree = "<group>"; };
-		EE9B6396197462D000AD9BDB /* high hat strut.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "high hat strut.caf"; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/high hat strut.caf"; sourceTree = "<group>"; };
-		EE9B6397197462D000AD9BDB /* southern rock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "southern rock.caf"; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/southern rock.caf"; sourceTree = "<group>"; };
 		EE9B6398197475FA00AD9BDB /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
 		EE9B6399197475FA00AD9BDB /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
+		EE9B63A0197492DA00AD9BDB /* Beat1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beat1.aif; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/Beat1.aif"; sourceTree = "<group>"; };
+		EE9B63A1197492DA00AD9BDB /* high hat strut.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "high hat strut.aif"; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/high hat strut.aif"; sourceTree = "<group>"; };
+		EE9B63A2197492DA00AD9BDB /* southern rock.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "southern rock.aif"; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/southern rock.aif"; sourceTree = "<group>"; };
 		EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerAge.h; sourceTree = "<group>"; };
 		EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerAge.m; sourceTree = "<group>"; };
 		EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerAge.xib; sourceTree = "<group>"; };
@@ -250,9 +253,9 @@
 			children = (
 				EECAA644196F0372008A7E50 /* Pinrose-Info.plist */,
 				EECAA645196F0372008A7E50 /* InfoPlist.strings */,
-				EE9B6395197462D000AD9BDB /* Beat1.caf */,
-				EE9B6396197462D000AD9BDB /* high hat strut.caf */,
-				EE9B6397197462D000AD9BDB /* southern rock.caf */,
+				EE9B63A0197492DA00AD9BDB /* Beat1.aif */,
+				EE9B63A1197492DA00AD9BDB /* high hat strut.aif */,
+				EE9B63A2197492DA00AD9BDB /* southern rock.aif */,
 				EECAA648196F0372008A7E50 /* main.m */,
 				EECAA64A196F0372008A7E50 /* Pinrose-Prefix.pch */,
 			);
@@ -408,12 +411,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9B63A3197492DA00AD9BDB /* Beat1.aif in Resources */,
 				EECAA6E8196F5847008A7E50 /* InStoreViewControllerNature.xib in Resources */,
 				EECAA680196F042A008A7E50 /* InStoreViewControllerQuestion2.xib in Resources */,
 				EECAA655196F0372008A7E50 /* Images.xcassets in Resources */,
 				EECAA6F2196F68F9008A7E50 /* InStoreViewControllerAnimals.xib in Resources */,
 				EECAA647196F0372008A7E50 /* InfoPlist.strings in Resources */,
 				EECAA6F7196F6A80008A7E50 /* InStoreViewControllerBathroom.xib in Resources */,
+				EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */,
 				EECAA6DE196F54AE008A7E50 /* InStoreViewControllerColor2.xib in Resources */,
 				EECAA6D9196F52C5008A7E50 /* InStoreViewControllerColor1.xib in Resources */,
 				EECAA6FC196F6C2D008A7E50 /* InStoreViewControllerZebra.xib in Resources */,
@@ -424,6 +429,7 @@
 				EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */,
 				EEB5522819709D4E000EEDDF /* InStoreViewControllerHomeModal.xib in Resources */,
 				EECAA67B196F041C008A7E50 /* InStoreViewControllerDontThink.xib in Resources */,
+				EE9B63A5197492DA00AD9BDB /* southern rock.aif in Resources */,
 				EECAA6ED196F683F008A7E50 /* InStoreViewControllerSunsets.xib in Resources */,
 				EECAA6E3196F55D2008A7E50 /* InStoreViewControllerPaintings.xib in Resources */,
 			);

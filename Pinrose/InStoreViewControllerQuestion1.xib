@@ -18,7 +18,7 @@
                     <rect key="frame" x="183" y="80" width="659" height="105"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <string key="text">Which song best reflects your mood today?
-touch to play, click next to move forward!)</string>
+(Touch to play, click next to move forward!)</string>
                     <fontDescription key="fontDescription" type="system" pointSize="33"/>
                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                     <nil key="highlightedColor"/>
@@ -52,7 +52,7 @@ touch to play, click next to move forward!)</string>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
-                        <action selector="playRockMusic:" destination="-1" eventType="touchUpInside" id="maX-qV-12B"/>
+                        <action selector="button:" destination="-1" eventType="touchUpInside" id="lrH-Pt-7Bm"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQY-v9-910">
@@ -67,6 +67,9 @@ touch to play, click next to move forward!)</string>
                             <integer key="value" value="135"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="button2:" destination="-1" eventType="touchUpInside" id="Bxw-JH-D54"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bdz-k6-kyX">
                     <rect key="frame" x="694" y="246" width="275" height="275"/>
@@ -80,6 +83,9 @@ touch to play, click next to move forward!)</string>
                             <integer key="value" value="135"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="button3:" destination="-1" eventType="touchUpInside" id="D5D-v9-zPC"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXc-nK-DzW">
                     <rect key="frame" x="929" y="673" width="75" height="75"/>

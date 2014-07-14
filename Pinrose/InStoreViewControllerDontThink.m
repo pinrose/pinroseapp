@@ -9,6 +9,7 @@
 #import "InStoreViewControllerDontThink.h"
 #import "InStoreViewControllerQuestion2.h"
 #import "InStoreViewController.h"
+#import "InStoreViewControllerQuestion1.h"
 
 
 @interface InStoreViewControllerDontThink ()
@@ -56,6 +57,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
     // Do any additional setup after loading the view from its nib.
 }
 
