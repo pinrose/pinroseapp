@@ -74,6 +74,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE9B6395197462D000AD9BDB /* Beat1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beat1.caf; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/Beat1.caf"; sourceTree = "<group>"; };
+		EE9B6396197462D000AD9BDB /* high hat strut.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "high hat strut.caf"; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/high hat strut.caf"; sourceTree = "<group>"; };
+		EE9B6397197462D000AD9BDB /* southern rock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "southern rock.caf"; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/southern rock.caf"; sourceTree = "<group>"; };
 		EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerAge.h; sourceTree = "<group>"; };
 		EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerAge.m; sourceTree = "<group>"; };
 		EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerAge.xib; sourceTree = "<group>"; };
@@ -244,6 +247,9 @@
 			children = (
 				EECAA644196F0372008A7E50 /* Pinrose-Info.plist */,
 				EECAA645196F0372008A7E50 /* InfoPlist.strings */,
+				EE9B6395197462D000AD9BDB /* Beat1.caf */,
+				EE9B6396197462D000AD9BDB /* high hat strut.caf */,
+				EE9B6397197462D000AD9BDB /* southern rock.caf */,
 				EECAA648196F0372008A7E50 /* main.m */,
 				EECAA64A196F0372008A7E50 /* Pinrose-Prefix.pch */,
 			);
