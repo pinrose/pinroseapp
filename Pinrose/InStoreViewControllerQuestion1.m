@@ -28,6 +28,8 @@
     [prompt show];
 
 }
+- (IBAction)playRockMusic:(UIButton *)sender {
+}
 - (void)alertView:(UIAlertView *)alertView
 clickedButtonAtIndex:(NSInteger)buttonIndex{
     if (buttonIndex == 1){

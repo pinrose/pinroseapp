@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE9B639A197475FA00AD9BDB /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B6399197475FA00AD9BDB /* AudioController.m */; };
 		EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */; };
 		EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */; };
 		EEB5522719709D4E000EEDDF /* InStoreViewControllerHomeModal.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */; };
@@ -77,6 +78,8 @@
 		EE9B6395197462D000AD9BDB /* Beat1.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beat1.caf; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/Beat1.caf"; sourceTree = "<group>"; };
 		EE9B6396197462D000AD9BDB /* high hat strut.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "high hat strut.caf"; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/high hat strut.caf"; sourceTree = "<group>"; };
 		EE9B6397197462D000AD9BDB /* southern rock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "southern rock.caf"; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/southern rock.caf"; sourceTree = "<group>"; };
+		EE9B6398197475FA00AD9BDB /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
+		EE9B6399197475FA00AD9BDB /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
 		EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerAge.h; sourceTree = "<group>"; };
 		EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerAge.m; sourceTree = "<group>"; };
 		EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerAge.xib; sourceTree = "<group>"; };
@@ -280,6 +283,8 @@
 				EECAA672196F0409008A7E50 /* InStoreViewControllerQuestion1.h */,
 				EECAA673196F0409008A7E50 /* InStoreViewControllerQuestion1.m */,
 				EECAA674196F0409008A7E50 /* InStoreViewControllerQuestion1.xib */,
+				EE9B6398197475FA00AD9BDB /* AudioController.h */,
+				EE9B6399197475FA00AD9BDB /* AudioController.m */,
 				EEB5522419709D4E000EEDDF /* InStoreViewControllerHomeModal.h */,
 				EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */,
 				EEB5522619709D4E000EEDDF /* InStoreViewControllerHomeModal.xib */,
@@ -452,6 +457,7 @@
 				EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */,
 				EECAA67F196F042A008A7E50 /* InStoreViewControllerQuestion2.m in Sources */,
 				EECAA6E7196F5847008A7E50 /* InStoreViewControllerNature.m in Sources */,
+				EE9B639A197475FA00AD9BDB /* AudioController.m in Sources */,
 				EECAA653196F0372008A7E50 /* InStoreViewController.m in Sources */,
 				EECAA6D3196F5033008A7E50 /* InStoreViewControllerLips.m in Sources */,
 				EECAA6F1196F68F9008A7E50 /* InStoreViewControllerAnimals.m in Sources */,

@@ -51,6 +51,9 @@ touch to play, click next to move forward!)</string>
                             <integer key="value" value="135"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="playRockMusic:" destination="-1" eventType="touchUpInside" id="maX-qV-12B"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DQY-v9-910">
                     <rect key="frame" x="375" y="246" width="275" height="275"/>
