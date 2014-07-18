@@ -13,6 +13,6 @@
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([InStoreAppDelegate class]));
+        return UIApplicationMain(argc, argv, @"InStoreAppTimer", NSStringFromClass([InStoreAppDelegate class]));
     }
 }

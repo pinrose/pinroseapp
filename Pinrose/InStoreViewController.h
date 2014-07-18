@@ -10,4 +10,6 @@
 
 @interface InStoreViewController : UIViewController
 
+@property NSDictionary *session;
+
 @end

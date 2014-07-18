@@ -11,10 +11,21 @@
 #import "InStoreAppDelegate.h"
 
 @interface InStoreViewControllerHomeModal ()
+@property (weak, nonatomic) IBOutlet UILabel *coutnDownLabel;
 
 @end
 
 @implementation InStoreViewControllerHomeModal
+
+-(void) updateCountdown {
+    NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval: 1.0 target:self selector:@selector(updateCountdown) userInfo:nil repeats: YES];
+    
+    int seconds = 30;
+    _coutnDownLabel.text = [NSString stringWithFormat:@"%02d", seconds];
+}
+
+
+
 - (IBAction)homeButton:(UIButton *)sender {
     InStoreViewController *home = [[InStoreViewController alloc] initWithNibName:nil bundle:nil];
     

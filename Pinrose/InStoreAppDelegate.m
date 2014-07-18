@@ -8,6 +8,7 @@
 
 #import "InStoreAppDelegate.h"
 #import <Parse/Parse.h>
+#import "InStoreAppTimer.h"
 
 @implementation InStoreAppDelegate
 
@@ -18,6 +19,20 @@
                   clientKey:@"Bh5ravUwNKhYhZX1Nm6ST9GP1hwGhrQIpJM8PEiZ"];
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
+    
+//    self.window.rootViewController = self.InStoreViewController;
+//    [self.window makeKeyAndVisible];
+//    
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidTimeout:)
+//                                                 name:kApplicationDidTimeoutNotification object:nil];
+//    
+//    return YES;
+//}
+//
+//- (void) applicationDidTimeout:(NSNotification *) notif {
+//    LoginViewController *controller = [[[LoginViewController alloc] initWithNibName:@"LoginViewController"
+//                                                                             bundle:[NSBundle mainBundle]] autorelease];
+//    [self.viewController presentModalViewController:controller animated:YES];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application

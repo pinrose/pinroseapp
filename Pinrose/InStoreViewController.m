@@ -14,7 +14,11 @@
 @end
 
 @implementation InStoreViewController
+
 - (IBAction)startButton:(UIButton *)sender {
+    NSDictionary *session = [[NSMutableDictionary alloc] initWithCapacity:15];
+    
+    
     InStoreViewControllerQuestion1 *Q1 = [[InStoreViewControllerQuestion1 alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:Q1 animated:YES completion:^
@@ -27,6 +31,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    if (self) {
+        // Custom initialization
+    }
+    return self;
 }
 
 - (void)didReceiveMemoryWarning

@@ -38,11 +38,14 @@
     [prompt show];
  }
 - (IBAction)button:(id)sender {
+
+    [self bounceAnimation:_button];
     [self.player2 stop];
     [self.player3 stop];
     [self.player1 play];
 }
 - (IBAction)button2:(id)sender {
+    
     [self.player1 stop];
     [self.player3 stop];
     [self.player2 play];
@@ -106,7 +109,40 @@
     {
         NSLog(@"Error creating player: %@", error3);
     }
+    UIImage *button1Image = [UIImage imageNamed:@"Circle1.jpg"];
+    [_button setBackgroundImage:button1Image forState:UIControlStateNormal];
+    
+    UIImage *button2Image = [UIImage imageNamed:@"Circle 2.jpeg"];
+    [_button1 setBackgroundImage:button2Image forState:UIControlStateNormal];
+    
+    UIImage *button3Image = [UIImage imageNamed:@"Circle 3.jpeg"];
+    [_button2 setBackgroundImage:button3Image forState:UIControlStateNormal];
     // Do any additional setup after loading the view from its nib.
+}
+
+-(void)bounceAnimation:(id)sender
+{
+    CAKeyframeAnimation *bounce = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
+    // create value it will pass through
+    CATransform3D forward = CATransform3DMakeScale(1, 1, 1);
+    CATransform3D back = CATransform3DMakeScale(1.1, 1.1, .75);
+    CATransform3D forward2 = CATransform3DMakeScale(1, 1, .8);
+    CATransform3D back2 = CATransform3DMakeScale(1.1, 1.1, 1);
+    
+    [bounce setValues:
+     @[
+       [NSValue valueWithCATransform3D:CATransform3DIdentity],
+       [NSValue valueWithCATransform3D:forward],
+       [NSValue valueWithCATransform3D:back],
+       [NSValue valueWithCATransform3D:forward2],
+       [NSValue valueWithCATransform3D:back2],
+       [NSValue valueWithCATransform3D:CATransform3DIdentity]
+       ]];
+    
+    [bounce setDuration:0.6];
+    
+    [[_button layer] addAnimation:bounce forKey:@"bounceAnimation"];
+
 }
 
 - (void)didReceiveMemoryWarning

@@ -11,6 +11,11 @@
 		EE9B63A3197492DA00AD9BDB /* Beat1.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A0197492DA00AD9BDB /* Beat1.aif */; };
 		EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A1197492DA00AD9BDB /* high hat strut.aif */; };
 		EE9B63A5197492DA00AD9BDB /* southern rock.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A2197492DA00AD9BDB /* southern rock.aif */; };
+		EE9B64381979954E00AD9BDB /* InStoreViewControllerHome.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B64371979954E00AD9BDB /* InStoreViewControllerHome.m */; };
+		EE9B643B1979C8EB00AD9BDB /* InStoreAppTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B643A1979C8EB00AD9BDB /* InStoreAppTimer.m */; };
+		EE9B643D1979E0EC00AD9BDB /* Circle1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B643C1979E0EC00AD9BDB /* Circle1.jpg */; };
+		EE9B643F1979E4B800AD9BDB /* Circle 2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B643E1979E4B800AD9BDB /* Circle 2.jpeg */; };
+		EE9B64411979E4BF00AD9BDB /* Circle 3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B64401979E4BF00AD9BDB /* Circle 3.jpeg */; };
 		EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */; };
 		EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */; };
 		EEB5522719709D4E000EEDDF /* InStoreViewControllerHomeModal.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */; };
@@ -83,6 +88,13 @@
 		EE9B63A0197492DA00AD9BDB /* Beat1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beat1.aif; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/Beat1.aif"; sourceTree = "<group>"; };
 		EE9B63A1197492DA00AD9BDB /* high hat strut.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "high hat strut.aif"; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/high hat strut.aif"; sourceTree = "<group>"; };
 		EE9B63A2197492DA00AD9BDB /* southern rock.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = "southern rock.aif"; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/southern rock.aif"; sourceTree = "<group>"; };
+		EE9B64361979954E00AD9BDB /* InStoreViewControllerHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerHome.h; sourceTree = "<group>"; };
+		EE9B64371979954E00AD9BDB /* InStoreViewControllerHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerHome.m; sourceTree = "<group>"; };
+		EE9B64391979C8EB00AD9BDB /* InStoreAppTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreAppTimer.h; sourceTree = "<group>"; };
+		EE9B643A1979C8EB00AD9BDB /* InStoreAppTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreAppTimer.m; sourceTree = "<group>"; };
+		EE9B643C1979E0EC00AD9BDB /* Circle1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Circle1.jpg; sourceTree = "<group>"; };
+		EE9B643E1979E4B800AD9BDB /* Circle 2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Circle 2.jpeg"; sourceTree = "<group>"; };
+		EE9B64401979E4BF00AD9BDB /* Circle 3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Circle 3.jpeg"; sourceTree = "<group>"; };
 		EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerAge.h; sourceTree = "<group>"; };
 		EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerAge.m; sourceTree = "<group>"; };
 		EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerAge.xib; sourceTree = "<group>"; };
@@ -240,8 +252,6 @@
 				EECAA64B196F0372008A7E50 /* InStoreAppDelegate.h */,
 				EECAA64C196F0372008A7E50 /* InStoreAppDelegate.m */,
 				EECAA64E196F0372008A7E50 /* Main.storyboard */,
-				EECAA651196F0372008A7E50 /* InStoreViewController.h */,
-				EECAA652196F0372008A7E50 /* InStoreViewController.m */,
 				EECAA654196F0372008A7E50 /* Images.xcassets */,
 				EECAA643196F0372008A7E50 /* Supporting Files */,
 			);
@@ -251,6 +261,9 @@
 		EECAA643196F0372008A7E50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE9B643C1979E0EC00AD9BDB /* Circle1.jpg */,
+				EE9B643E1979E4B800AD9BDB /* Circle 2.jpeg */,
+				EE9B64401979E4BF00AD9BDB /* Circle 3.jpeg */,
 				EECAA644196F0372008A7E50 /* Pinrose-Info.plist */,
 				EECAA645196F0372008A7E50 /* InfoPlist.strings */,
 				EE9B63A0197492DA00AD9BDB /* Beat1.aif */,
@@ -286,11 +299,15 @@
 				EECAA672196F0409008A7E50 /* InStoreViewControllerQuestion1.h */,
 				EECAA673196F0409008A7E50 /* InStoreViewControllerQuestion1.m */,
 				EECAA674196F0409008A7E50 /* InStoreViewControllerQuestion1.xib */,
+				EE9B64391979C8EB00AD9BDB /* InStoreAppTimer.h */,
+				EE9B643A1979C8EB00AD9BDB /* InStoreAppTimer.m */,
 				EE9B6398197475FA00AD9BDB /* AudioController.h */,
 				EE9B6399197475FA00AD9BDB /* AudioController.m */,
 				EEB5522419709D4E000EEDDF /* InStoreViewControllerHomeModal.h */,
 				EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */,
 				EEB5522619709D4E000EEDDF /* InStoreViewControllerHomeModal.xib */,
+				EE9B64361979954E00AD9BDB /* InStoreViewControllerHome.h */,
+				EE9B64371979954E00AD9BDB /* InStoreViewControllerHome.m */,
 				EECAA677196F041C008A7E50 /* InStoreViewControllerDontThink.h */,
 				EECAA678196F041C008A7E50 /* InStoreViewControllerDontThink.m */,
 				EECAA679196F041C008A7E50 /* InStoreViewControllerDontThink.xib */,
@@ -330,6 +347,8 @@
 				EECAA6FD196F6C3F008A7E50 /* InStoreViewControllerTextures.h */,
 				EECAA6FE196F6C3F008A7E50 /* InStoreViewControllerTextures.m */,
 				EECAA6FF196F6C3F008A7E50 /* InStoreViewControllerTextures.xib */,
+				EECAA651196F0372008A7E50 /* InStoreViewController.h */,
+				EECAA652196F0372008A7E50 /* InStoreViewController.m */,
 			);
 			name = Questions;
 			sourceTree = "<group>";
@@ -412,10 +431,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9B63A3197492DA00AD9BDB /* Beat1.aif in Resources */,
+				EE9B643F1979E4B800AD9BDB /* Circle 2.jpeg in Resources */,
 				EECAA6E8196F5847008A7E50 /* InStoreViewControllerNature.xib in Resources */,
 				EECAA680196F042A008A7E50 /* InStoreViewControllerQuestion2.xib in Resources */,
 				EECAA655196F0372008A7E50 /* Images.xcassets in Resources */,
 				EECAA6F2196F68F9008A7E50 /* InStoreViewControllerAnimals.xib in Resources */,
+				EE9B64411979E4BF00AD9BDB /* Circle 3.jpeg in Resources */,
 				EECAA647196F0372008A7E50 /* InfoPlist.strings in Resources */,
 				EECAA6F7196F6A80008A7E50 /* InStoreViewControllerBathroom.xib in Resources */,
 				EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */,
@@ -428,6 +449,7 @@
 				EECAA676196F0409008A7E50 /* InStoreViewControllerQuestion1.xib in Resources */,
 				EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */,
 				EEB5522819709D4E000EEDDF /* InStoreViewControllerHomeModal.xib in Resources */,
+				EE9B643D1979E0EC00AD9BDB /* Circle1.jpg in Resources */,
 				EECAA67B196F041C008A7E50 /* InStoreViewControllerDontThink.xib in Resources */,
 				EE9B63A5197492DA00AD9BDB /* southern rock.aif in Resources */,
 				EECAA6ED196F683F008A7E50 /* InStoreViewControllerSunsets.xib in Resources */,
@@ -456,6 +478,7 @@
 				EECAA649196F0372008A7E50 /* main.m in Sources */,
 				EECAA64D196F0372008A7E50 /* InStoreAppDelegate.m in Sources */,
 				EECAA675196F0409008A7E50 /* InStoreViewControllerQuestion1.m in Sources */,
+				EE9B64381979954E00AD9BDB /* InStoreViewControllerHome.m in Sources */,
 				EECAA6D8196F52C5008A7E50 /* InStoreViewControllerColor1.m in Sources */,
 				EECAA6EC196F683F008A7E50 /* InStoreViewControllerSunsets.m in Sources */,
 				EECAA67A196F041C008A7E50 /* InStoreViewControllerDontThink.m in Sources */,
@@ -465,6 +488,7 @@
 				EECAA6E7196F5847008A7E50 /* InStoreViewControllerNature.m in Sources */,
 				EE9B639A197475FA00AD9BDB /* AudioController.m in Sources */,
 				EECAA653196F0372008A7E50 /* InStoreViewController.m in Sources */,
+				EE9B643B1979C8EB00AD9BDB /* InStoreAppTimer.m in Sources */,
 				EECAA6D3196F5033008A7E50 /* InStoreViewControllerLips.m in Sources */,
 				EECAA6F1196F68F9008A7E50 /* InStoreViewControllerAnimals.m in Sources */,
 				EECAA6FB196F6C2D008A7E50 /* InStoreViewControllerZebra.m in Sources */,

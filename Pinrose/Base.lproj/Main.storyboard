@@ -49,9 +49,345 @@
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="hqI-DH-FX8" kind="push" id="c0g-Re-Zl9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--In Store View Controller Question1-->
+        <scene sceneID="TE0-sj-b3c">
+            <objects>
+                <viewController id="hqI-DH-FX8" customClass="InStoreViewControllerQuestion1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oeg-f5-wO2"/>
+                        <viewControllerLayoutGuide type="bottom" id="CtG-WS-BVY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BAp-Rx-Tcg">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HFF-5Q-iVN"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="9Q1-F7-5rv" kind="push" id="hzn-lP-F98"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RtD-8i-276" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1063" y="-82"/>
+        </scene>
+        <!--In Store View Controller Dont Think-->
+        <scene sceneID="uA3-eW-vnf">
+            <objects>
+                <viewController id="9Q1-F7-5rv" customClass="InStoreViewControllerDontThink" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JyE-3a-cu2"/>
+                        <viewControllerLayoutGuide type="bottom" id="dvy-cr-Eiw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="569-cb-h9O">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="NX8-0T-0fi"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="Jqo-On-voi" kind="push" id="9dA-5e-Dv6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pf2-op-w6S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2271" y="-82"/>
+        </scene>
+        <!--In Store View Controller Lips-->
+        <scene sceneID="YnK-gh-hsn">
+            <objects>
+                <viewController id="vdm-nq-vSS" customClass="InStoreViewControllerLips" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mie-cB-i6f"/>
+                        <viewControllerLayoutGuide type="bottom" id="PP0-ve-tLK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ctg-05-VZB">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9Oa-9h-2BK"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="NVM-QI-ugy" kind="push" id="iWl-y8-Aei"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xwL-kB-SKW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4769" y="-82"/>
+        </scene>
+        <!--In Store View Controller Color2-->
+        <scene sceneID="Uap-6M-Fu5">
+            <objects>
+                <viewController id="7eT-Ph-K2Q" customClass="InStoreViewControllerColor2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LRf-Cu-oqC"/>
+                        <viewControllerLayoutGuide type="bottom" id="Y7y-E6-yJu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Nf3-yn-mVw">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vxK-6s-I1v"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="sca-wk-MH5" kind="push" id="gQJ-Nn-vnk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5pL-Z0-HdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7285" y="-82"/>
+        </scene>
+        <!--In Store View Controller Question2-->
+        <scene sceneID="XpP-s7-W60">
+            <objects>
+                <viewController id="Jqo-On-voi" customClass="InStoreViewControllerQuestion2" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HrX-d3-XaT"/>
+                        <viewControllerLayoutGuide type="bottom" id="DqL-9x-uFC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2nb-GN-Eah">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="LXA-lP-kL6"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="vdm-nq-vSS" kind="push" id="bIw-0Q-6TW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ecL-rI-MfG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3489" y="-82"/>
+        </scene>
+        <!--In Store View Controller Color1-->
+        <scene sceneID="Ov7-dq-Rtl">
+            <objects>
+                <viewController id="NVM-QI-ugy" customClass="InStoreViewControllerColor1" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YhC-F0-dTs"/>
+                        <viewControllerLayoutGuide type="bottom" id="KTl-jM-AMN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vmY-Hf-pgf">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="yas-V2-P86"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="7eT-Ph-K2Q" kind="push" id="ddf-DH-fhV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HtR-dj-97w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6061" y="-82"/>
+        </scene>
+        <!--In Store View Controller Paintings-->
+        <scene sceneID="9sa-dX-k73">
+            <objects>
+                <viewController id="sca-wk-MH5" customClass="InStoreViewControllerPaintings" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0do-Rs-3qJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="9KW-wg-57v"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="L8q-SI-lzL">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Db-iV-y3Y"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="5qn-Te-CC5" kind="push" id="7N7-22-XDk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9TB-C5-Gjl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8533" y="-82"/>
+        </scene>
+        <!--In Store View Controller Zebra-->
+        <scene sceneID="ERM-2r-ltW">
+            <objects>
+                <viewController id="Nq7-fx-eqk" customClass="InStoreViewControllerZebra" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hLW-dR-IWz"/>
+                        <viewControllerLayoutGuide type="bottom" id="tFH-6o-unn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k9l-Qz-7fh">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="q7F-jQ-wOq"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="0pz-Ma-Zid" kind="push" id="5ry-Hr-6Kg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ixr-37-3xb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14641" y="-82"/>
+        </scene>
+        <!--In Store View Controller Sunsets-->
+        <scene sceneID="7Rc-JR-5g1">
+            <objects>
+                <viewController id="BV4-jP-RKR" customClass="InStoreViewControllerSunsets" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jnv-iV-oxa"/>
+                        <viewControllerLayoutGuide type="bottom" id="LgV-UL-t8M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mgs-Lg-UKw">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qBj-mR-6XJ"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="aqs-Q1-2MD" kind="push" id="lEc-iN-7gu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iez-5r-Mdc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10945" y="-82"/>
+        </scene>
+        <!--In Store View Controller Textures-->
+        <scene sceneID="Vwu-tH-WRi">
+            <objects>
+                <viewController id="0pz-Ma-Zid" customClass="InStoreViewControllerTextures" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vgP-s5-YjC"/>
+                        <viewControllerLayoutGuide type="bottom" id="0IK-JT-pI1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2QA-Uf-jxa">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="qZc-MA-jO2"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="69p-E6-8rG" kind="push" id="jT4-yf-FSD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5io-IF-8xX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="15913" y="-82"/>
+        </scene>
+        <!--In Store View Controller Age-->
+        <scene sceneID="7K9-hm-cZp">
+            <objects>
+                <viewController id="69p-E6-8rG" customClass="InStoreViewControllerAge" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Ajo-ng-XIj"/>
+                        <viewControllerLayoutGuide type="bottom" id="jWa-Uh-eUc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cp1-Gj-4mo">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5eY-U1-1kc"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nvA-XU-clU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="17153" y="-74"/>
+        </scene>
+        <!--In Store View Controller Animals-->
+        <scene sceneID="00p-1V-dMW">
+            <objects>
+                <viewController id="aqs-Q1-2MD" customClass="InStoreViewControllerAnimals" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PQy-XZ-eIu"/>
+                        <viewControllerLayoutGuide type="bottom" id="Hpr-ge-pFW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5aq-H9-47F">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hid-4J-sP1"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="mi1-10-bFg" kind="push" id="Z0q-sI-dXa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aom-Vw-kGm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="12161" y="-82"/>
+        </scene>
+        <!--In Store View Controller Nature-->
+        <scene sceneID="dBD-5B-lvr">
+            <objects>
+                <viewController id="5qn-Te-CC5" customClass="InStoreViewControllerNature" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mvy-2J-Gbh"/>
+                        <viewControllerLayoutGuide type="bottom" id="1tb-p5-ff0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="44g-9q-UDg">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tQW-YY-yph"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="BV4-jP-RKR" kind="push" id="hMx-Q7-Dfw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LCm-8j-uk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9753" y="-82"/>
+        </scene>
+        <!--In Store View Controller Bathroom-->
+        <scene sceneID="EWG-tj-4vs">
+            <objects>
+                <viewController id="mi1-10-bFg" customClass="InStoreViewControllerBathroom" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZX8-DZ-ycG"/>
+                        <viewControllerLayoutGuide type="bottom" id="Yt2-HH-fwB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xRw-u2-MAh">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="DbJ-ek-sey"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <segue destination="Nq7-fx-eqk" kind="push" id="IyC-cu-kei"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rZ2-Ho-caB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="13401" y="-82"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

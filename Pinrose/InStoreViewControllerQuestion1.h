@@ -15,5 +15,9 @@
 
 
 @property (nonatomic, retain) UIButton *homeButton;
+@property (weak, nonatomic) IBOutlet UIButton *button;
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+@property (weak, nonatomic) IBOutlet UIButton *button2;
+
 
 @end
