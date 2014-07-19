@@ -24,7 +24,7 @@
                     <rect key="frame" x="527" y="398" width="250" height="250"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="bathroom4">
+                    <state key="normal" backgroundImage="Bathroom4.jpg">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -35,7 +35,7 @@
                     <rect key="frame" x="247" y="119" width="250" height="250"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.80000001192092896" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="bathroom1">
+                    <state key="normal" backgroundImage="bathroom 1.jpg">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -46,7 +46,7 @@
                     <rect key="frame" x="527" y="119" width="250" height="250"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                    <state key="normal" title="bathroom2">
+                    <state key="normal" backgroundImage="Bathroom2.jpg">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -57,7 +57,7 @@
                     <rect key="frame" x="247" y="398" width="250" height="250"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.0" green="0.50196081399917603" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="bathroom3">
+                    <state key="normal" backgroundImage="bathroom 3.jpg">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -86,4 +86,10 @@
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
     </objects>
+    <resources>
+        <image name="Bathroom2.jpg" width="500" height="500"/>
+        <image name="Bathroom4.jpg" width="500" height="500"/>
+        <image name="bathroom 1.jpg" width="500" height="500"/>
+        <image name="bathroom 3.jpg" width="500" height="500"/>
+    </resources>
 </document>
