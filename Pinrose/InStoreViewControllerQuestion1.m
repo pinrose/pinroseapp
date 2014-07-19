@@ -46,11 +46,14 @@
 }
 - (IBAction)button2:(id)sender {
     
+    [self bounceAnimationOne:_button1];
     [self.player1 stop];
     [self.player3 stop];
     [self.player2 play];
 }
 - (IBAction)button3:(id)sender {
+    
+    [self bounceAnimationTwo:_button2];
     [self.player1 stop];
     [self.player2 stop];
     [self.player3 play];
@@ -142,9 +145,60 @@
     [bounce setDuration:0.6];
     
     [[_button layer] addAnimation:bounce forKey:@"bounceAnimation"];
+    
 
 }
 
+-(void)bounceAnimationOne:(id)sender
+{
+    CAKeyframeAnimation *bounce = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
+    // create value it will pass through
+    CATransform3D forward = CATransform3DMakeScale(1, 1, 1);
+    CATransform3D back = CATransform3DMakeScale(1.1, 1.1, .75);
+    CATransform3D forward2 = CATransform3DMakeScale(1, 1, .8);
+    CATransform3D back2 = CATransform3DMakeScale(1.1, 1.1, 1);
+    
+    [bounce setValues:
+     @[
+       [NSValue valueWithCATransform3D:CATransform3DIdentity],
+       [NSValue valueWithCATransform3D:forward],
+       [NSValue valueWithCATransform3D:back],
+       [NSValue valueWithCATransform3D:forward2],
+       [NSValue valueWithCATransform3D:back2],
+       [NSValue valueWithCATransform3D:CATransform3DIdentity]
+       ]];
+    
+    [bounce setDuration:0.6];
+    
+    [[_button1 layer] addAnimation:bounce forKey:@"bounceAnimation"];
+    
+    
+}
+-(void)bounceAnimationTwo:(id)sender
+{
+    CAKeyframeAnimation *bounce = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
+    // create value it will pass through
+    CATransform3D forward = CATransform3DMakeScale(1, 1, 1);
+    CATransform3D back = CATransform3DMakeScale(1.1, 1.1, .75);
+    CATransform3D forward2 = CATransform3DMakeScale(1, 1, .8);
+    CATransform3D back2 = CATransform3DMakeScale(1.1, 1.1, 1);
+    
+    [bounce setValues:
+     @[
+       [NSValue valueWithCATransform3D:CATransform3DIdentity],
+       [NSValue valueWithCATransform3D:forward],
+       [NSValue valueWithCATransform3D:back],
+       [NSValue valueWithCATransform3D:forward2],
+       [NSValue valueWithCATransform3D:back2],
+       [NSValue valueWithCATransform3D:CATransform3DIdentity]
+       ]];
+    
+    [bounce setDuration:0.6];
+    
+    [[_button2 layer] addAnimation:bounce forKey:@"bounceAnimation"];
+    
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
