@@ -9,6 +9,7 @@
 #import "InStoreAppDelegate.h"
 #import <Parse/Parse.h>
 #import "InStoreAppTimer.h"
+#import "InStoreHomePage.h"
 
 @implementation InStoreAppDelegate
 
@@ -20,14 +21,14 @@
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
     
-//    self.window.rootViewController = self.InStoreViewController;
+//    self.window.rootViewController = [[InStoreHomePage alloc] init];
 //    [self.window makeKeyAndVisible];
 //    
 //    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationDidTimeout:)
 //                                                 name:kApplicationDidTimeoutNotification object:nil];
 //    
 //    return YES;
-//}
+////}
 //
 //- (void) applicationDidTimeout:(NSNotification *) notif {
 //    LoginViewController *controller = [[[LoginViewController alloc] initWithNibName:@"LoginViewController"

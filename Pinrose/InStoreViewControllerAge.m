@@ -47,6 +47,18 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(350, 300, 300, 40)];
+    textField.borderStyle = UITextBorderStyleRoundedRect;
+    textField.font = [UIFont systemFontOfSize:20];
+    textField.placeholder = @"Enter Age";
+    textField.autocorrectionType = UITextAutocorrectionTypeNo;
+    textField.keyboardType = UIKeyboardTypeDefault;
+    textField.returnKeyType = UIReturnKeyDone;
+    textField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    textField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    textField.delegate = self;
+    [self.view addSubview:textField];
+    //[textField release];
     // Do any additional setup after loading the view from its nib.
 }
 

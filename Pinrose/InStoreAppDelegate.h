@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InStoreHomePage.h"
 
 @interface InStoreAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
 
 @end

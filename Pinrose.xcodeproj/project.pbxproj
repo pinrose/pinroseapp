@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE47E4BB197DBA9F005DC12D /* InStoreViewControllerHomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47E4B9197DBA9F005DC12D /* InStoreViewControllerHomePage.m */; };
+		EE47E4BC197DBA9F005DC12D /* InStoreViewControllerHomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4BA197DBA9F005DC12D /* InStoreViewControllerHomePage.xib */; };
+		EE47E4C0197DBD48005DC12D /* InStoreViewControllerDontThink.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47E4BE197DBD48005DC12D /* InStoreViewControllerDontThink.m */; };
+		EE47E4C1197DBD48005DC12D /* InStoreViewControllerDontThink.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4BF197DBD48005DC12D /* InStoreViewControllerDontThink.xib */; };
 		EE9B639A197475FA00AD9BDB /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B6399197475FA00AD9BDB /* AudioController.m */; };
 		EE9B63A3197492DA00AD9BDB /* Beat1.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A0197492DA00AD9BDB /* Beat1.aif */; };
 		EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A1197492DA00AD9BDB /* high hat strut.aif */; };
@@ -80,8 +84,6 @@
 		EECAA668196F0372008A7E50 /* PinroseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA667196F0372008A7E50 /* PinroseTests.m */; };
 		EECAA675196F0409008A7E50 /* InStoreViewControllerQuestion1.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA673196F0409008A7E50 /* InStoreViewControllerQuestion1.m */; };
 		EECAA676196F0409008A7E50 /* InStoreViewControllerQuestion1.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA674196F0409008A7E50 /* InStoreViewControllerQuestion1.xib */; };
-		EECAA67A196F041C008A7E50 /* InStoreViewControllerDontThink.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA678196F041C008A7E50 /* InStoreViewControllerDontThink.m */; };
-		EECAA67B196F041C008A7E50 /* InStoreViewControllerDontThink.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA679196F041C008A7E50 /* InStoreViewControllerDontThink.xib */; };
 		EECAA67F196F042A008A7E50 /* InStoreViewControllerQuestion2.m in Sources */ = {isa = PBXBuildFile; fileRef = EECAA67D196F042A008A7E50 /* InStoreViewControllerQuestion2.m */; };
 		EECAA680196F042A008A7E50 /* InStoreViewControllerQuestion2.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECAA67E196F042A008A7E50 /* InStoreViewControllerQuestion2.xib */; };
 		EECAA682196F2907008A7E50 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA681196F2907008A7E50 /* Parse.framework */; };
@@ -127,6 +129,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EE47E4B8197DBA9F005DC12D /* InStoreViewControllerHomePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InStoreViewControllerHomePage.h; path = ../InStoreViewControllerHomePage.h; sourceTree = "<group>"; };
+		EE47E4B9197DBA9F005DC12D /* InStoreViewControllerHomePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InStoreViewControllerHomePage.m; path = ../InStoreViewControllerHomePage.m; sourceTree = "<group>"; };
+		EE47E4BA197DBA9F005DC12D /* InStoreViewControllerHomePage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InStoreViewControllerHomePage.xib; path = ../InStoreViewControllerHomePage.xib; sourceTree = "<group>"; };
+		EE47E4BD197DBD48005DC12D /* InStoreViewControllerDontThink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InStoreViewControllerDontThink.h; path = ../InStoreViewControllerDontThink.h; sourceTree = "<group>"; };
+		EE47E4BE197DBD48005DC12D /* InStoreViewControllerDontThink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InStoreViewControllerDontThink.m; path = ../InStoreViewControllerDontThink.m; sourceTree = "<group>"; };
+		EE47E4BF197DBD48005DC12D /* InStoreViewControllerDontThink.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InStoreViewControllerDontThink.xib; path = ../InStoreViewControllerDontThink.xib; sourceTree = "<group>"; };
 		EE9B6398197475FA00AD9BDB /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
 		EE9B6399197475FA00AD9BDB /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
 		EE9B63A0197492DA00AD9BDB /* Beat1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beat1.aif; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/Beat1.aif"; sourceTree = "<group>"; };
@@ -211,9 +219,6 @@
 		EECAA672196F0409008A7E50 /* InStoreViewControllerQuestion1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerQuestion1.h; sourceTree = "<group>"; };
 		EECAA673196F0409008A7E50 /* InStoreViewControllerQuestion1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerQuestion1.m; sourceTree = "<group>"; };
 		EECAA674196F0409008A7E50 /* InStoreViewControllerQuestion1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerQuestion1.xib; sourceTree = "<group>"; };
-		EECAA677196F041C008A7E50 /* InStoreViewControllerDontThink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerDontThink.h; sourceTree = "<group>"; };
-		EECAA678196F041C008A7E50 /* InStoreViewControllerDontThink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerDontThink.m; sourceTree = "<group>"; };
-		EECAA679196F041C008A7E50 /* InStoreViewControllerDontThink.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerDontThink.xib; sourceTree = "<group>"; };
 		EECAA67C196F042A008A7E50 /* InStoreViewControllerQuestion2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerQuestion2.h; sourceTree = "<group>"; };
 		EECAA67D196F042A008A7E50 /* InStoreViewControllerQuestion2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerQuestion2.m; sourceTree = "<group>"; };
 		EECAA67E196F042A008A7E50 /* InStoreViewControllerQuestion2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerQuestion2.xib; sourceTree = "<group>"; };
@@ -428,6 +433,12 @@
 		EECAA671196F03E9008A7E50 /* Questions */ = {
 			isa = PBXGroup;
 			children = (
+				EE47E4BD197DBD48005DC12D /* InStoreViewControllerDontThink.h */,
+				EE47E4BE197DBD48005DC12D /* InStoreViewControllerDontThink.m */,
+				EE47E4BF197DBD48005DC12D /* InStoreViewControllerDontThink.xib */,
+				EE47E4B8197DBA9F005DC12D /* InStoreViewControllerHomePage.h */,
+				EE47E4B9197DBA9F005DC12D /* InStoreViewControllerHomePage.m */,
+				EE47E4BA197DBA9F005DC12D /* InStoreViewControllerHomePage.xib */,
 				EECAA672196F0409008A7E50 /* InStoreViewControllerQuestion1.h */,
 				EECAA673196F0409008A7E50 /* InStoreViewControllerQuestion1.m */,
 				EECAA674196F0409008A7E50 /* InStoreViewControllerQuestion1.xib */,
@@ -440,9 +451,6 @@
 				EEB5522619709D4E000EEDDF /* InStoreViewControllerHomeModal.xib */,
 				EE9B64361979954E00AD9BDB /* InStoreViewControllerHome.h */,
 				EE9B64371979954E00AD9BDB /* InStoreViewControllerHome.m */,
-				EECAA677196F041C008A7E50 /* InStoreViewControllerDontThink.h */,
-				EECAA678196F041C008A7E50 /* InStoreViewControllerDontThink.m */,
-				EECAA679196F041C008A7E50 /* InStoreViewControllerDontThink.xib */,
 				EECAA67C196F042A008A7E50 /* InStoreViewControllerQuestion2.h */,
 				EECAA67D196F042A008A7E50 /* InStoreViewControllerQuestion2.m */,
 				EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */,
@@ -592,6 +600,7 @@
 				EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */,
 				EE9B64711979F78A00AD9BDB /* Lips1.pdf in Resources */,
 				EE9B649B197AFB2700AD9BDB /* progress4.jpg in Resources */,
+				EE47E4C1197DBD48005DC12D /* InStoreViewControllerDontThink.xib in Resources */,
 				EE9B64861979F78A00AD9BDB /* Animal2.jpg in Resources */,
 				EE9B647E1979F78A00AD9BDB /* Bathroom4.jpg in Resources */,
 				EECAA6DE196F54AE008A7E50 /* InStoreViewControllerColor2.xib in Resources */,
@@ -615,6 +624,7 @@
 				EE9B64671979F78A00AD9BDB /* Texture3.jpg in Resources */,
 				EE9B6499197AFB2700AD9BDB /* progress6.jpg in Resources */,
 				EECAA701196F6C3F008A7E50 /* InStoreViewControllerTextures.xib in Resources */,
+				EE47E4BC197DBA9F005DC12D /* InStoreViewControllerHomePage.xib in Resources */,
 				EECAA676196F0409008A7E50 /* InStoreViewControllerQuestion1.xib in Resources */,
 				EE9B64651979F78A00AD9BDB /* zebra 1.jpg in Resources */,
 				EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */,
@@ -623,7 +633,6 @@
 				EE9B64821979F78A00AD9BDB /* Background1.jpg in Resources */,
 				EE9B6489197AEB0900AD9BDB /* Lips1.jpg in Resources */,
 				EE9B643D1979E0EC00AD9BDB /* Circle1.jpg in Resources */,
-				EECAA67B196F041C008A7E50 /* InStoreViewControllerDontThink.xib in Resources */,
 				EE9B63A5197492DA00AD9BDB /* southern rock.aif in Resources */,
 				EE9B64661979F78A00AD9BDB /* zebra2.jpg in Resources */,
 				EE9B64791979F78A00AD9BDB /* Car 3.jpg in Resources */,
@@ -650,6 +659,7 @@
 			files = (
 				EECAA6E2196F55D2008A7E50 /* InStoreViewControllerPaintings.m in Sources */,
 				EECAA700196F6C3F008A7E50 /* InStoreViewControllerTextures.m in Sources */,
+				EE47E4C0197DBD48005DC12D /* InStoreViewControllerDontThink.m in Sources */,
 				EEB5522719709D4E000EEDDF /* InStoreViewControllerHomeModal.m in Sources */,
 				EECAA649196F0372008A7E50 /* main.m in Sources */,
 				EECAA64D196F0372008A7E50 /* InStoreAppDelegate.m in Sources */,
@@ -657,7 +667,6 @@
 				EE9B64381979954E00AD9BDB /* InStoreViewControllerHome.m in Sources */,
 				EECAA6D8196F52C5008A7E50 /* InStoreViewControllerColor1.m in Sources */,
 				EECAA6EC196F683F008A7E50 /* InStoreViewControllerSunsets.m in Sources */,
-				EECAA67A196F041C008A7E50 /* InStoreViewControllerDontThink.m in Sources */,
 				EECAA6DD196F54AE008A7E50 /* InStoreViewControllerColor2.m in Sources */,
 				EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */,
 				EECAA67F196F042A008A7E50 /* InStoreViewControllerQuestion2.m in Sources */,
@@ -667,6 +676,7 @@
 				EE9B643B1979C8EB00AD9BDB /* InStoreAppTimer.m in Sources */,
 				EECAA6D3196F5033008A7E50 /* InStoreViewControllerLips.m in Sources */,
 				EECAA6F1196F68F9008A7E50 /* InStoreViewControllerAnimals.m in Sources */,
+				EE47E4BB197DBA9F005DC12D /* InStoreViewControllerHomePage.m in Sources */,
 				EECAA6FB196F6C2D008A7E50 /* InStoreViewControllerZebra.m in Sources */,
 				EECAA6F6196F6A80008A7E50 /* InStoreViewControllerBathroom.m in Sources */,
 			);

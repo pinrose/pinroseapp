@@ -20,27 +20,27 @@
 @end
 
 @implementation InStoreViewControllerDontThink
-//- (IBAction)question2Button:(UIButton *)sender {
-//    InStoreViewControllerQuestion2 *Q2 = [[InStoreViewControllerQuestion2 alloc] initWithNibName:nil bundle:nil];
-//    
-//    [self presentViewController:Q2 animated:YES completion:^
-//     {
-//         NULL;
-//     }];
-//}
+- (IBAction)question2Button:(UIButton *)sender {
+    InStoreViewControllerQuestion2 *Q2 = [[InStoreViewControllerQuestion2 alloc] initWithNibName:nil bundle:nil];
+
+    [self presentViewController:Q2 animated:YES completion:^
+     {
+         NULL;
+     }];
+}
 //- (IBAction)homeButton:(UIButton *)sender {
-//    
+//
 ////    CGRect home = CGRectMake(0, 0, 200, 100);
 ////    InStoreViewControllerHomeModal *homeView = [[InStoreViewControllerHomeModal]]
-////    
+////
 //    InStoreViewControllerHomeModal *home = [[InStoreViewControllerHomeModal alloc] initWithNibName:nil bundle:nil];
 //    [home setModalPresentationStyle:UIModalPresentationFormSheet];
 //    [self presentViewController:home animated:YES completion:NULL];
-//    
+//
 //    home.view.bounds = CGRectMake(0, 0, 300, 150);
 ////    home.layer.borderWidth = 10;
 ////    home.layer.borderColor = [UIColor redColor].CGColor;
-//    
+//
 //    home.view.superview.center = self.view.center;
 //}
 //
@@ -49,9 +49,9 @@
 //                                                        delegate:self
 //                                               cancelButtonTitle:@"Cancel"
 //                                               otherButtonTitles:@"Home", nil];
-//        
+//
 //        [prompt show];
-//        
+//
 //    }
 - (void)alertView:(UIAlertView *)alertView
 clickedButtonAtIndex:(NSInteger)buttonIndex{

@@ -98,11 +98,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pinrose/InStoreViewControllerHomeModal.m"
-            timestampString = "427398230.578202"
+            timestampString = "427669748.418823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "@implementation InStoreViewControllerHomeModal"
             landmarkType = "3">
          </BreakpointContent>
@@ -114,11 +114,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pinrose/InStoreViewControllerHomeModal.m"
-            timestampString = "427397949.071672"
+            timestampString = "427669748.418823"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
             landmarkName = "-updateCountdown"
             landmarkType = "5">
          </BreakpointContent>
@@ -145,14 +145,14 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Pinrose/InStoreViewControllerDontThink.m"
-            timestampString = "427424181.89529"
+            filePath = "Pinrose/InStoreViewController.h"
+            timestampString = "427657159.966154"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "23"
-            endingLineNumber = "23"
-            landmarkName = "-question2Button:"
-            landmarkType = "5">
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "@interface InStoreViewController"
+            landmarkType = "2">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

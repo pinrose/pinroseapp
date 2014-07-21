@@ -9,6 +9,7 @@
 #import "InStoreViewControllerHomeModal.h"
 #import "InStoreViewController.h"
 #import "InStoreAppDelegate.h"
+#import "InStoreHomePage.h"
 
 @interface InStoreViewControllerHomeModal ()
 @property (weak, nonatomic) IBOutlet UILabel *coutnDownLabel;
