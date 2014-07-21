@@ -8,7 +8,7 @@
 
 #import "InStoreViewControllerLips.h"
 #import "InStoreViewControllerColor1.h"
-#import "InStoreViewController.h"
+#import "InStoreViewControllerHomePage.h"
 
 @interface InStoreViewControllerLips ()
 
@@ -25,6 +25,7 @@
 
 }
 - (IBAction)homeButton:(UIButton *)sender {
+    
     UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Are you sure you want to go home?"
                                                      message:@"\n"
                                                     delegate:self
@@ -37,12 +38,13 @@
 - (void)alertView:(UIAlertView *)alertView
 clickedButtonAtIndex:(NSInteger)buttonIndex{
     if (buttonIndex == 1){
-        InStoreViewController *home = [[InStoreViewController alloc] initWithNibName:nil bundle:nil];
+        InStoreViewControllerHomePage *home = [[InStoreViewControllerHomePage alloc] initWithNibName:nil bundle:nil];
         [self presentViewController:home animated:YES completion:NULL];
     }else{
         
     }
 }
+
 
 - (IBAction)lips2Button:(UIButton *)sender {
     InStoreViewControllerColor1 *color1 = [[InStoreViewControllerColor1 alloc] initWithNibName:nil bundle:nil];

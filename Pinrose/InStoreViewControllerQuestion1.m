@@ -8,7 +8,7 @@
 
 #import "InStoreViewControllerQuestion1.h"
 #import "InStoreViewControllerDontThink.h"
-#import "InStoreViewController.h"
+#import "InStoreViewControllerHomePage.h"
 #import "InStoreViewControllerHomeModal.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
@@ -37,6 +37,20 @@
 
     [prompt show];
  }
+
+- (void)alertView:(UIAlertView *)alertView
+clickedButtonAtIndex:(NSInteger)buttonIndex{
+    if (buttonIndex == 1){
+        [self.player1 stop];
+        [self.player2 stop];
+        [self.player3 stop];
+        InStoreViewControllerHomePage *home = [[InStoreViewControllerHomePage alloc] initWithNibName:nil bundle:nil];
+        [self presentViewController:home animated:YES completion:NULL];
+    }else{
+        
+    }
+}
+
 - (IBAction)button:(id)sender {
 
     [self bounceAnimation:_button];

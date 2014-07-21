@@ -7,6 +7,7 @@
 //
 
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreViewControllerQuestion1.h"
 
 @interface InStoreViewControllerHomePage ()
 
@@ -21,6 +22,11 @@
         // Custom initialization
     }
     return self;
+}
+- (IBAction)startButton:(UIButton *)sender {
+    InStoreViewControllerQuestion1 *q1 = [[InStoreViewControllerQuestion1 alloc] initWithNibName:nil bundle:nil];
+    
+    [self presentViewController:q1 animated:YES completion:NULL];
 }
 
 - (void)viewDidLoad

@@ -9,6 +9,7 @@
 #import "InStoreViewControllerQuestion2.h"
 #import "InStoreViewControllerLips.h"
 #import "InStoreViewController.h"
+#import "InStoreViewControllerHomePage.h"
 
 @interface InStoreViewControllerQuestion2 ()
 
@@ -38,7 +39,7 @@
 - (void)alertView:(UIAlertView *)alertView
 clickedButtonAtIndex:(NSInteger)buttonIndex{
     if (buttonIndex == 1){
-        InStoreViewController *home = [[InStoreViewController alloc] initWithNibName:nil bundle:nil];
+        InStoreViewControllerHomePage *home = [[InStoreViewControllerHomePage alloc] initWithNibName:nil bundle:nil];
         [self presentViewController:home animated:YES completion:NULL];
     }else{
         
