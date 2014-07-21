@@ -80,6 +80,10 @@
                         <action selector="homeButton:" destination="-1" eventType="touchUpInside" id="TpP-lw-7PG"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="progress9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ih0-fn-33H">
+                    <rect key="frame" x="71" y="703" width="850" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
@@ -91,5 +95,6 @@
         <image name="Bathroom4.jpg" width="500" height="500"/>
         <image name="bathroom 1.jpg" width="500" height="500"/>
         <image name="bathroom 3.jpg" width="500" height="500"/>
+        <image name="progress9.jpg" width="3532" height="63"/>
     </resources>
 </document>

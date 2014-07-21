@@ -51,6 +51,15 @@
 		EE9B64861979F78A00AD9BDB /* Animal2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B64631979F78A00AD9BDB /* Animal2.jpg */; };
 		EE9B64871979F78A00AD9BDB /* Animal1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B64641979F78A00AD9BDB /* Animal1.jpg */; };
 		EE9B6489197AEB0900AD9BDB /* Lips1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6488197AEB0900AD9BDB /* Lips1.jpg */; };
+		EE9B6493197AFB2700AD9BDB /* progress12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B648A197AFB2700AD9BDB /* progress12.jpg */; };
+		EE9B6494197AFB2700AD9BDB /* progress11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B648B197AFB2700AD9BDB /* progress11.jpg */; };
+		EE9B6495197AFB2700AD9BDB /* progress10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B648C197AFB2700AD9BDB /* progress10.jpg */; };
+		EE9B6496197AFB2700AD9BDB /* progress9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B648D197AFB2700AD9BDB /* progress9.jpg */; };
+		EE9B6497197AFB2700AD9BDB /* progress8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B648E197AFB2700AD9BDB /* progress8.jpg */; };
+		EE9B6498197AFB2700AD9BDB /* progress7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B648F197AFB2700AD9BDB /* progress7.jpg */; };
+		EE9B6499197AFB2700AD9BDB /* progress6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6490197AFB2700AD9BDB /* progress6.jpg */; };
+		EE9B649A197AFB2700AD9BDB /* progress5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6491197AFB2700AD9BDB /* progress5.jpg */; };
+		EE9B649B197AFB2700AD9BDB /* progress4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6492197AFB2700AD9BDB /* progress4.jpg */; };
 		EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */; };
 		EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */; };
 		EEB5522719709D4E000EEDDF /* InStoreViewControllerHomeModal.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */; };
@@ -165,6 +174,15 @@
 		EE9B64631979F78A00AD9BDB /* Animal2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animal2.jpg; sourceTree = "<group>"; };
 		EE9B64641979F78A00AD9BDB /* Animal1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Animal1.jpg; sourceTree = "<group>"; };
 		EE9B6488197AEB0900AD9BDB /* Lips1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Lips1.jpg; sourceTree = "<group>"; };
+		EE9B648A197AFB2700AD9BDB /* progress12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress12.jpg; sourceTree = "<group>"; };
+		EE9B648B197AFB2700AD9BDB /* progress11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress11.jpg; sourceTree = "<group>"; };
+		EE9B648C197AFB2700AD9BDB /* progress10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress10.jpg; sourceTree = "<group>"; };
+		EE9B648D197AFB2700AD9BDB /* progress9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress9.jpg; sourceTree = "<group>"; };
+		EE9B648E197AFB2700AD9BDB /* progress8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress8.jpg; sourceTree = "<group>"; };
+		EE9B648F197AFB2700AD9BDB /* progress7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress7.jpg; sourceTree = "<group>"; };
+		EE9B6490197AFB2700AD9BDB /* progress6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress6.jpg; sourceTree = "<group>"; };
+		EE9B6491197AFB2700AD9BDB /* progress5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress5.jpg; sourceTree = "<group>"; };
+		EE9B6492197AFB2700AD9BDB /* progress4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress4.jpg; sourceTree = "<group>"; };
 		EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerAge.h; sourceTree = "<group>"; };
 		EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerAge.m; sourceTree = "<group>"; };
 		EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerAge.xib; sourceTree = "<group>"; };
@@ -355,6 +373,15 @@
 				EE9B64561979F78A00AD9BDB /* Car 3.jpg */,
 				EE9B64571979F78A00AD9BDB /* Car 2.jpg */,
 				EE9B64581979F78A00AD9BDB /* Car 1.jpg */,
+				EE9B648A197AFB2700AD9BDB /* progress12.jpg */,
+				EE9B648B197AFB2700AD9BDB /* progress11.jpg */,
+				EE9B648C197AFB2700AD9BDB /* progress10.jpg */,
+				EE9B648D197AFB2700AD9BDB /* progress9.jpg */,
+				EE9B648E197AFB2700AD9BDB /* progress8.jpg */,
+				EE9B648F197AFB2700AD9BDB /* progress7.jpg */,
+				EE9B6490197AFB2700AD9BDB /* progress6.jpg */,
+				EE9B6491197AFB2700AD9BDB /* progress5.jpg */,
+				EE9B6492197AFB2700AD9BDB /* progress4.jpg */,
 				EE9B64591979F78A00AD9BDB /* bathroom 3.jpg */,
 				EE9B645A1979F78A00AD9BDB /* bathroom 1.jpg */,
 				EE9B645B1979F78A00AD9BDB /* Bathroom4.jpg */,
@@ -536,10 +563,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9B64811979F78A00AD9BDB /* Background2.jpg in Resources */,
+				EE9B6496197AFB2700AD9BDB /* progress9.jpg in Resources */,
+				EE9B6493197AFB2700AD9BDB /* progress12.jpg in Resources */,
 				EE9B63A3197492DA00AD9BDB /* Beat1.aif in Resources */,
 				EE9B643F1979E4B800AD9BDB /* Circle 2.jpeg in Resources */,
+				EE9B6498197AFB2700AD9BDB /* progress7.jpg in Resources */,
+				EE9B6494197AFB2700AD9BDB /* progress11.jpg in Resources */,
 				EE9B646F1979F78A00AD9BDB /* Lips3.jpg in Resources */,
 				EE9B64741979F78A00AD9BDB /* Color3.jpg in Resources */,
+				EE9B6495197AFB2700AD9BDB /* progress10.jpg in Resources */,
 				EE9B64831979F78A00AD9BDB /* Art 1.jpg in Resources */,
 				EE9B64681979F78A00AD9BDB /* Texture2.jpg in Resources */,
 				EE9B64761979F78A00AD9BDB /* Color1.jpg in Resources */,
@@ -559,6 +591,7 @@
 				EE9B64751979F78A00AD9BDB /* Color2.jpg in Resources */,
 				EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */,
 				EE9B64711979F78A00AD9BDB /* Lips1.pdf in Resources */,
+				EE9B649B197AFB2700AD9BDB /* progress4.jpg in Resources */,
 				EE9B64861979F78A00AD9BDB /* Animal2.jpg in Resources */,
 				EE9B647E1979F78A00AD9BDB /* Bathroom4.jpg in Resources */,
 				EECAA6DE196F54AE008A7E50 /* InStoreViewControllerColor2.xib in Resources */,
@@ -572,12 +605,15 @@
 				EE9B64841979F78A00AD9BDB /* Art2.jpg in Resources */,
 				EE9B64731979F78A00AD9BDB /* Flower1.jpg in Resources */,
 				EE9B647C1979F78A00AD9BDB /* bathroom 3.jpg in Resources */,
+				EE9B6497197AFB2700AD9BDB /* progress8.jpg in Resources */,
 				EECAA6D4196F5033008A7E50 /* InStoreViewControllerLips.xib in Resources */,
+				EE9B649A197AFB2700AD9BDB /* progress5.jpg in Resources */,
 				EE9B646E1979F78A00AD9BDB /* Lips4.jpg in Resources */,
 				EECAA650196F0372008A7E50 /* Main.storyboard in Resources */,
 				EE9B64871979F78A00AD9BDB /* Animal1.jpg in Resources */,
 				EE9B64721979F78A00AD9BDB /* Flower2.jpg in Resources */,
 				EE9B64671979F78A00AD9BDB /* Texture3.jpg in Resources */,
+				EE9B6499197AFB2700AD9BDB /* progress6.jpg in Resources */,
 				EECAA701196F6C3F008A7E50 /* InStoreViewControllerTextures.xib in Resources */,
 				EECAA676196F0409008A7E50 /* InStoreViewControllerQuestion1.xib in Resources */,
 				EE9B64651979F78A00AD9BDB /* zebra 1.jpg in Resources */,

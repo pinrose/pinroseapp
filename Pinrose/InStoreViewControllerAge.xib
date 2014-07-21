@@ -52,10 +52,17 @@
                         <action selector="homeButton:" destination="-1" eventType="touchUpInside" id="5Gf-xL-XyV"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="progress12.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="bcy-1g-bz4">
+                    <rect key="frame" x="71" y="703" width="850" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
     </objects>
+    <resources>
+        <image name="progress12.jpg" width="3532" height="63"/>
+    </resources>
 </document>

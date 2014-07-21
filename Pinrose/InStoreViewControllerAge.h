@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface InStoreViewControllerAge : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 
 @end
