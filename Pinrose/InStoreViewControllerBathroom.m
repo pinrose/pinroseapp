@@ -9,6 +9,8 @@
 #import "InStoreViewControllerBathroom.h"
 #import "InStoreViewControllerZebra.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
+
 
 @interface InStoreViewControllerBathroom ()
 
@@ -16,6 +18,7 @@
 
 @implementation InStoreViewControllerBathroom
 - (IBAction)bathroom1Button:(UIButton *)sender {
+            [[InStoreSession sessionVariables] setObject:@"top_left" forKey:@"bathroom"];
     InStoreViewControllerZebra *zebra = [[InStoreViewControllerZebra alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:zebra animated:YES completion:^
@@ -43,16 +46,19 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     }
 }
 - (IBAction)bathroom2Button:(UIButton *)sender {
+            [[InStoreSession sessionVariables] setObject:@"top_right" forKey:@"bathroom"];
     InStoreViewControllerZebra *zebra = [[InStoreViewControllerZebra alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:zebra animated:YES completion:NULL];
 }
 - (IBAction)bathroom3Button:(UIButton *)sender {
+            [[InStoreSession sessionVariables] setObject:@"bottom_left" forKey:@"bathroom"];
     InStoreViewControllerZebra *zebra = [[InStoreViewControllerZebra alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:zebra animated:YES completion:NULL];
 }
 - (IBAction)bathroom4Button:(UIButton *)sender {
+            [[InStoreSession sessionVariables] setObject:@"bottom_right" forKey:@"bathroom"];
     InStoreViewControllerZebra *zebra = [[InStoreViewControllerZebra alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:zebra animated:YES completion:NULL];

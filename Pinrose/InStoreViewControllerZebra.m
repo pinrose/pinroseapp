@@ -9,6 +9,7 @@
 #import "InStoreViewControllerZebra.h"
 #import "InStoreViewControllerTextures.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
 
 @interface InStoreViewControllerZebra ()
 
@@ -16,11 +17,13 @@
 
 @implementation InStoreViewControllerZebra
 - (IBAction)zebra1Button:(UIButton *)sender {
+            [[InStoreSession sessionVariables] setObject:@"colorful" forKey:@"zebra"];
     InStoreViewControllerTextures *texture = [[InStoreViewControllerTextures alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:texture animated:YES completion:^{NULL;}];
 }
 - (IBAction)zebra2Button:(UIButton *)sender {
+                [[InStoreSession sessionVariables] setObject:@"normal" forKey:@"zebra"];
     InStoreViewControllerTextures   *texture = [[InStoreViewControllerTextures alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:texture animated:YES completion:^{NULL;}];

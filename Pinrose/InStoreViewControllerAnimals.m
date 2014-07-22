@@ -9,6 +9,7 @@
 #import "InStoreViewControllerAnimals.h"
 #import "InStoreViewControllerBathroom.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
 
 @interface InStoreViewControllerAnimals ()
 
@@ -16,6 +17,7 @@
 
 @implementation InStoreViewControllerAnimals
 - (IBAction)animal1Button:(UIButton *)sender {
+        [[InStoreSession sessionVariables] setObject:@"otter" forKey:@"animals"];
     InStoreViewControllerBathroom *bathroom = [[InStoreViewControllerBathroom alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:bathroom animated:YES completion:^
@@ -24,6 +26,7 @@
      }];
 }
 - (IBAction)animal2Button:(UIButton *)sender {
+            [[InStoreSession sessionVariables] setObject:@"monkey" forKey:@"animals"];
     InStoreViewControllerBathroom *bathroom = [[InStoreViewControllerBathroom alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:bathroom animated:YES completion:^
@@ -51,6 +54,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     }
 }
 - (IBAction)animal3Button:(UIButton *)sender {
+            [[InStoreSession sessionVariables] setObject:@"cat" forKey:@"animals"];
     InStoreViewControllerBathroom *bathroom = [[InStoreViewControllerBathroom alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:bathroom animated:YES completion:^

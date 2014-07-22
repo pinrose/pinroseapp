@@ -9,6 +9,7 @@
 #import "InStoreViewControllerLips.h"
 #import "InStoreViewControllerColor1.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
 
 @interface InStoreViewControllerLips ()
 
@@ -16,6 +17,7 @@
 
 @implementation InStoreViewControllerLips
 - (IBAction)lips1Button:(UIButton *)sender {
+       [[InStoreSession sessionVariables] setObject:@"red" forKey:@"lips"];
     InStoreViewControllerColor1 *color1 = [[InStoreViewControllerColor1 alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:color1 animated:YES completion:^
@@ -47,6 +49,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 
 
 - (IBAction)lips2Button:(UIButton *)sender {
+       [[InStoreSession sessionVariables] setObject:@"pink" forKey:@"lips"];
     InStoreViewControllerColor1 *color1 = [[InStoreViewControllerColor1 alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:color1 animated:YES completion:^
@@ -56,6 +59,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 }
 
 - (IBAction)lips3Button:(UIButton *)sender {
+     [[InStoreSession sessionVariables] setObject:@"dark_pink" forKey:@"lips"];
     InStoreViewControllerColor1 *color1 = [[InStoreViewControllerColor1 alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:color1 animated:YES completion:^
@@ -65,6 +69,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 }
 
 - (IBAction)lips4Button:(UIButton *)sender {
+     [[InStoreSession sessionVariables] setObject:@"tan" forKey:@"lips"];
     InStoreViewControllerColor1 *color1 = [[InStoreViewControllerColor1 alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:color1 animated:YES completion:^

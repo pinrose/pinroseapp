@@ -9,6 +9,7 @@
 #import "InStoreViewControllerNature.h"
 #import "InStoreViewControllerSunsets.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
 
 @interface InStoreViewControllerNature ()
 
@@ -16,11 +17,13 @@
 
 @implementation InStoreViewControllerNature
 - (IBAction)nature1Button:(UIButton *)sender {
+        [[InStoreSession sessionVariables] setObject:@"pathwork" forKey:@"painting"];
     InStoreViewControllerSunsets *sunset = [[InStoreViewControllerSunsets alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:sunset animated:YES completion:NULL];
 }
 - (IBAction)nature2Button:(UIButton *)sender {
+        [[InStoreSession sessionVariables] setObject:@"circle" forKey:@"painting"];
     InStoreViewControllerSunsets *sunset = [[InStoreViewControllerSunsets alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:sunset animated:YES completion:NULL];

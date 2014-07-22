@@ -9,9 +9,10 @@
 #import "InStoreViewControllerQuestion1.h"
 #import "InStoreViewControllerDontThink.h"
 #import "InStoreViewControllerHomePage.h"
-#import "InStoreViewControllerHomeModal.h"
+#import "InStoreSession.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
+
 
 @interface InStoreViewControllerQuestion1 ()
 @property (nonatomic, strong) AVAudioPlayer* player1;
@@ -60,14 +61,14 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 }
 - (IBAction)button2:(id)sender {
     
-    [self bounceAnimationOne:_button1];
+    [self bounceAnimationOne:_button2];
     [self.player1 stop];
     [self.player3 stop];
     [self.player2 play];
 }
 - (IBAction)button3:(id)sender {
-    
-    [self bounceAnimationTwo:_button2];
+
+    [self bounceAnimationTwo:_button3];
     [self.player1 stop];
     [self.player2 stop];
     [self.player3 play];
@@ -76,6 +77,15 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 
 
 - (IBAction)nextQuestion:(UIButton *)sender {
+    if (self.player1.isPlaying) {
+        [[InStoreSession sessionVariables] setObject:@"cool-guy" forKey:@"Beat"];
+    }
+    if (self.player2.isPlaying) {
+        [[InStoreSession sessionVariables] setObject:@"daper" forKey:@"Beat"];
+    }
+    if (self.player3.isPlaying) {
+        [[InStoreSession sessionVariables] setObject:@"rock" forKey:@"Beat"];
+    }
     [self.player1 stop];
     [self.player2 stop];
     [self.player3 stop];
@@ -101,7 +111,11 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     PFObject *testObject = [PFObject objectWithClassName:@"TestObject"];
     testObject[@"foo"] = @"bar";
     [testObject saveInBackground];
+    
+    
     [super viewDidLoad];
+    
+    
     NSURL *url = [[NSBundle mainBundle] URLForResource:@"Beat1" withExtension:@"aif"];
     NSAssert(url, @"URL is valid.");
     NSError* error = nil;
@@ -130,10 +144,10 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     [_button setBackgroundImage:button1Image forState:UIControlStateNormal];
     
     UIImage *button2Image = [UIImage imageNamed:@"Circle 2.jpeg"];
-    [_button1 setBackgroundImage:button2Image forState:UIControlStateNormal];
+    [_button2 setBackgroundImage:button2Image forState:UIControlStateNormal];
     
     UIImage *button3Image = [UIImage imageNamed:@"Circle 3.jpeg"];
-    [_button2 setBackgroundImage:button3Image forState:UIControlStateNormal];
+    [_button3 setBackgroundImage:button3Image forState:UIControlStateNormal];
     // Do any additional setup after loading the view from its nib.
 }
 
@@ -184,7 +198,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     
     [bounce setDuration:0.6];
     
-    [[_button1 layer] addAnimation:bounce forKey:@"bounceAnimation"];
+    [[_button2 layer] addAnimation:bounce forKey:@"bounceAnimation"];
     
     
 }
@@ -209,7 +223,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     
     [bounce setDuration:0.6];
     
-    [[_button2 layer] addAnimation:bounce forKey:@"bounceAnimation"];
+    [[_button3 layer] addAnimation:bounce forKey:@"bounceAnimation"];
     
     
 }

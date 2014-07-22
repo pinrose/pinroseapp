@@ -9,6 +9,7 @@
 #import "InStoreViewControllerColor1.h"
 #import "InStoreViewControllerColor2.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
 
 
 @interface InStoreViewControllerColor1 ()
@@ -17,6 +18,7 @@
 
 @implementation InStoreViewControllerColor1
 - (IBAction)color1Button:(UIButton *)sender {
+     [[InStoreSession sessionVariables] setObject:@"peach_rose" forKey:@"roses"];
     InStoreViewControllerColor2 *color2 = [[InStoreViewControllerColor2 alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:color2 animated:YES completion:^
@@ -27,6 +29,7 @@
 
 
 - (IBAction)color2Button:(UIButton *)sender {
+        [[InStoreSession sessionVariables] setObject:@"pink_rose" forKey:@"roses"];
     InStoreViewControllerColor2 *color2 = [[InStoreViewControllerColor2 alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:color2 animated:YES completion:^

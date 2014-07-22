@@ -11,6 +11,7 @@
 		EE47E4BC197DBA9F005DC12D /* InStoreViewControllerHomePage.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4BA197DBA9F005DC12D /* InStoreViewControllerHomePage.xib */; };
 		EE47E4C0197DBD48005DC12D /* InStoreViewControllerDontThink.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47E4BE197DBD48005DC12D /* InStoreViewControllerDontThink.m */; };
 		EE47E4C1197DBD48005DC12D /* InStoreViewControllerDontThink.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4BF197DBD48005DC12D /* InStoreViewControllerDontThink.xib */; };
+		EE47E4C4197ECD02005DC12D /* InStoreSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47E4C3197ECD02005DC12D /* InStoreSession.m */; };
 		EE9B639A197475FA00AD9BDB /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B6399197475FA00AD9BDB /* AudioController.m */; };
 		EE9B63A3197492DA00AD9BDB /* Beat1.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A0197492DA00AD9BDB /* Beat1.aif */; };
 		EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A1197492DA00AD9BDB /* high hat strut.aif */; };
@@ -133,6 +134,8 @@
 		EE47E4BD197DBD48005DC12D /* InStoreViewControllerDontThink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InStoreViewControllerDontThink.h; path = ../InStoreViewControllerDontThink.h; sourceTree = "<group>"; };
 		EE47E4BE197DBD48005DC12D /* InStoreViewControllerDontThink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = InStoreViewControllerDontThink.m; path = ../InStoreViewControllerDontThink.m; sourceTree = "<group>"; };
 		EE47E4BF197DBD48005DC12D /* InStoreViewControllerDontThink.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InStoreViewControllerDontThink.xib; path = ../InStoreViewControllerDontThink.xib; sourceTree = "<group>"; };
+		EE47E4C2197ECD02005DC12D /* InStoreSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreSession.h; sourceTree = "<group>"; };
+		EE47E4C3197ECD02005DC12D /* InStoreSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreSession.m; sourceTree = "<group>"; };
 		EE9B6398197475FA00AD9BDB /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
 		EE9B6399197475FA00AD9BDB /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
 		EE9B63A0197492DA00AD9BDB /* Beat1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beat1.aif; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/Beat1.aif"; sourceTree = "<group>"; };
@@ -436,6 +439,8 @@
 				EE47E4BA197DBA9F005DC12D /* InStoreViewControllerHomePage.xib */,
 				EECAA672196F0409008A7E50 /* InStoreViewControllerQuestion1.h */,
 				EECAA673196F0409008A7E50 /* InStoreViewControllerQuestion1.m */,
+				EE47E4C2197ECD02005DC12D /* InStoreSession.h */,
+				EE47E4C3197ECD02005DC12D /* InStoreSession.m */,
 				EECAA674196F0409008A7E50 /* InStoreViewControllerQuestion1.xib */,
 				EE9B64391979C8EB00AD9BDB /* InStoreAppTimer.h */,
 				EE9B643A1979C8EB00AD9BDB /* InStoreAppTimer.m */,
@@ -661,6 +666,7 @@
 				EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */,
 				EECAA67F196F042A008A7E50 /* InStoreViewControllerQuestion2.m in Sources */,
 				EECAA6E7196F5847008A7E50 /* InStoreViewControllerNature.m in Sources */,
+				EE47E4C4197ECD02005DC12D /* InStoreSession.m in Sources */,
 				EE9B639A197475FA00AD9BDB /* AudioController.m in Sources */,
 				EECAA653196F0372008A7E50 /* InStoreViewController.m in Sources */,
 				EE9B643B1979C8EB00AD9BDB /* InStoreAppTimer.m in Sources */,

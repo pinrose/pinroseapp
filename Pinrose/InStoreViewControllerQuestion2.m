@@ -8,7 +8,7 @@
 
 #import "InStoreViewControllerQuestion2.h"
 #import "InStoreViewControllerLips.h"
-#import "InStoreViewController.h"
+#import "InStoreSession.h"
 #import "InStoreViewControllerHomePage.h"
 
 @interface InStoreViewControllerQuestion2 ()
@@ -18,6 +18,7 @@
 
 @implementation InStoreViewControllerQuestion2
 - (IBAction)explosionButton:(UIButton *)sender {
+    [[InStoreSession sessionVariables] setObject:@"spikey" forKey:@"shape"];
     InStoreViewControllerLips *lips = [[InStoreViewControllerLips alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:lips animated:YES completion:^
@@ -48,6 +49,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 
 
 - (IBAction)cloudButton:(UIButton *)sender {
+       [[InStoreSession sessionVariables] setObject:@"cloud" forKey:@"shape"];
     InStoreViewControllerLips *lips = [[InStoreViewControllerLips alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:lips animated:YES completion:^
@@ -68,6 +70,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 
 - (void)viewDidLoad
 {
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

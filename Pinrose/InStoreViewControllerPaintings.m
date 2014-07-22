@@ -9,6 +9,7 @@
 #import "InStoreViewControllerPaintings.h"
 #import "InStoreViewControllerNature.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
 
 @interface InStoreViewControllerPaintings ()
 
@@ -16,6 +17,7 @@
 
 @implementation InStoreViewControllerPaintings
 - (IBAction)painting1Button:(UIButton *)sender {
+    [[InStoreSession sessionVariables] setObject:@"lake" forKey:@"car"];
     InStoreViewControllerNature *nature = [[InStoreViewControllerNature alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:nature animated:YES completion:^
@@ -24,6 +26,7 @@
      }];
 }
 - (IBAction)painting2Button:(UIButton *)sender {
+        [[InStoreSession sessionVariables] setObject:@"green" forKey:@"car"];
     InStoreViewControllerNature *nature = [[InStoreViewControllerNature alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:nature animated:YES completion:^
@@ -51,6 +54,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     }
 }
 - (IBAction)painting3Button:(UIButton *)sender {
+        [[InStoreSession sessionVariables] setObject:@"hawaii" forKey:@"car"];
     InStoreViewControllerNature *nature = [[InStoreViewControllerNature alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:nature animated:YES completion:^
@@ -59,6 +63,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
      }];
 }
 - (IBAction)painting4Button:(UIButton *)sender {
+        [[InStoreSession sessionVariables] setObject:@"horse" forKey:@"car"];
     InStoreViewControllerNature *nature = [[InStoreViewControllerNature alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:nature animated:YES completion:^

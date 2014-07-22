@@ -9,6 +9,7 @@
 #import "InStoreViewControllerTextures.h"
 #import "InStoreViewControllerAge.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
 
 @interface InStoreViewControllerTextures ()
 
@@ -16,16 +17,19 @@
 
 @implementation InStoreViewControllerTextures
 - (IBAction)texture1Button:(UIButton *)sender {
+                [[InStoreSession sessionVariables] setObject:@"aligator" forKey:@"texture"];
     InStoreViewControllerAge *age = [[InStoreViewControllerAge alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:age animated:YES completion:NULL];
 }
 - (IBAction)texture2Button:(UIButton *)sender {
+                   [[InStoreSession sessionVariables] setObject:@"feathers" forKey:@"texture"];
     InStoreViewControllerAge *age = [[InStoreViewControllerAge alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:age animated:YES completion:NULL];
 }
 - (IBAction)texture3Button:(UIButton *)sender {
+                   [[InStoreSession sessionVariables] setObject:@"octopus" forKey:@"texture"];
     InStoreViewControllerAge *age = [[InStoreViewControllerAge alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:age animated:YES completion:NULL];

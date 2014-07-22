@@ -9,6 +9,7 @@
 #import "InStoreViewControllerColor2.h"
 #import "InStoreViewControllerPaintings.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
 
 @interface InStoreViewControllerColor2 ()
 
@@ -16,6 +17,7 @@
 
 @implementation InStoreViewControllerColor2
 - (IBAction)color3Button:(UIButton *)sender {
+        [[InStoreSession sessionVariables] setObject:@"green" forKey:@"colors_one"];
     InStoreViewControllerPaintings *painting = [[InStoreViewControllerPaintings alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:painting animated:YES completion:^
@@ -25,6 +27,7 @@
 
 }
 - (IBAction)color2Button:(UIButton *)sender {
+            [[InStoreSession sessionVariables] setObject:@"purple" forKey:@"colors_one"];
     InStoreViewControllerPaintings *painting = [[InStoreViewControllerPaintings alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:painting animated:YES completion:^
@@ -53,6 +56,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 }
 
 - (IBAction)color1Button:(UIButton *)sender {
+            [[InStoreSession sessionVariables] setObject:@"pink" forKey:@"colors_one"];
     InStoreViewControllerPaintings *painting = [[InStoreViewControllerPaintings alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:painting animated:YES completion:^

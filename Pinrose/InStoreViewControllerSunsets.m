@@ -9,6 +9,7 @@
 #import "InStoreViewControllerSunsets.h"
 #import "InStoreViewControllerAnimals.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
 
 @interface InStoreViewControllerSunsets ()
 
@@ -16,6 +17,7 @@
 
 @implementation InStoreViewControllerSunsets
 - (IBAction)sunset1Button:(UIButton *)sender {
+        [[InStoreSession sessionVariables] setObject:@"ocean" forKey:@"sunset"];
     InStoreViewControllerAnimals *animals = [[InStoreViewControllerAnimals alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:animals animated:YES completion:^
@@ -24,6 +26,7 @@
      }];
 }
 - (IBAction)sunset2Button:(UIButton *)sender {
+        [[InStoreSession sessionVariables] setObject:@"land" forKey:@"sunset"];
     InStoreViewControllerAnimals *animals = [[InStoreViewControllerAnimals alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:animals animated:YES completion:^
