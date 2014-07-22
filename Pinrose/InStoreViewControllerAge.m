@@ -25,7 +25,39 @@
     return self;
 }
 - (IBAction)finishButton:(UIButton *)sender {
-
+    NSMutableDictionary *session = [[NSMutableDictionary alloc] init];
+    session = InStoreSession.sessionVariables;
+    NSError *error;
+    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:session
+                                                       options:NSJSONWritingPrettyPrinted // Pass 0 if you don't care about the readability of the generated string
+                                                         error:&error];
+    
+    if (! jsonData) {
+        NSLog(@"Got an error: %@", error);
+    } else {
+        NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        NSLog(jsonString);
+    }
+    NSString *beat=session[@"beat"];
+    NSString *lips=session[@"lips"];
+    NSString *shape=session[@"shape"];
+    NSString *car=session[@"car"];
+    
+    if ([beat  isEqual: @""]) {
+        
+    }
+    
+    if ([lips isEqualToString:@""]) {
+        
+    }
+    
+    if ([shape isEqualToString:@""]) {
+        
+    }
+    
+    if ([car isEqualToString:@""]) {
+        
+    }
 }
 - (IBAction)homeButton:(UIButton *)sender {
         

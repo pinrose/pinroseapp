@@ -10,5 +10,5 @@
 
 @interface InStoreViewControllerAge : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
-
+@property (strong, nonatomic) NSMutableDictionary *session;
 @end

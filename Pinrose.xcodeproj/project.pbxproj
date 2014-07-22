@@ -72,6 +72,8 @@
 		EE9B6499197AFB2700AD9BDB /* progress6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6490197AFB2700AD9BDB /* progress6.jpg */; };
 		EE9B649A197AFB2700AD9BDB /* progress5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6491197AFB2700AD9BDB /* progress5.jpg */; };
 		EE9B649B197AFB2700AD9BDB /* progress4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6492197AFB2700AD9BDB /* progress4.jpg */; };
+		EEAE98B9197F204600D19F1A /* InStoreViewControllerReturnPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98B7197F204600D19F1A /* InStoreViewControllerReturnPage.m */; };
+		EEAE98BA197F204600D19F1A /* InStoreViewControllerReturnPage.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98B8197F204600D19F1A /* InStoreViewControllerReturnPage.xib */; };
 		EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */; };
 		EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */; };
 		EECAA63D196F0372008A7E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63C196F0372008A7E50 /* Foundation.framework */; };
@@ -206,6 +208,9 @@
 		EE9B6490197AFB2700AD9BDB /* progress6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress6.jpg; sourceTree = "<group>"; };
 		EE9B6491197AFB2700AD9BDB /* progress5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress5.jpg; sourceTree = "<group>"; };
 		EE9B6492197AFB2700AD9BDB /* progress4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress4.jpg; sourceTree = "<group>"; };
+		EEAE98B6197F204600D19F1A /* InStoreViewControllerReturnPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerReturnPage.h; sourceTree = "<group>"; };
+		EEAE98B7197F204600D19F1A /* InStoreViewControllerReturnPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerReturnPage.m; sourceTree = "<group>"; };
+		EEAE98B8197F204600D19F1A /* InStoreViewControllerReturnPage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerReturnPage.xib; sourceTree = "<group>"; };
 		EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerAge.h; sourceTree = "<group>"; };
 		EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerAge.m; sourceTree = "<group>"; };
 		EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerAge.xib; sourceTree = "<group>"; };
@@ -507,6 +512,9 @@
 				EECAA6FF196F6C3F008A7E50 /* InStoreViewControllerTextures.xib */,
 				EECAA651196F0372008A7E50 /* InStoreViewController.h */,
 				EECAA652196F0372008A7E50 /* InStoreViewController.m */,
+				EEAE98B6197F204600D19F1A /* InStoreViewControllerReturnPage.h */,
+				EEAE98B7197F204600D19F1A /* InStoreViewControllerReturnPage.m */,
+				EEAE98B8197F204600D19F1A /* InStoreViewControllerReturnPage.xib */,
 			);
 			name = Questions;
 			sourceTree = "<group>";
@@ -588,6 +596,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEAE98BA197F204600D19F1A /* InStoreViewControllerReturnPage.xib in Resources */,
 				EE9B64811979F78A00AD9BDB /* Background2.jpg in Resources */,
 				EE9B6496197AFB2700AD9BDB /* progress9.jpg in Resources */,
 				EE9B6493197AFB2700AD9BDB /* progress12.jpg in Resources */,
@@ -681,6 +690,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEAE98B9197F204600D19F1A /* InStoreViewControllerReturnPage.m in Sources */,
 				EECAA6E2196F55D2008A7E50 /* InStoreViewControllerPaintings.m in Sources */,
 				EECAA700196F6C3F008A7E50 /* InStoreViewControllerTextures.m in Sources */,
 				EE47E4C0197DBD48005DC12D /* InStoreViewControllerDontThink.m in Sources */,
