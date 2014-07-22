@@ -18,6 +18,7 @@
 		EE47E4CD197ED220005DC12D /* lips final.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4C8197ED220005DC12D /* lips final.jpg */; };
 		EE47E4CE197ED220005DC12D /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4C9197ED220005DC12D /* home.jpg */; };
 		EE47E4D0197ED31B005DC12D /* home (1).png in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4CF197ED31B005DC12D /* home (1).png */; };
+		EE47E4D2197EDEBE005DC12D /* zebra2 (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4D1197EDEBE005DC12D /* zebra2 (1).jpg */; };
 		EE9B639A197475FA00AD9BDB /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B6399197475FA00AD9BDB /* AudioController.m */; };
 		EE9B63A3197492DA00AD9BDB /* Beat1.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A0197492DA00AD9BDB /* Beat1.aif */; };
 		EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A1197492DA00AD9BDB /* high hat strut.aif */; };
@@ -148,6 +149,7 @@
 		EE47E4C8197ED220005DC12D /* lips final.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lips final.jpg"; sourceTree = "<group>"; };
 		EE47E4C9197ED220005DC12D /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
 		EE47E4CF197ED31B005DC12D /* home (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home (1).png"; sourceTree = "<group>"; };
+		EE47E4D1197EDEBE005DC12D /* zebra2 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zebra2 (1).jpg"; sourceTree = "<group>"; };
 		EE9B6398197475FA00AD9BDB /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
 		EE9B6399197475FA00AD9BDB /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
 		EE9B63A0197492DA00AD9BDB /* Beat1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beat1.aif; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/Beat1.aif"; sourceTree = "<group>"; };
@@ -365,6 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				EE47E4CF197ED31B005DC12D /* home (1).png */,
+				EE47E4D1197EDEBE005DC12D /* zebra2 (1).jpg */,
 				EE47E4C5197ED220005DC12D /* 2 new.jpg */,
 				EE47E4C6197ED220005DC12D /* 1 new.jpg */,
 				EE47E4C7197ED220005DC12D /* 3 new.jpg */,
@@ -607,6 +610,7 @@
 				EECAA6F2196F68F9008A7E50 /* InStoreViewControllerAnimals.xib in Resources */,
 				EE9B64411979E4BF00AD9BDB /* Circle 3.jpeg in Resources */,
 				EECAA647196F0372008A7E50 /* InfoPlist.strings in Resources */,
+				EE47E4D2197EDEBE005DC12D /* zebra2 (1).jpg in Resources */,
 				EE9B647F1979F78A00AD9BDB /* Bathroom2.jpg in Resources */,
 				EECAA6F7196F6A80008A7E50 /* InStoreViewControllerBathroom.xib in Resources */,
 				EE9B647D1979F78A00AD9BDB /* bathroom 1.jpg in Resources */,

@@ -8,6 +8,7 @@
 
 #import "InStoreViewControllerAge.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreSession.h"
 
 @interface InStoreViewControllerAge ()
 
@@ -22,6 +23,9 @@
         // Custom initialization
     }
     return self;
+}
+- (IBAction)finishButton:(UIButton *)sender {
+
 }
 - (IBAction)homeButton:(UIButton *)sender {
         
@@ -56,7 +60,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     textField.returnKeyType = UIReturnKeyDone;
     textField.clearButtonMode = UITextFieldViewModeWhileEditing;
     textField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
-    textField.delegate = self;
+   // textField.delegate = self;
     [self.view addSubview:textField];
     //[textField release];
     // Do any additional setup after loading the view from its nib.
