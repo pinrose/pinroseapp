@@ -66,8 +66,6 @@
 		EE9B649B197AFB2700AD9BDB /* progress4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6492197AFB2700AD9BDB /* progress4.jpg */; };
 		EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */; };
 		EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */; };
-		EEB5522719709D4E000EEDDF /* InStoreViewControllerHomeModal.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */; };
-		EEB5522819709D4E000EEDDF /* InStoreViewControllerHomeModal.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5522619709D4E000EEDDF /* InStoreViewControllerHomeModal.xib */; };
 		EECAA63D196F0372008A7E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63C196F0372008A7E50 /* Foundation.framework */; };
 		EECAA63F196F0372008A7E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63E196F0372008A7E50 /* CoreGraphics.framework */; };
 		EECAA641196F0372008A7E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA640196F0372008A7E50 /* UIKit.framework */; };
@@ -194,9 +192,6 @@
 		EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerAge.h; sourceTree = "<group>"; };
 		EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerAge.m; sourceTree = "<group>"; };
 		EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerAge.xib; sourceTree = "<group>"; };
-		EEB5522419709D4E000EEDDF /* InStoreViewControllerHomeModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerHomeModal.h; sourceTree = "<group>"; };
-		EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerHomeModal.m; sourceTree = "<group>"; };
-		EEB5522619709D4E000EEDDF /* InStoreViewControllerHomeModal.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerHomeModal.xib; sourceTree = "<group>"; };
 		EECAA639196F0372008A7E50 /* Pinrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinrose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECAA63C196F0372008A7E50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EECAA63E196F0372008A7E50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -446,9 +441,6 @@
 				EE9B643A1979C8EB00AD9BDB /* InStoreAppTimer.m */,
 				EE9B6398197475FA00AD9BDB /* AudioController.h */,
 				EE9B6399197475FA00AD9BDB /* AudioController.m */,
-				EEB5522419709D4E000EEDDF /* InStoreViewControllerHomeModal.h */,
-				EEB5522519709D4E000EEDDF /* InStoreViewControllerHomeModal.m */,
-				EEB5522619709D4E000EEDDF /* InStoreViewControllerHomeModal.xib */,
 				EE9B64361979954E00AD9BDB /* InStoreViewControllerHome.h */,
 				EE9B64371979954E00AD9BDB /* InStoreViewControllerHome.m */,
 				EECAA67C196F042A008A7E50 /* InStoreViewControllerQuestion2.h */,
@@ -628,7 +620,6 @@
 				EECAA676196F0409008A7E50 /* InStoreViewControllerQuestion1.xib in Resources */,
 				EE9B64651979F78A00AD9BDB /* zebra 1.jpg in Resources */,
 				EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */,
-				EEB5522819709D4E000EEDDF /* InStoreViewControllerHomeModal.xib in Resources */,
 				EE9B646D1979F78A00AD9BDB /* Shape 1.jpg in Resources */,
 				EE9B64821979F78A00AD9BDB /* Background1.jpg in Resources */,
 				EE9B6489197AEB0900AD9BDB /* Lips1.jpg in Resources */,
@@ -660,7 +651,6 @@
 				EECAA6E2196F55D2008A7E50 /* InStoreViewControllerPaintings.m in Sources */,
 				EECAA700196F6C3F008A7E50 /* InStoreViewControllerTextures.m in Sources */,
 				EE47E4C0197DBD48005DC12D /* InStoreViewControllerDontThink.m in Sources */,
-				EEB5522719709D4E000EEDDF /* InStoreViewControllerHomeModal.m in Sources */,
 				EECAA649196F0372008A7E50 /* main.m in Sources */,
 				EECAA64D196F0372008A7E50 /* InStoreAppDelegate.m in Sources */,
 				EECAA675196F0409008A7E50 /* InStoreViewControllerQuestion1.m in Sources */,
