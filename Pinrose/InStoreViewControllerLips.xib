@@ -17,8 +17,8 @@
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c9d-e8-AS7">
                     <rect key="frame" x="240" y="126" width="250" height="250"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="Lips1">
+                    <color key="backgroundColor" red="0.92941182850000004" green="0.66274511810000003" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
+                    <state key="normal" backgroundImage="lips final.jpg">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -61,8 +61,8 @@
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ccs-5l-Q52">
                     <rect key="frame" x="929" y="673" width="75" height="75"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="Button">
+                    <color key="backgroundColor" red="0.92941182850000004" green="0.66274511810000003" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
+                    <state key="normal" backgroundImage="home (1).png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <userDefinedRuntimeAttributes>
@@ -74,6 +74,10 @@
                         <action selector="homeButton:" destination="-1" eventType="touchUpInside" id="3n5-mw-74O"/>
                     </connections>
                 </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3 new.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="roR-pv-zhT">
+                    <rect key="frame" x="71" y="703" width="850" height="15"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
@@ -81,8 +85,11 @@
         </view>
     </objects>
     <resources>
+        <image name="3 new.jpg" width="3532" height="63"/>
         <image name="Lips2.jpg" width="1032" height="930"/>
         <image name="Lips3.jpg" width="1032" height="930"/>
         <image name="Lips4.jpg" width="1032" height="930"/>
+        <image name="home (1).png" width="142" height="141"/>
+        <image name="lips final.jpg" width="1047" height="1240"/>
     </resources>
 </document>

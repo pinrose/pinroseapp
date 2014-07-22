@@ -12,6 +12,12 @@
 		EE47E4C0197DBD48005DC12D /* InStoreViewControllerDontThink.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47E4BE197DBD48005DC12D /* InStoreViewControllerDontThink.m */; };
 		EE47E4C1197DBD48005DC12D /* InStoreViewControllerDontThink.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4BF197DBD48005DC12D /* InStoreViewControllerDontThink.xib */; };
 		EE47E4C4197ECD02005DC12D /* InStoreSession.m in Sources */ = {isa = PBXBuildFile; fileRef = EE47E4C3197ECD02005DC12D /* InStoreSession.m */; };
+		EE47E4CA197ED220005DC12D /* 2 new.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4C5197ED220005DC12D /* 2 new.jpg */; };
+		EE47E4CB197ED220005DC12D /* 1 new.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4C6197ED220005DC12D /* 1 new.jpg */; };
+		EE47E4CC197ED220005DC12D /* 3 new.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4C7197ED220005DC12D /* 3 new.jpg */; };
+		EE47E4CD197ED220005DC12D /* lips final.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4C8197ED220005DC12D /* lips final.jpg */; };
+		EE47E4CE197ED220005DC12D /* home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4C9197ED220005DC12D /* home.jpg */; };
+		EE47E4D0197ED31B005DC12D /* home (1).png in Resources */ = {isa = PBXBuildFile; fileRef = EE47E4CF197ED31B005DC12D /* home (1).png */; };
 		EE9B639A197475FA00AD9BDB /* AudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9B6399197475FA00AD9BDB /* AudioController.m */; };
 		EE9B63A3197492DA00AD9BDB /* Beat1.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A0197492DA00AD9BDB /* Beat1.aif */; };
 		EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */ = {isa = PBXBuildFile; fileRef = EE9B63A1197492DA00AD9BDB /* high hat strut.aif */; };
@@ -136,6 +142,12 @@
 		EE47E4BF197DBD48005DC12D /* InStoreViewControllerDontThink.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InStoreViewControllerDontThink.xib; path = ../InStoreViewControllerDontThink.xib; sourceTree = "<group>"; };
 		EE47E4C2197ECD02005DC12D /* InStoreSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreSession.h; sourceTree = "<group>"; };
 		EE47E4C3197ECD02005DC12D /* InStoreSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreSession.m; sourceTree = "<group>"; };
+		EE47E4C5197ED220005DC12D /* 2 new.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2 new.jpg"; sourceTree = "<group>"; };
+		EE47E4C6197ED220005DC12D /* 1 new.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "1 new.jpg"; sourceTree = "<group>"; };
+		EE47E4C7197ED220005DC12D /* 3 new.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3 new.jpg"; sourceTree = "<group>"; };
+		EE47E4C8197ED220005DC12D /* lips final.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lips final.jpg"; sourceTree = "<group>"; };
+		EE47E4C9197ED220005DC12D /* home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home.jpg; sourceTree = "<group>"; };
+		EE47E4CF197ED31B005DC12D /* home (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home (1).png"; sourceTree = "<group>"; };
 		EE9B6398197475FA00AD9BDB /* AudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioController.h; sourceTree = "<group>"; };
 		EE9B6399197475FA00AD9BDB /* AudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioController.m; sourceTree = "<group>"; };
 		EE9B63A0197492DA00AD9BDB /* Beat1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Beat1.aif; path = "../../../../../Music/iTunes/iTunes Media/Music/Erika Shumate/Erika Shumate's Album/Beat1.aif"; sourceTree = "<group>"; };
@@ -352,6 +364,12 @@
 		EECAA643196F0372008A7E50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE47E4CF197ED31B005DC12D /* home (1).png */,
+				EE47E4C5197ED220005DC12D /* 2 new.jpg */,
+				EE47E4C6197ED220005DC12D /* 1 new.jpg */,
+				EE47E4C7197ED220005DC12D /* 3 new.jpg */,
+				EE47E4C8197ED220005DC12D /* lips final.jpg */,
+				EE47E4C9197ED220005DC12D /* home.jpg */,
 				EE9B643C1979E0EC00AD9BDB /* Circle1.jpg */,
 				EE9B6488197AEB0900AD9BDB /* Lips1.jpg */,
 				EE9B64421979F78A00AD9BDB /* zebra 1.jpg */,
@@ -575,11 +593,13 @@
 				EE9B6498197AFB2700AD9BDB /* progress7.jpg in Resources */,
 				EE9B6494197AFB2700AD9BDB /* progress11.jpg in Resources */,
 				EE9B646F1979F78A00AD9BDB /* Lips3.jpg in Resources */,
+				EE47E4CE197ED220005DC12D /* home.jpg in Resources */,
 				EE9B64741979F78A00AD9BDB /* Color3.jpg in Resources */,
 				EE9B6495197AFB2700AD9BDB /* progress10.jpg in Resources */,
 				EE9B64831979F78A00AD9BDB /* Art 1.jpg in Resources */,
 				EE9B64681979F78A00AD9BDB /* Texture2.jpg in Resources */,
 				EE9B64761979F78A00AD9BDB /* Color1.jpg in Resources */,
+				EE47E4D0197ED31B005DC12D /* home (1).png in Resources */,
 				EECAA6E8196F5847008A7E50 /* InStoreViewControllerNature.xib in Resources */,
 				EECAA680196F042A008A7E50 /* InStoreViewControllerQuestion2.xib in Resources */,
 				EECAA655196F0372008A7E50 /* Images.xcassets in Resources */,
@@ -602,10 +622,14 @@
 				EE9B647E1979F78A00AD9BDB /* Bathroom4.jpg in Resources */,
 				EECAA6DE196F54AE008A7E50 /* InStoreViewControllerColor2.xib in Resources */,
 				EECAA6D9196F52C5008A7E50 /* InStoreViewControllerColor1.xib in Resources */,
+				EE47E4CA197ED220005DC12D /* 2 new.jpg in Resources */,
 				EE9B64691979F78A00AD9BDB /* Texture1.jpg in Resources */,
 				EE9B646A1979F78A00AD9BDB /* Sunset2.jpg in Resources */,
 				EE9B647A1979F78A00AD9BDB /* Car 2.jpg in Resources */,
+				EE47E4CD197ED220005DC12D /* lips final.jpg in Resources */,
+				EE47E4CB197ED220005DC12D /* 1 new.jpg in Resources */,
 				EECAA6FC196F6C2D008A7E50 /* InStoreViewControllerZebra.xib in Resources */,
+				EE47E4CC197ED220005DC12D /* 3 new.jpg in Resources */,
 				EE9B64701979F78A00AD9BDB /* Lips2.jpg in Resources */,
 				EE9B64851979F78A00AD9BDB /* Animal3.jpg in Resources */,
 				EE9B64841979F78A00AD9BDB /* Art2.jpg in Resources */,

@@ -50,8 +50,8 @@
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPZ-xB-QrW">
                     <rect key="frame" x="929" y="673" width="75" height="75"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="Button">
+                    <color key="backgroundColor" red="0.92941182850000004" green="0.66274511810000003" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
+                    <state key="normal" backgroundImage="home (1).png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <userDefinedRuntimeAttributes>
@@ -63,7 +63,7 @@
                         <action selector="homeButton:" destination="-1" eventType="touchUpInside" id="WgF-qu-XUu"/>
                     </connections>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="progress8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="clj-ty-jWx">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="progress9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="clj-ty-jWx">
                     <rect key="frame" x="71" y="703" width="850" height="15"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
@@ -77,6 +77,7 @@
         <image name="Animal1.jpg" width="500" height="500"/>
         <image name="Animal2.jpg" width="500" height="500"/>
         <image name="Animal3.jpg" width="500" height="500"/>
-        <image name="progress8.jpg" width="3532" height="63"/>
+        <image name="home (1).png" width="142" height="141"/>
+        <image name="progress9.jpg" width="3532" height="63"/>
     </resources>
 </document>

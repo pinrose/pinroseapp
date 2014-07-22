@@ -42,9 +42,14 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="0.92941182850000004" green="0.66274511810000003" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    <state key="normal" title="HOME">
+                    <state key="normal" backgroundImage="home (1).png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="35"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                     <connections>
                         <action selector="homeButton:" destination="-1" eventType="touchUpInside" id="NCt-8K-Kqh"/>
                     </connections>
@@ -57,5 +62,6 @@
     </objects>
     <resources>
         <image name="Background3.jpg" width="4349" height="3261"/>
+        <image name="home (1).png" width="142" height="141"/>
     </resources>
 </document>
