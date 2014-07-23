@@ -15,15 +15,15 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="70pillow_talk_poet.png" translatesAutoresizingMaskIntoConstraints="NO" id="fDi-gm-BJ3">
-                    <rect key="frame" x="0.0" y="69" width="512" height="699"/>
+                    <rect key="frame" x="0.0" y="63" width="512" height="710"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30sugar_bandit.png" translatesAutoresizingMaskIntoConstraints="NO" id="SEd-ob-beE">
-                    <rect key="frame" x="512" y="75" width="512" height="687"/>
+                    <rect key="frame" x="512" y="63" width="512" height="705"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topbar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Se4-ER-Xnd">
-                    <rect key="frame" x="0.0" y="0.0" width="1024" height="75"/>
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="67"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>

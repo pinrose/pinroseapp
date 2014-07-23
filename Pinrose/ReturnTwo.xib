@@ -15,15 +15,15 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="70surf_siren.png" translatesAutoresizingMaskIntoConstraints="NO" id="Zbo-ij-BqN">
-                    <rect key="frame" x="0.0" y="64" width="512" height="710"/>
+                    <rect key="frame" x="0.0" y="55" width="512" height="719"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30campfire_rebel.png" translatesAutoresizingMaskIntoConstraints="NO" id="v1o-nE-BsB">
-                    <rect key="frame" x="512" y="43" width="512" height="719"/>
+                    <rect key="frame" x="512" y="33" width="512" height="729"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topbar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v39-uE-T53">
-                    <rect key="frame" x="0.0" y="-8" width="1024" height="75"/>
+                    <rect key="frame" x="0.0" y="-8" width="1024" height="64"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
