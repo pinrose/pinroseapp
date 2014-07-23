@@ -1,23 +1,19 @@
 //
-//  InStoreViewControllerReturnPage.m
+//  ReturnOne.m
 //  Pinrose
 //
-//  Created by Joel Wasserman on 7/22/14.
+//  Created by Joel Wasserman on 7/23/14.
 //  Copyright (c) 2014 Joel Wasserman. All rights reserved.
 //
 
-#import "InStoreViewControllerReturnPage.h"
-#import "InStoreSession.h"
+#import "ReturnOne.h"
 
-@interface InStoreViewControllerReturnPage ()
+@interface ReturnOne ()
 
 @end
 
-@implementation InStoreViewControllerReturnPage
+@implementation ReturnOne
 
-//- (UIImage *)return:(NSDictionary *)dict {
-//    
-//}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,13 +23,10 @@
     return self;
 }
 
-- (id)initWithImages:(int)firstImage :(int)secondImage {
-    
-}
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     // Do any additional setup after loading the view from its nib.
 }
 

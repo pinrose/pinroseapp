@@ -10,6 +10,5 @@
 
 @interface InStoreViewControllerReturnPage : UIViewController
 
--(UIImage *)return:(NSDictionary *)dict;
 
 @end

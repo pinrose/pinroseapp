@@ -1,23 +1,19 @@
 //
-//  InStoreViewControllerReturnPage.m
+//  ReturnSix.m
 //  Pinrose
 //
-//  Created by Joel Wasserman on 7/22/14.
+//  Created by Joel Wasserman on 7/23/14.
 //  Copyright (c) 2014 Joel Wasserman. All rights reserved.
 //
 
-#import "InStoreViewControllerReturnPage.h"
-#import "InStoreSession.h"
+#import "ReturnSix.h"
 
-@interface InStoreViewControllerReturnPage ()
+@interface ReturnSix ()
 
 @end
 
-@implementation InStoreViewControllerReturnPage
+@implementation ReturnSix
 
-//- (UIImage *)return:(NSDictionary *)dict {
-//    
-//}
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -25,10 +21,6 @@
         // Custom initialization
     }
     return self;
-}
-
-- (id)initWithImages:(int)firstImage :(int)secondImage {
-    
 }
 
 - (void)viewDidLoad
