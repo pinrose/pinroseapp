@@ -15,7 +15,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="70treehouse_royal.png" translatesAutoresizingMaskIntoConstraints="NO" id="nko-yh-ZOl">
-                    <rect key="frame" x="0.0" y="70" width="512" height="703"/>
+                    <rect key="frame" x="0.0" y="70" width="515" height="703"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30campfire_rebel.png" translatesAutoresizingMaskIntoConstraints="NO" id="cDu-0w-Rmb">
@@ -35,7 +35,7 @@
                     </state>
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                            <integer key="value" value="35"/>
+                            <integer key="value" value="38"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                     <connections>
