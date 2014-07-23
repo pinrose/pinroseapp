@@ -14,12 +14,16 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ijR-PD-arw">
-                    <rect key="frame" x="0.0" y="0.0" width="512" height="768"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="70renegade_scarlet.png" translatesAutoresizingMaskIntoConstraints="NO" id="ijR-PD-arw">
+                    <rect key="frame" x="0.0" y="75" width="512" height="705"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qX6-cb-H8d">
-                    <rect key="frame" x="512" y="0.0" width="512" height="768"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30rooftop_socialite.png" translatesAutoresizingMaskIntoConstraints="NO" id="qX6-cb-H8d">
+                    <rect key="frame" x="513" y="75" width="506" height="700"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topbar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lQ4-Ba-4fR">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="75"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
@@ -28,4 +32,9 @@
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
     </objects>
+    <resources>
+        <image name="30rooftop_socialite.png" width="788" height="970"/>
+        <image name="70renegade_scarlet.png" width="786" height="972"/>
+        <image name="topbar.jpg" width="2050" height="116"/>
+    </resources>
 </document>
