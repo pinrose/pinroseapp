@@ -14,12 +14,16 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mE5-cV-uVP">
-                    <rect key="frame" x="0.0" y="0.0" width="512" height="768"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="70renegade_scarlet.png" translatesAutoresizingMaskIntoConstraints="NO" id="mE5-cV-uVP">
+                    <rect key="frame" x="0.0" y="62" width="512" height="706"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f15-NY-mfJ">
-                    <rect key="frame" x="512" y="0.0" width="512" height="768"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30ballroom_philosopher.png" translatesAutoresizingMaskIntoConstraints="NO" id="f15-NY-mfJ">
+                    <rect key="frame" x="512" y="70" width="512" height="698"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topbar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sm4-zG-zQU">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="75"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
@@ -28,4 +32,9 @@
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
     </objects>
+    <resources>
+        <image name="30ballroom_philosopher.png" width="782" height="974"/>
+        <image name="70renegade_scarlet.png" width="786" height="972"/>
+        <image name="topbar.jpg" width="2050" height="116"/>
+    </resources>
 </document>

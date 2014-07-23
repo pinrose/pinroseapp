@@ -14,12 +14,16 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dsq-Zx-mlV">
-                    <rect key="frame" x="0.0" y="0.0" width="512" height="768"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="70moonlight_gypsy.png" translatesAutoresizingMaskIntoConstraints="NO" id="dsq-Zx-mlV">
+                    <rect key="frame" x="0.0" y="75" width="512" height="700"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kR0-iM-rS9">
-                    <rect key="frame" x="512" y="0.0" width="512" height="768"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30sugar_bandit.png" translatesAutoresizingMaskIntoConstraints="NO" id="kR0-iM-rS9">
+                    <rect key="frame" x="512" y="75" width="512" height="693"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topbar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lLQ-Z8-W0Q">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="75"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
@@ -28,4 +32,9 @@
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
     </objects>
+    <resources>
+        <image name="30sugar_bandit.png" width="782" height="966"/>
+        <image name="70moonlight_gypsy.png" width="790" height="974"/>
+        <image name="topbar.jpg" width="2050" height="116"/>
+    </resources>
 </document>

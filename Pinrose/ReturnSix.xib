@@ -14,12 +14,16 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nko-yh-ZOl">
-                    <rect key="frame" x="0.0" y="0.0" width="512" height="768"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="70treehouse_royal.png" translatesAutoresizingMaskIntoConstraints="NO" id="nko-yh-ZOl">
+                    <rect key="frame" x="0.0" y="75" width="512" height="693"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cDu-0w-Rmb">
-                    <rect key="frame" x="512" y="0.0" width="512" height="768"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30campfire_rebel.png" translatesAutoresizingMaskIntoConstraints="NO" id="cDu-0w-Rmb">
+                    <rect key="frame" x="512" y="75" width="512" height="685"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topbar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="34R-qT-6z8">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="75"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
             </subviews>
@@ -28,4 +32,9 @@
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
     </objects>
+    <resources>
+        <image name="30campfire_rebel.png" width="786" height="960"/>
+        <image name="70treehouse_royal.png" width="790" height="970"/>
+        <image name="topbar.jpg" width="2050" height="116"/>
+    </resources>
 </document>
