@@ -38,6 +38,9 @@
                             <integer key="value" value="35"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="homeButton:" destination="-1" eventType="touchUpInside" id="xWN-UV-Qoe"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

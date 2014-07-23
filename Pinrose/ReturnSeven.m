@@ -24,11 +24,11 @@
     return self;
 }
 - (IBAction)homeButton:(UIButton *)sender {
-    UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Are you sure you want to go home?"
+    UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Are you sure you want to start a new quiz?"
                                                      message:@"\n"
                                                     delegate:self
                                            cancelButtonTitle:@"Cancel"
-                                           otherButtonTitles:@"Home", nil];
+                                           otherButtonTitles:@"Yes!", nil];
     
     [prompt show];
     
