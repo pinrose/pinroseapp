@@ -19,7 +19,7 @@
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30campfire_rebel.png" translatesAutoresizingMaskIntoConstraints="NO" id="v1o-nE-BsB">
-                    <rect key="frame" x="512" y="33" width="512" height="729"/>
+                    <rect key="frame" x="510" y="33" width="514" height="729"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="topbar.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v39-uE-T53">

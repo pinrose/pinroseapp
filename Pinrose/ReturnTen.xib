@@ -15,7 +15,7 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="70sugar_bandit.png" translatesAutoresizingMaskIntoConstraints="NO" id="jT3-rI-xYa">
-                    <rect key="frame" x="0.0" y="63" width="512" height="710"/>
+                    <rect key="frame" x="0.0" y="63" width="514" height="710"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30merry_maker.png" translatesAutoresizingMaskIntoConstraints="NO" id="i66-Oj-T9O">
