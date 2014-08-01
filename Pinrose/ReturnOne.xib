@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReturnOne">
             <connections>
+                <outlet property="image1" destination="JR3-v9-LTT" id="2Je-uT-qZB"/>
+                <outlet property="image2" destination="fH1-wX-5j9" id="sVp-p8-GLj"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

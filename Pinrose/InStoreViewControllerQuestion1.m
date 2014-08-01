@@ -53,21 +53,26 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 }
 
 - (IBAction)button:(id)sender {
-
+    
+    UIButton *btn1=(UIButton *)sender;
+    [btn1 setImage:[UIImage imageNamed:@"first"] forState:UIControlStateNormal];
+    
     [self bounceAnimation:_button];
     [self.player2 stop];
     [self.player3 stop];
     [self.player1 play];
 }
 - (IBAction)button2:(id)sender {
-    
+    UIButton *btn1=(UIButton *)sender;
+    [btn1 setImage:[UIImage imageNamed:@"second"] forState:UIControlStateNormal];
     [self bounceAnimationOne:_button2];
     [self.player1 stop];
     [self.player3 stop];
     [self.player2 play];
 }
 - (IBAction)button3:(id)sender {
-
+    UIButton *btn1=(UIButton *)sender;
+    [btn1 setImage:[UIImage imageNamed:@"third"] forState:UIControlStateNormal];
     [self bounceAnimationTwo:_button3];
     [self.player1 stop];
     [self.player2 stop];

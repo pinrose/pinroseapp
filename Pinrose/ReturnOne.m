@@ -10,6 +10,8 @@
 #import "InStoreViewControllerHomePage.h"
 
 @interface ReturnOne ()
+@property (weak, nonatomic) IBOutlet UIImageView *image1;
+@property (weak, nonatomic) IBOutlet UIImageView *image2;
 
 @end
 
@@ -47,7 +49,6 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
     // Do any additional setup after loading the view from its nib.
 }
 

@@ -160,11 +160,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pinrose/InStoreViewControllerAge.m"
-            timestampString = "427830202.433315"
+            timestampString = "428613023.127405"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
+            startingLineNumber = "361"
+            endingLineNumber = "361"
             landmarkName = "-finishButton:"
             landmarkType = "5">
          </BreakpointContent>

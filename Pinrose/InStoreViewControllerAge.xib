@@ -61,9 +61,14 @@
                 </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <connections>
+                <outletCollection property="gestureRecognizers" destination="OGm-ob-urw" appends="YES" id="iVb-bg-E1s"/>
+            </connections>
         </view>
+        <tapGestureRecognizer id="OGm-ob-urw"/>
     </objects>
     <resources>
         <image name="home (1).png" width="142" height="141"/>
