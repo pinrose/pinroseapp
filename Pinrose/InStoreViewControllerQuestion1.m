@@ -16,11 +16,17 @@
 
 @interface InStoreViewControllerQuestion1 ()
 @property (nonatomic, strong) AVAudioPlayer* player1;
+@property (weak, nonatomic) IBOutlet UIButton *music1;
 @property (nonatomic, strong) AVAudioPlayer* player2;
+@property (weak, nonatomic) IBOutlet UIButton *music3;
+@property (weak, nonatomic) IBOutlet UIButton *music2;
 @property (nonatomic, strong) AVAudioPlayer* player3;
+@property (nonatomic, strong) UIImage *onClickMusic;
+@property (nonatomic, strong) UIImage *defaultMusic;
 @end
 
 @implementation InStoreViewControllerQuestion1
+
 
 @synthesize player1 = mPlayer1;
 @synthesize player2 = mPlayer2;
@@ -53,9 +59,12 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 }
 
 - (IBAction)button:(id)sender {
+    _onClickMusic = [UIImage imageNamed:@"musicPink.png"];
+    _defaultMusic = [UIImage imageNamed:@"Circle1.png"];
+    [_music1 setBackgroundImage: _onClickMusic forState:UIControlStateNormal];
     
-    UIButton *btn1=(UIButton *)sender;
-    [btn1 setImage:[UIImage imageNamed:@"first"] forState:UIControlStateNormal];
+    [_music2 setBackgroundImage: _defaultMusic forState:UIControlStateNormal];
+    [_music3 setBackgroundImage: _defaultMusic forState:UIControlStateNormal];
     
     [self bounceAnimation:_button];
     [self.player2 stop];
@@ -63,16 +72,26 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     [self.player1 play];
 }
 - (IBAction)button2:(id)sender {
-    UIButton *btn1=(UIButton *)sender;
-    [btn1 setImage:[UIImage imageNamed:@"second"] forState:UIControlStateNormal];
+    _onClickMusic = [UIImage imageNamed:@"musicPink.png"];
+    _defaultMusic = [UIImage imageNamed:@"Circle1.png"];
+    [_music2 setBackgroundImage: _onClickMusic forState:UIControlStateNormal];
+    
+    [_music3 setBackgroundImage: _defaultMusic forState:UIControlStateNormal];
+    [_music1 setBackgroundImage: _defaultMusic forState:UIControlStateNormal];
+    
     [self bounceAnimationOne:_button2];
     [self.player1 stop];
     [self.player3 stop];
     [self.player2 play];
 }
 - (IBAction)button3:(id)sender {
-    UIButton *btn1=(UIButton *)sender;
-    [btn1 setImage:[UIImage imageNamed:@"third"] forState:UIControlStateNormal];
+    _onClickMusic = [UIImage imageNamed:@"musicPink.png"];
+    _defaultMusic = [UIImage imageNamed:@"Circle1.png"];
+    [_music3 setBackgroundImage: _onClickMusic forState:UIControlStateNormal];
+    
+    [_music1 setBackgroundImage: _defaultMusic forState:UIControlStateNormal];
+    [_music2 setBackgroundImage: _defaultMusic forState:UIControlStateNormal];
+    
     [self bounceAnimationTwo:_button3];
     [self.player1 stop];
     [self.player2 stop];
@@ -145,14 +164,14 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
     {
         NSLog(@"Error creating player: %@", error3);
     }
-    UIImage *button1Image = [UIImage imageNamed:@"Circle1.jpg"];
-    [_button setBackgroundImage:button1Image forState:UIControlStateNormal];
+    UIImage *button1Image = [UIImage imageNamed:@"Circle1.png"];
+    [_music1 setBackgroundImage:button1Image forState:UIControlStateNormal];
     
-    UIImage *button2Image = [UIImage imageNamed:@"Circle 2.jpeg"];
-    [_button2 setBackgroundImage:button2Image forState:UIControlStateNormal];
+    UIImage *button2Image = [UIImage imageNamed:@"Circle1.png"];
+    [_music2 setBackgroundImage:button2Image forState:UIControlStateNormal];
     
-    UIImage *button3Image = [UIImage imageNamed:@"Circle 3.jpeg"];
-    [_button3 setBackgroundImage:button3Image forState:UIControlStateNormal];
+    UIImage *button3Image = [UIImage imageNamed:@"Circle1.png"];
+    [_music3 setBackgroundImage:button3Image forState:UIControlStateNormal];
     // Do any additional setup after loading the view from its nib.
 }
 

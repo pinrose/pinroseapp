@@ -23,7 +23,7 @@
 
 
 @interface InStoreViewControllerAge ()
-
+@property (nonatomic, retain) IBOutlet UITextField *textField;
 @end
 
 @implementation InStoreViewControllerAge
@@ -36,6 +36,16 @@
     }
     return self;
 }
+
+- (IBAction)ageBox:(UITextField *)sender {
+
+    _textField.autocorrectionType = UITextAutocorrectionTypeNo;
+    _textField.keyboardType = UIKeyboardTypeDefault;
+    _textField.returnKeyType = UIReturnKeyDone;
+    _textField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    _textField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+}
+
 - (IBAction)finishButton:(UIButton *)sender {
     NSMutableDictionary *session = [[NSMutableDictionary alloc] init];
     session = InStoreSession.sessionVariables;
@@ -381,21 +391,28 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
         
     }
 }
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [_textField resignFirstResponder];
+    return YES;
+}
+
+-(void)dismissKeyboard {
+    [_textField resignFirstResponder];
+}
 
 - (void)viewDidLoad
 {
+    [_textField setDelegate:self];
+    _textField.placeholder = @"Enter Age";
+    _textField.returnKeyType=UIReturnKeyDone;
+    _textField.textAlignment = NSTextAlignmentCenter;
+    _textField.borderStyle = UITextBorderStyleRoundedRect;
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(dismissKeyboard)];
+    [tap setCancelsTouchesInView:NO];
+    [self.view addGestureRecognizer:tap];
     [super viewDidLoad];
-    UITextField *textField = [[UITextField alloc] initWithFrame:CGRectMake(350, 300, 300, 40)];
-    textField.borderStyle = UITextBorderStyleRoundedRect;
-    textField.font = [UIFont systemFontOfSize:20];
-    textField.placeholder = @"Enter Age";
-    textField.autocorrectionType = UITextAutocorrectionTypeNo;
-    textField.keyboardType = UIKeyboardTypeDefault;
-    textField.returnKeyType = UIReturnKeyDone;
-    textField.clearButtonMode = UITextFieldViewModeWhileEditing;
-    textField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
-   // textField.delegate = self;
-    [self.view addSubview:textField];
     //[textField release];
     // Do any additional setup after loading the view from its nib.
 }
