@@ -10,6 +10,7 @@
 #import "InStoreViewControllerDontThink.h"
 #import "InStoreViewControllerHomePage.h"
 #import "InStoreSession.h"
+#import "InStoreAppDelegate.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import <AVFoundation/AVFoundation.h>
 
