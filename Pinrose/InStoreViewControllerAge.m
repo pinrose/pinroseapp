@@ -56,7 +56,7 @@
     
     NSError *error;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:session
-                                                       options:NSJSONWritingPrettyPrinted // Pass 0 if you don't care about the readability of the generated string
+                                                       options:0 // Pass 0 if you don't care about the readability of the generated string
                                                          error:&error];
     
     
@@ -68,7 +68,8 @@
          [NSURL URLWithString:@"http://33c3ed39.ngrok.com/api/ipad_quiz/results"]];
         
         [request setHTTPMethod:@"POST"];
-        
+        [request setValue:@"application/json" forHTTPHeaderField:@"Content-type"];
+        [request setValue:@"application/json" forHTTPHeaderField:@"Accept"];
         [request setHTTPBody:jsonData];
         
         [[NSURLConnection alloc]
@@ -79,6 +80,15 @@
         
         //**************************************************************
         
+//        NSError *error;
+//        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:session
+//                                                           options:0
+//                                                             error:&error];
+//        
+//        if (!jsonData) {
+//            NSLog(@"Got an error: %@", error);
+//        } else {
+//            
 //            NSString *JSONString = [[NSString alloc] initWithBytes:[jsonData bytes] length:[jsonData length] encoding:NSUTF8StringEncoding];
 //            NSLog(@"JSON OUTPUT: %@", JSONString);
 //            NSURL *url = [NSURL URLWithString:@"http://33c3ed39.ngrok.com/api/ipad_quiz/results"];
