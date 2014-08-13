@@ -13,4 +13,5 @@
 @property (strong, nonatomic) InStoreViewControllerAge *ageViewController;
 @property (weak, nonatomic) IBOutlet UIImageView *firstResponseImage;
 @property (weak, nonatomic) IBOutlet UIImageView *secondResponseImage;
+@property (weak, nonatomic) IBOutlet UIImageView *bannerImage;
 @end
