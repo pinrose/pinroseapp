@@ -14,4 +14,5 @@
 @property (weak, nonatomic) IBOutlet UIImageView *firstResponseImage;
 @property (weak, nonatomic) IBOutlet UIImageView *secondResponseImage;
 @property (weak, nonatomic) IBOutlet UIImageView *bannerImage;
+@property (weak, nonatomic) IBOutlet UIImageView *lowerBarImage;
 @end

@@ -24,6 +24,9 @@
     }
     return self;
 }
+- (IBAction)recomendedProductsButton:(UIButton *)sender {
+    
+}
 - (IBAction)homeButton:(UIButton *)sender {
     UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Are you sure you want to go home?"
                                                      message:@"\n"
@@ -45,6 +48,8 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 }
 - (void)viewDidLoad
 {
+    [_lowerBarImage.layer setBorderColor: [[UIColor blackColor] CGColor]];
+    [_lowerBarImage.layer setBorderWidth: 1.0];
     [_bannerImage setImage:[UIImage imageNamed:@"topbar.jpg"]];
     NSMutableDictionary *firstResponse = [[NSMutableDictionary alloc] init];
     NSMutableDictionary *secondResponse = [[NSMutableDictionary alloc] init];
