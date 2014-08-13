@@ -9,11 +9,14 @@
 #import "InStoreViewControllerAge.h"
 #import "InStoreViewControllerHomePage.h"
 #import "InStoreSession.h"
+#import "InStoreReturnPageViewController.h"
+#import "SBJson.h"
 
 
 
 @interface InStoreViewControllerAge ()
 @property (nonatomic, retain) IBOutlet UITextField *textField;
+
 @end
 
 @implementation InStoreViewControllerAge
@@ -75,13 +78,22 @@
         NSData *response = [NSURLConnection sendSynchronousRequest:request
                                                  returningResponse:nil error:nil];
         
-        NSDictionary *myDictionary = (NSDictionary*) [NSKeyedUnarchiver unarchiveObjectWithData:response];
+        //NSDictionary *myDictionary = (NSDictionary*) [NSKeyedUnarchiver unarchiveObjectWithData:response];
         NSString *json_string = [[NSString alloc] initWithData:response encoding:NSUTF8StringEncoding];
         
         NSDictionary *results = [json_string JSONValue];
-        NSArray *tweets = [[results objectForKey:@"messages"] objectForKey:@"message"];
-        NSLog(firstResult);
+        NSArray *resultArray = [results valueForKeyPath:@"results.variant.product.name"];
+        NSLog(@"%@",resultArray);
         
+        [[InStoreSession firstResults] setObject:[resultArray objectAtIndex:0] forKey:@"firstReturn"];
+        [[InStoreSession secondResults] setObject:[resultArray objectAtIndex:1] forKey:@"secondReturn"];
+        
+        
+        
+        
+        
+        InStoreReturnPageViewController *returnPage = [[InStoreReturnPageViewController alloc] initWithNibName:nil bundle:nil];
+        [self presentViewController:returnPage animated:YES completion:NULL];
         //we're just going to initialize the new results page. then in the onload method we'll say if such and such string is equal
         //to this then set the images to this and so forth.
         

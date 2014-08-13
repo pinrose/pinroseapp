@@ -7,6 +7,8 @@
 //
 
 #import "InStoreReturnPageViewController.h"
+#import "InStoreViewControllerAge.h"
+#import "InStoreSession.h"
 
 @interface InStoreReturnPageViewController ()
 
@@ -25,6 +27,24 @@
 
 - (void)viewDidLoad
 {
+    NSMutableDictionary *firstResponse = [[NSMutableDictionary alloc] init];
+    NSMutableDictionary *secondResponse = [[NSMutableDictionary alloc] init];
+    firstResponse = InStoreSession.firstResults;
+    secondResponse = InStoreSession.secondResults;
+    NSString *first = [firstResponse objectForKey:@"firstReturn"];
+    NSString *second = [firstResponse objectForKey:@"secondReturn"];
+    
+    
+    if ([first  isEqual: @"PILLOWTALK POET"]) {
+        NSLog(@"PILLOWTALK POET");
+    }
+    if ([first  isEqual: @"BALLROOM PHILOSOPHER"]) {
+        NSLog(@"BALLROOM PHILOSOPHER");
+    }
+    
+    
+//    NSLog(@"first response in return page: %@", firstResponse);
+//    NSLog(@"first response in return page: %@", secondResponse);
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 }

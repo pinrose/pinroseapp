@@ -12,6 +12,8 @@
 
 static NSMutableDictionary *_session;
 static NSMutableDictionary *_sessions;
+static NSMutableDictionary *_firstResult;
+static NSMutableDictionary *_secondResult;
 
 + (NSMutableDictionary *) sessionVariables {
     if (!_session) {
@@ -29,5 +31,24 @@ static NSMutableDictionary *_sessions;
     
     return _sessions;
     
+}
+
++ (NSMutableDictionary *) firstResults {
+    if (!_firstResult) {
+        _firstResult = [[NSMutableDictionary alloc] init];
+        
+    }
+    
+    return _firstResult;
+}
+
+
++ (NSMutableDictionary *) secondResults {
+    if (!_secondResult) {
+        _secondResult = [[NSMutableDictionary alloc] init];
+        
+    }
+    
+    return _secondResult;
 }
 @end

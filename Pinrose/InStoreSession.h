@@ -12,6 +12,8 @@
 
 + (NSMutableDictionary *) sessionVariables;
 + (NSMutableDictionary *) sessionDictionary;
++ (NSMutableDictionary *) firstResults;
++ (NSMutableDictionary *) secondResults;
 @end
 
 

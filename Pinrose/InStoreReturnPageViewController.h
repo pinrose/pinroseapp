@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "InStoreViewControllerAge.h"
 
 @interface InStoreReturnPageViewController : UIViewController
-
+@property (strong, nonatomic) InStoreViewControllerAge *ageViewController;
+@property (weak, nonatomic) IBOutlet UIImageView *firstResponseImage;
+@property (weak, nonatomic) IBOutlet UIImageView *secondResponseImage;
 @end
