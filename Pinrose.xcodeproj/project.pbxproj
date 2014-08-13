@@ -71,28 +71,6 @@
 		EE9B6499197AFB2700AD9BDB /* progress6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6490197AFB2700AD9BDB /* progress6.jpg */; };
 		EE9B649A197AFB2700AD9BDB /* progress5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6491197AFB2700AD9BDB /* progress5.jpg */; };
 		EE9B649B197AFB2700AD9BDB /* progress4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE9B6492197AFB2700AD9BDB /* progress4.jpg */; };
-		EEAE98C11980110900D19F1A /* ReturnOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98BF1980110900D19F1A /* ReturnOne.m */; };
-		EEAE98C21980110900D19F1A /* ReturnOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98C01980110900D19F1A /* ReturnOne.xib */; };
-		EEAE98C6198014B100D19F1A /* ReturnTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98C4198014B100D19F1A /* ReturnTwo.m */; };
-		EEAE98C7198014B100D19F1A /* ReturnTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98C5198014B100D19F1A /* ReturnTwo.xib */; };
-		EEAE98CB198014BB00D19F1A /* ReturnThree.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98C9198014BB00D19F1A /* ReturnThree.m */; };
-		EEAE98CC198014BB00D19F1A /* ReturnThree.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98CA198014BB00D19F1A /* ReturnThree.xib */; };
-		EEAE98D0198014C700D19F1A /* ReturnFour.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98CE198014C700D19F1A /* ReturnFour.m */; };
-		EEAE98D1198014C700D19F1A /* ReturnFour.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98CF198014C700D19F1A /* ReturnFour.xib */; };
-		EEAE98D5198014DD00D19F1A /* ReturnFive.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98D3198014DD00D19F1A /* ReturnFive.m */; };
-		EEAE98D6198014DD00D19F1A /* ReturnFive.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98D4198014DD00D19F1A /* ReturnFive.xib */; };
-		EEAE98DA198014E700D19F1A /* ReturnSix.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98D8198014E700D19F1A /* ReturnSix.m */; };
-		EEAE98DB198014E700D19F1A /* ReturnSix.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98D9198014E700D19F1A /* ReturnSix.xib */; };
-		EEAE98DF198014F100D19F1A /* ReturnSeven.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98DD198014F100D19F1A /* ReturnSeven.m */; };
-		EEAE98E0198014F100D19F1A /* ReturnSeven.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98DE198014F100D19F1A /* ReturnSeven.xib */; };
-		EEAE98E4198014FC00D19F1A /* ReturnEight.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98E2198014FC00D19F1A /* ReturnEight.m */; };
-		EEAE98E5198014FC00D19F1A /* ReturnEight.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98E3198014FC00D19F1A /* ReturnEight.xib */; };
-		EEAE98E91980150600D19F1A /* ReturnNine.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98E71980150500D19F1A /* ReturnNine.m */; };
-		EEAE98EA1980150600D19F1A /* ReturnNine.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98E81980150600D19F1A /* ReturnNine.xib */; };
-		EEAE98EE1980150F00D19F1A /* ReturnTen.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98EC1980150F00D19F1A /* ReturnTen.m */; };
-		EEAE98EF1980150F00D19F1A /* ReturnTen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98ED1980150F00D19F1A /* ReturnTen.xib */; };
-		EEAE98F31980151900D19F1A /* ReturnEleven.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAE98F11980151900D19F1A /* ReturnEleven.m */; };
-		EEAE98F41980151900D19F1A /* ReturnEleven.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98F21980151900D19F1A /* ReturnEleven.xib */; };
 		EEAE990819802A0000D19F1A /* 30ballroom_philosopher.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98F519802A0000D19F1A /* 30ballroom_philosopher.png */; };
 		EEAE990919802A0000D19F1A /* 30campfire_rebel.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98F619802A0000D19F1A /* 30campfire_rebel.png */; };
 		EEAE990A19802A0000D19F1A /* 30merry_maker.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAE98F719802A0000D19F1A /* 30merry_maker.png */; };
@@ -117,6 +95,8 @@
 		EEAE9961198FED7900D19F1A /* Circle1.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAE9960198FED7900D19F1A /* Circle1.png */; };
 		EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */; };
 		EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */; };
+		EEB94E96199AC77500E56BF4 /* InStoreReturnPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB94E94199AC77500E56BF4 /* InStoreReturnPageViewController.m */; };
+		EEB94E97199AC77500E56BF4 /* InStoreReturnPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB94E95199AC77500E56BF4 /* InStoreReturnPageViewController.xib */; };
 		EECAA63D196F0372008A7E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63C196F0372008A7E50 /* Foundation.framework */; };
 		EECAA63F196F0372008A7E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63E196F0372008A7E50 /* CoreGraphics.framework */; };
 		EECAA641196F0372008A7E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA640196F0372008A7E50 /* UIKit.framework */; };
@@ -248,39 +228,6 @@
 		EE9B6490197AFB2700AD9BDB /* progress6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress6.jpg; sourceTree = "<group>"; };
 		EE9B6491197AFB2700AD9BDB /* progress5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress5.jpg; sourceTree = "<group>"; };
 		EE9B6492197AFB2700AD9BDB /* progress4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = progress4.jpg; sourceTree = "<group>"; };
-		EEAE98BE1980110900D19F1A /* ReturnOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnOne.h; sourceTree = "<group>"; };
-		EEAE98BF1980110900D19F1A /* ReturnOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnOne.m; sourceTree = "<group>"; };
-		EEAE98C01980110900D19F1A /* ReturnOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnOne.xib; sourceTree = "<group>"; };
-		EEAE98C3198014B100D19F1A /* ReturnTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnTwo.h; sourceTree = "<group>"; };
-		EEAE98C4198014B100D19F1A /* ReturnTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnTwo.m; sourceTree = "<group>"; };
-		EEAE98C5198014B100D19F1A /* ReturnTwo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnTwo.xib; sourceTree = "<group>"; };
-		EEAE98C8198014BB00D19F1A /* ReturnThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnThree.h; sourceTree = "<group>"; };
-		EEAE98C9198014BB00D19F1A /* ReturnThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnThree.m; sourceTree = "<group>"; };
-		EEAE98CA198014BB00D19F1A /* ReturnThree.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnThree.xib; sourceTree = "<group>"; };
-		EEAE98CD198014C700D19F1A /* ReturnFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnFour.h; sourceTree = "<group>"; };
-		EEAE98CE198014C700D19F1A /* ReturnFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnFour.m; sourceTree = "<group>"; };
-		EEAE98CF198014C700D19F1A /* ReturnFour.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnFour.xib; sourceTree = "<group>"; };
-		EEAE98D2198014DD00D19F1A /* ReturnFive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnFive.h; sourceTree = "<group>"; };
-		EEAE98D3198014DD00D19F1A /* ReturnFive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnFive.m; sourceTree = "<group>"; };
-		EEAE98D4198014DD00D19F1A /* ReturnFive.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnFive.xib; sourceTree = "<group>"; };
-		EEAE98D7198014E700D19F1A /* ReturnSix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnSix.h; sourceTree = "<group>"; };
-		EEAE98D8198014E700D19F1A /* ReturnSix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnSix.m; sourceTree = "<group>"; };
-		EEAE98D9198014E700D19F1A /* ReturnSix.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnSix.xib; sourceTree = "<group>"; };
-		EEAE98DC198014F100D19F1A /* ReturnSeven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnSeven.h; sourceTree = "<group>"; };
-		EEAE98DD198014F100D19F1A /* ReturnSeven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnSeven.m; sourceTree = "<group>"; };
-		EEAE98DE198014F100D19F1A /* ReturnSeven.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnSeven.xib; sourceTree = "<group>"; };
-		EEAE98E1198014FC00D19F1A /* ReturnEight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnEight.h; sourceTree = "<group>"; };
-		EEAE98E2198014FC00D19F1A /* ReturnEight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnEight.m; sourceTree = "<group>"; };
-		EEAE98E3198014FC00D19F1A /* ReturnEight.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnEight.xib; sourceTree = "<group>"; };
-		EEAE98E61980150500D19F1A /* ReturnNine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnNine.h; sourceTree = "<group>"; };
-		EEAE98E71980150500D19F1A /* ReturnNine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnNine.m; sourceTree = "<group>"; };
-		EEAE98E81980150600D19F1A /* ReturnNine.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnNine.xib; sourceTree = "<group>"; };
-		EEAE98EB1980150F00D19F1A /* ReturnTen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnTen.h; sourceTree = "<group>"; };
-		EEAE98EC1980150F00D19F1A /* ReturnTen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnTen.m; sourceTree = "<group>"; };
-		EEAE98ED1980150F00D19F1A /* ReturnTen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnTen.xib; sourceTree = "<group>"; };
-		EEAE98F01980151900D19F1A /* ReturnEleven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReturnEleven.h; sourceTree = "<group>"; };
-		EEAE98F11980151900D19F1A /* ReturnEleven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReturnEleven.m; sourceTree = "<group>"; };
-		EEAE98F21980151900D19F1A /* ReturnEleven.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReturnEleven.xib; sourceTree = "<group>"; };
 		EEAE98F519802A0000D19F1A /* 30ballroom_philosopher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30ballroom_philosopher.png; sourceTree = "<group>"; };
 		EEAE98F619802A0000D19F1A /* 30campfire_rebel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30campfire_rebel.png; sourceTree = "<group>"; };
 		EEAE98F719802A0000D19F1A /* 30merry_maker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30merry_maker.png; sourceTree = "<group>"; };
@@ -306,6 +253,9 @@
 		EEB5521F19709144000EEDDF /* InStoreViewControllerAge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreViewControllerAge.h; sourceTree = "<group>"; };
 		EEB5522019709144000EEDDF /* InStoreViewControllerAge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreViewControllerAge.m; sourceTree = "<group>"; };
 		EEB5522119709144000EEDDF /* InStoreViewControllerAge.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreViewControllerAge.xib; sourceTree = "<group>"; };
+		EEB94E93199AC77500E56BF4 /* InStoreReturnPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreReturnPageViewController.h; sourceTree = "<group>"; };
+		EEB94E94199AC77500E56BF4 /* InStoreReturnPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreReturnPageViewController.m; sourceTree = "<group>"; };
+		EEB94E95199AC77500E56BF4 /* InStoreReturnPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreReturnPageViewController.xib; sourceTree = "<group>"; };
 		EECAA639196F0372008A7E50 /* Pinrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinrose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECAA63C196F0372008A7E50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EECAA63E196F0372008A7E50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -410,39 +360,9 @@
 		EEAE98BB1980106E00D19F1A /* ReturnPages */ = {
 			isa = PBXGroup;
 			children = (
-				EEAE98BE1980110900D19F1A /* ReturnOne.h */,
-				EEAE98BF1980110900D19F1A /* ReturnOne.m */,
-				EEAE98C01980110900D19F1A /* ReturnOne.xib */,
-				EEAE98C3198014B100D19F1A /* ReturnTwo.h */,
-				EEAE98C4198014B100D19F1A /* ReturnTwo.m */,
-				EEAE98C5198014B100D19F1A /* ReturnTwo.xib */,
-				EEAE98C8198014BB00D19F1A /* ReturnThree.h */,
-				EEAE98C9198014BB00D19F1A /* ReturnThree.m */,
-				EEAE98CA198014BB00D19F1A /* ReturnThree.xib */,
-				EEAE98CD198014C700D19F1A /* ReturnFour.h */,
-				EEAE98CE198014C700D19F1A /* ReturnFour.m */,
-				EEAE98CF198014C700D19F1A /* ReturnFour.xib */,
-				EEAE98D2198014DD00D19F1A /* ReturnFive.h */,
-				EEAE98D3198014DD00D19F1A /* ReturnFive.m */,
-				EEAE98D4198014DD00D19F1A /* ReturnFive.xib */,
-				EEAE98D7198014E700D19F1A /* ReturnSix.h */,
-				EEAE98D8198014E700D19F1A /* ReturnSix.m */,
-				EEAE98D9198014E700D19F1A /* ReturnSix.xib */,
-				EEAE98DC198014F100D19F1A /* ReturnSeven.h */,
-				EEAE98DD198014F100D19F1A /* ReturnSeven.m */,
-				EEAE98DE198014F100D19F1A /* ReturnSeven.xib */,
-				EEAE98E1198014FC00D19F1A /* ReturnEight.h */,
-				EEAE98E2198014FC00D19F1A /* ReturnEight.m */,
-				EEAE98E3198014FC00D19F1A /* ReturnEight.xib */,
-				EEAE98E61980150500D19F1A /* ReturnNine.h */,
-				EEAE98E71980150500D19F1A /* ReturnNine.m */,
-				EEAE98E81980150600D19F1A /* ReturnNine.xib */,
-				EEAE98EB1980150F00D19F1A /* ReturnTen.h */,
-				EEAE98EC1980150F00D19F1A /* ReturnTen.m */,
-				EEAE98ED1980150F00D19F1A /* ReturnTen.xib */,
-				EEAE98F01980151900D19F1A /* ReturnEleven.h */,
-				EEAE98F11980151900D19F1A /* ReturnEleven.m */,
-				EEAE98F21980151900D19F1A /* ReturnEleven.xib */,
+				EEB94E93199AC77500E56BF4 /* InStoreReturnPageViewController.h */,
+				EEB94E94199AC77500E56BF4 /* InStoreReturnPageViewController.m */,
+				EEB94E95199AC77500E56BF4 /* InStoreReturnPageViewController.xib */,
 			);
 			name = ReturnPages;
 			sourceTree = "<group>";
@@ -756,14 +676,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9B64811979F78A00AD9BDB /* Background2.jpg in Resources */,
-				EEAE98E5198014FC00D19F1A /* ReturnEight.xib in Resources */,
 				EEAE990A19802A0000D19F1A /* 30merry_maker.png in Resources */,
 				EE9B6496197AFB2700AD9BDB /* progress9.jpg in Resources */,
 				EE9B6493197AFB2700AD9BDB /* progress12.jpg in Resources */,
 				EEAE991319802A0000D19F1A /* 70merry_maker.png in Resources */,
 				EE9B63A3197492DA00AD9BDB /* Beat1.aif in Resources */,
 				EE9B643F1979E4B800AD9BDB /* Circle 2.jpeg in Resources */,
-				EEAE98D1198014C700D19F1A /* ReturnFour.xib in Resources */,
 				EE9B6498197AFB2700AD9BDB /* progress7.jpg in Resources */,
 				EE9B6494197AFB2700AD9BDB /* progress11.jpg in Resources */,
 				EE9B646F1979F78A00AD9BDB /* Lips3.jpg in Resources */,
@@ -773,7 +691,6 @@
 				EE9B64741979F78A00AD9BDB /* Color3.jpg in Resources */,
 				EE9B6495197AFB2700AD9BDB /* progress10.jpg in Resources */,
 				EEAE991619802A0000D19F1A /* 70renegade_scarlet.png in Resources */,
-				EEAE98EA1980150600D19F1A /* ReturnNine.xib in Resources */,
 				EE9B64831979F78A00AD9BDB /* Art 1.jpg in Resources */,
 				EE9B64681979F78A00AD9BDB /* Texture2.jpg in Resources */,
 				EE9B64761979F78A00AD9BDB /* Color1.jpg in Resources */,
@@ -781,7 +698,6 @@
 				EE47E4D0197ED31B005DC12D /* home (1).png in Resources */,
 				EEAE991719802A0000D19F1A /* 70rooftop_socialite.png in Resources */,
 				EECAA6E8196F5847008A7E50 /* InStoreViewControllerNature.xib in Resources */,
-				EEAE98E0198014F100D19F1A /* ReturnSeven.xib in Resources */,
 				EECAA680196F042A008A7E50 /* InStoreViewControllerQuestion2.xib in Resources */,
 				EECAA655196F0372008A7E50 /* Images.xcassets in Resources */,
 				EE9B646B1979F78A00AD9BDB /* Sunset1.jpg in Resources */,
@@ -790,14 +706,11 @@
 				EECAA647196F0372008A7E50 /* InfoPlist.strings in Resources */,
 				EE47E4D2197EDEBE005DC12D /* zebra2 (1).jpg in Resources */,
 				EE9B647F1979F78A00AD9BDB /* Bathroom2.jpg in Resources */,
-				EEAE98C7198014B100D19F1A /* ReturnTwo.xib in Resources */,
 				EECAA6F7196F6A80008A7E50 /* InStoreViewControllerBathroom.xib in Resources */,
 				EE9B647D1979F78A00AD9BDB /* bathroom 1.jpg in Resources */,
 				EE9B64781979F78A00AD9BDB /* Car 4.jpg in Resources */,
 				EE9B64801979F78A00AD9BDB /* Background3.jpg in Resources */,
-				EEAE98C21980110900D19F1A /* ReturnOne.xib in Resources */,
 				EEAE990919802A0000D19F1A /* 30campfire_rebel.png in Resources */,
-				EEAE98CC198014BB00D19F1A /* ReturnThree.xib in Resources */,
 				EE9B647B1979F78A00AD9BDB /* Car 1.jpg in Resources */,
 				EE9B64751979F78A00AD9BDB /* Color2.jpg in Resources */,
 				EE9B63A4197492DA00AD9BDB /* high hat strut.aif in Resources */,
@@ -819,7 +732,6 @@
 				EE9B646A1979F78A00AD9BDB /* Sunset2.jpg in Resources */,
 				EE9B647A1979F78A00AD9BDB /* Car 2.jpg in Resources */,
 				EEAE991119802A0000D19F1A /* 70ballroom_philosopher.png in Resources */,
-				EEAE98DB198014E700D19F1A /* ReturnSix.xib in Resources */,
 				EE47E4CD197ED220005DC12D /* lips final.jpg in Resources */,
 				EEAE991C1980304400D19F1A /* topbar.jpg in Resources */,
 				EE47E4CB197ED220005DC12D /* 1 new.jpg in Resources */,
@@ -840,6 +752,7 @@
 				EE9B646E1979F78A00AD9BDB /* Lips4.jpg in Resources */,
 				EECAA650196F0372008A7E50 /* Main.storyboard in Resources */,
 				EE9B64871979F78A00AD9BDB /* Animal1.jpg in Resources */,
+				EEB94E97199AC77500E56BF4 /* InStoreReturnPageViewController.xib in Resources */,
 				EEAE991819802A0000D19F1A /* 70sugar_bandit.png in Resources */,
 				EE9B64721979F78A00AD9BDB /* Flower2.jpg in Resources */,
 				EE9B64671979F78A00AD9BDB /* Texture3.jpg in Resources */,
@@ -852,10 +765,7 @@
 				EE9B646D1979F78A00AD9BDB /* Shape 1.jpg in Resources */,
 				EE9B64821979F78A00AD9BDB /* Background1.jpg in Resources */,
 				EE9B6489197AEB0900AD9BDB /* Lips1.jpg in Resources */,
-				EEAE98F41980151900D19F1A /* ReturnEleven.xib in Resources */,
-				EEAE98D6198014DD00D19F1A /* ReturnFive.xib in Resources */,
 				EEAE990F19802A0000D19F1A /* 30surf_siren.png in Resources */,
-				EEAE98EF1980150F00D19F1A /* ReturnTen.xib in Resources */,
 				EE9B63A5197492DA00AD9BDB /* southern rock.aif in Resources */,
 				EE9B64661979F78A00AD9BDB /* zebra2.jpg in Resources */,
 				EE9B64791979F78A00AD9BDB /* Car 3.jpg in Resources */,
@@ -881,37 +791,27 @@
 			buildActionMask = 2147483647;
 			files = (
 				EECAA6E2196F55D2008A7E50 /* InStoreViewControllerPaintings.m in Sources */,
-				EEAE98D0198014C700D19F1A /* ReturnFour.m in Sources */,
 				EECAA700196F6C3F008A7E50 /* InStoreViewControllerTextures.m in Sources */,
 				EE47E4C0197DBD48005DC12D /* InStoreViewControllerDontThink.m in Sources */,
-				EEAE98D5198014DD00D19F1A /* ReturnFive.m in Sources */,
 				EECAA649196F0372008A7E50 /* main.m in Sources */,
-				EEAE98E91980150600D19F1A /* ReturnNine.m in Sources */,
 				EECAA64D196F0372008A7E50 /* InStoreAppDelegate.m in Sources */,
 				EECAA675196F0409008A7E50 /* InStoreViewControllerQuestion1.m in Sources */,
 				EE9B64381979954E00AD9BDB /* InStoreViewControllerHome.m in Sources */,
 				EECAA6D8196F52C5008A7E50 /* InStoreViewControllerColor1.m in Sources */,
 				EECAA6EC196F683F008A7E50 /* InStoreViewControllerSunsets.m in Sources */,
 				EECAA6DD196F54AE008A7E50 /* InStoreViewControllerColor2.m in Sources */,
-				EEAE98EE1980150F00D19F1A /* ReturnTen.m in Sources */,
 				EEB5522219709144000EEDDF /* InStoreViewControllerAge.m in Sources */,
 				EECAA67F196F042A008A7E50 /* InStoreViewControllerQuestion2.m in Sources */,
 				EECAA6E7196F5847008A7E50 /* InStoreViewControllerNature.m in Sources */,
 				EE47E4C4197ECD02005DC12D /* InStoreSession.m in Sources */,
 				EE9B639A197475FA00AD9BDB /* AudioController.m in Sources */,
 				EECAA653196F0372008A7E50 /* InStoreViewController.m in Sources */,
-				EEAE98CB198014BB00D19F1A /* ReturnThree.m in Sources */,
-				EEAE98C6198014B100D19F1A /* ReturnTwo.m in Sources */,
+				EEB94E96199AC77500E56BF4 /* InStoreReturnPageViewController.m in Sources */,
 				EE9B643B1979C8EB00AD9BDB /* InStoreAppTimer.m in Sources */,
 				EECAA6D3196F5033008A7E50 /* InStoreViewControllerLips.m in Sources */,
-				EEAE98DA198014E700D19F1A /* ReturnSix.m in Sources */,
 				EECAA6F1196F68F9008A7E50 /* InStoreViewControllerAnimals.m in Sources */,
-				EEAE98DF198014F100D19F1A /* ReturnSeven.m in Sources */,
-				EEAE98E4198014FC00D19F1A /* ReturnEight.m in Sources */,
-				EEAE98C11980110900D19F1A /* ReturnOne.m in Sources */,
 				EE47E4BB197DBA9F005DC12D /* InStoreViewControllerHomePage.m in Sources */,
 				EECAA6FB196F6C2D008A7E50 /* InStoreViewControllerZebra.m in Sources */,
-				EEAE98F31980151900D19F1A /* ReturnEleven.m in Sources */,
 				EECAA6F6196F6A80008A7E50 /* InStoreViewControllerBathroom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

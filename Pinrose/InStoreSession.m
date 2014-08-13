@@ -11,6 +11,7 @@
 @implementation InStoreSession
 
 static NSMutableDictionary *_session;
+static NSMutableDictionary *_sessions;
 
 + (NSMutableDictionary *) sessionVariables {
     if (!_session) {
@@ -18,6 +19,15 @@ static NSMutableDictionary *_session;
     }
     
     return _session;
+    
+}
+
++ (NSMutableDictionary *) sessionDictionary {
+    if (!_sessions) {
+        _sessions = [[NSMutableDictionary alloc] init];
+    }
+    
+    return _sessions;
     
 }
 @end

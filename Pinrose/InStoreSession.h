@@ -11,6 +11,7 @@
 @interface InStoreSession : NSObject
 
 + (NSMutableDictionary *) sessionVariables;
++ (NSMutableDictionary *) sessionDictionary;
 @end
 
 
