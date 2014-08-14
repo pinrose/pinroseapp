@@ -116,6 +116,8 @@
 		EEB94ECD199C25DC00E56BF4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEB94ECC199C25DC00E56BF4 /* Settings.bundle */; };
 		EEB94ECF199C2D8A00E56BF4 /* FINALIMAGE.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94ECE199C2D8A00E56BF4 /* FINALIMAGE.png */; };
 		EEB94ED1199C373100E56BF4 /* LandscapeRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94ED0199C373100E56BF4 /* LandscapeRetina.png */; };
+		EEB94ED3199C3C1200E56BF4 /* pillowtalkpoet.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94ED2199C3C1200E56BF4 /* pillowtalkpoet.png */; };
+		EEB94EDF199C413400E56BF4 /* Icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94EDE199C413400E56BF4 /* Icon2.png */; };
 		EECAA63D196F0372008A7E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63C196F0372008A7E50 /* Foundation.framework */; };
 		EECAA63F196F0372008A7E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63E196F0372008A7E50 /* CoreGraphics.framework */; };
 		EECAA641196F0372008A7E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA640196F0372008A7E50 /* UIKit.framework */; };
@@ -308,6 +310,8 @@
 		EEB94ECC199C25DC00E56BF4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		EEB94ECE199C2D8A00E56BF4 /* FINALIMAGE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FINALIMAGE.png; path = ../../../../../Desktop/FINALIMAGE.png; sourceTree = "<group>"; };
 		EEB94ED0199C373100E56BF4 /* LandscapeRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LandscapeRetina.png; path = ../../../../../Desktop/LandscapeRetina.png; sourceTree = "<group>"; };
+		EEB94ED2199C3C1200E56BF4 /* pillowtalkpoet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pillowtalkpoet.png; path = ../../../../../Desktop/pillowtalkpoet.png; sourceTree = "<group>"; };
+		EEB94EDE199C413400E56BF4 /* Icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon2.png; sourceTree = "<group>"; };
 		EECAA639196F0372008A7E50 /* Pinrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinrose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECAA63C196F0372008A7E50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EECAA63E196F0372008A7E50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -531,6 +535,8 @@
 		EECAA643196F0372008A7E50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EEB94ED2199C3C1200E56BF4 /* pillowtalkpoet.png */,
+				EEB94EDE199C413400E56BF4 /* Icon2.png */,
 				EEB94ED0199C373100E56BF4 /* LandscapeRetina.png */,
 				EEB94ECE199C2D8A00E56BF4 /* FINALIMAGE.png */,
 				EEB94EC5199C222A00E56BF4 /* settings1.png */,
@@ -801,6 +807,7 @@
 				EE47E4D2197EDEBE005DC12D /* zebra2 (1).jpg in Resources */,
 				EE9B647F1979F78A00AD9BDB /* Bathroom2.jpg in Resources */,
 				EECAA6F7196F6A80008A7E50 /* InStoreViewControllerBathroom.xib in Resources */,
+				EEB94ED3199C3C1200E56BF4 /* pillowtalkpoet.png in Resources */,
 				EE9B647D1979F78A00AD9BDB /* bathroom 1.jpg in Resources */,
 				EE9B64781979F78A00AD9BDB /* Car 4.jpg in Resources */,
 				EEB94ECD199C25DC00E56BF4 /* Settings.bundle in Resources */,
@@ -846,6 +853,7 @@
 				EEAE991419802A0000D19F1A /* 70moonlight_gypsy.png in Resources */,
 				EEAE991919802A0000D19F1A /* 70surf_siren.png in Resources */,
 				EE9B6497197AFB2700AD9BDB /* progress8.jpg in Resources */,
+				EEB94EDF199C413400E56BF4 /* Icon2.png in Resources */,
 				EECAA6D4196F5033008A7E50 /* InStoreViewControllerLips.xib in Resources */,
 				EE9B649A197AFB2700AD9BDB /* progress5.jpg in Resources */,
 				EE9B646E1979F78A00AD9BDB /* Lips4.jpg in Resources */,

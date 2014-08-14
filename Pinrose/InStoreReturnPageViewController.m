@@ -121,7 +121,7 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
         [_secondResponseImage setImage:[UIImage imageNamed:@"30treehouse_royal.png"]];
     }
     if ([second  isEqual: @"PILLOWTALK POET"]) {
-        [_secondResponseImage setImage:[UIImage imageNamed:@"30pillowtalk_poet.png"]];
+        [_secondResponseImage setImage:[UIImage imageNamed:@"pillowtalkpoet.png"]];
     }
     
 //    NSLog(@"first response in return page: %@", firstResponse);
