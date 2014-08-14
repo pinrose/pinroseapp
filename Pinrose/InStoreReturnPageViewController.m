@@ -10,6 +10,7 @@
 #import "InStoreViewControllerAge.h"
 #import "InStoreSession.h"
 #import "InStoreViewControllerHomePage.h"
+#import "InStoreRecomendedProducts.h"
 
 @interface InStoreReturnPageViewController ()
 @end
@@ -25,14 +26,15 @@
     return self;
 }
 - (IBAction)recomendedProductsButton:(UIButton *)sender {
-    
+    InStoreRecomendedProducts *recomendedProducts = [[InStoreRecomendedProducts alloc] initWithNibName:nil bundle:nil];
+    [self presentViewController:recomendedProducts animated:YES completion:NULL];
 }
 - (IBAction)homeButton:(UIButton *)sender {
-    UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Are you sure you want to go home?"
+    UIAlertView *prompt = [[UIAlertView alloc] initWithTitle:@"Are you sure you want to start over?"
                                                      message:@"\n"
                                                     delegate:self
                                            cancelButtonTitle:@"Cancel"
-                                           otherButtonTitles:@"Home", nil];
+                                           otherButtonTitles:@"Yes!", nil];
     
     [prompt show];
 }
@@ -48,6 +50,8 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 }
 - (void)viewDidLoad
 {
+    [_bannerImage.layer setBorderColor: [[UIColor blackColor] CGColor]];
+    [_bannerImage.layer setBorderWidth: 1.0];
     [_lowerBarImage.layer setBorderColor: [[UIColor blackColor] CGColor]];
     [_lowerBarImage.layer setBorderWidth: 1.0];
     [_bannerImage setImage:[UIImage imageNamed:@"topbar.jpg"]];

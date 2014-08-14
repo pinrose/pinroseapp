@@ -19,21 +19,21 @@
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K8t-Vk-jCi">
-                    <rect key="frame" x="512" y="45" width="514" height="690"/>
+                    <rect key="frame" x="512" y="45" width="514" height="680"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qFo-kY-o8l">
-                    <rect key="frame" x="-3" y="45" width="520" height="690"/>
+                    <rect key="frame" x="-3" y="45" width="520" height="680"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x1A-BQ-lZ6">
-                    <rect key="frame" x="0.0" y="0.0" width="1024" height="60"/>
+                    <rect key="frame" x="0.0" y="-5" width="1024" height="60"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FmA-QH-6Lp">
-                    <rect key="frame" x="475" y="491" width="75" height="75"/>
+                    <rect key="frame" x="480" y="491" width="75" height="75"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.92941182850000004" green="0.66274511810000003" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
+                    <color key="backgroundColor" red="1" green="0.61776893107480357" blue="0.8317572565639143" alpha="1" colorSpace="calibratedRGB"/>
                     <state key="normal" backgroundImage="home (1).png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
@@ -47,16 +47,15 @@
                     </connections>
                 </button>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DOB-gO-zVU">
-                    <rect key="frame" x="-2" y="725" width="1028" height="45"/>
+                    <rect key="frame" x="-2" y="715" width="1028" height="55"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vxE-ZT-FD0">
-                    <rect key="frame" x="350" y="733" width="325" height="30"/>
+                    <rect key="frame" x="350" y="725" width="325" height="35"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <color key="backgroundColor" red="0.92941182850000004" green="0.66274511810000003" blue="0.91372555489999996" alpha="1" colorSpace="deviceRGB"/>
-                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                    <state key="normal" title="SEE MY RECOMENDED PRODUCTS!">
+                    <color key="backgroundColor" red="0.9545200892857143" green="0.61409581814775438" blue="0.95082836986850516" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="SEE MY RECOMMENDED PRODUCTS!">
                         <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>

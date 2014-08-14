@@ -109,6 +109,13 @@
 		EEB94EBB199BDAFF00E56BF4 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB94EAD199BDAFF00E56BF4 /* SBJsonTokeniser.m */; };
 		EEB94EBC199BDAFF00E56BF4 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB94EAF199BDAFF00E56BF4 /* SBJsonUTF8Stream.m */; };
 		EEB94EBD199BDAFF00E56BF4 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB94EB1199BDAFF00E56BF4 /* SBJsonWriter.m */; };
+		EEB94EC1199C1C6000E56BF4 /* InStoreRecomendedProducts.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB94EBF199C1C6000E56BF4 /* InStoreRecomendedProducts.m */; };
+		EEB94EC2199C1C6000E56BF4 /* InStoreRecomendedProducts.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB94EC0199C1C6000E56BF4 /* InStoreRecomendedProducts.xib */; };
+		EEB94EC4199C21E200E56BF4 /* settings.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = EEB94EC3199C21E200E56BF4 /* settings.jpeg */; };
+		EEB94EC6199C222A00E56BF4 /* settings1.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94EC5199C222A00E56BF4 /* settings1.png */; };
+		EEB94ECD199C25DC00E56BF4 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EEB94ECC199C25DC00E56BF4 /* Settings.bundle */; };
+		EEB94ECF199C2D8A00E56BF4 /* FINALIMAGE.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94ECE199C2D8A00E56BF4 /* FINALIMAGE.png */; };
+		EEB94ED1199C373100E56BF4 /* LandscapeRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94ED0199C373100E56BF4 /* LandscapeRetina.png */; };
 		EECAA63D196F0372008A7E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63C196F0372008A7E50 /* Foundation.framework */; };
 		EECAA63F196F0372008A7E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63E196F0372008A7E50 /* CoreGraphics.framework */; };
 		EECAA641196F0372008A7E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA640196F0372008A7E50 /* UIKit.framework */; };
@@ -293,6 +300,14 @@
 		EEB94EAF199BDAFF00E56BF4 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
 		EEB94EB0199BDAFF00E56BF4 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
 		EEB94EB1199BDAFF00E56BF4 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		EEB94EBE199C1C6000E56BF4 /* InStoreRecomendedProducts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InStoreRecomendedProducts.h; sourceTree = "<group>"; };
+		EEB94EBF199C1C6000E56BF4 /* InStoreRecomendedProducts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InStoreRecomendedProducts.m; sourceTree = "<group>"; };
+		EEB94EC0199C1C6000E56BF4 /* InStoreRecomendedProducts.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InStoreRecomendedProducts.xib; sourceTree = "<group>"; };
+		EEB94EC3199C21E200E56BF4 /* settings.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = settings.jpeg; path = ../../../../../Desktop/settings.jpeg; sourceTree = "<group>"; };
+		EEB94EC5199C222A00E56BF4 /* settings1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = settings1.png; path = ../../../../../Desktop/settings1.png; sourceTree = "<group>"; };
+		EEB94ECC199C25DC00E56BF4 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		EEB94ECE199C2D8A00E56BF4 /* FINALIMAGE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = FINALIMAGE.png; path = ../../../../../Desktop/FINALIMAGE.png; sourceTree = "<group>"; };
+		EEB94ED0199C373100E56BF4 /* LandscapeRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LandscapeRetina.png; path = ../../../../../Desktop/LandscapeRetina.png; sourceTree = "<group>"; };
 		EECAA639196F0372008A7E50 /* Pinrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinrose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECAA63C196F0372008A7E50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EECAA63E196F0372008A7E50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -400,6 +415,9 @@
 				EEB94E93199AC77500E56BF4 /* InStoreReturnPageViewController.h */,
 				EEB94E94199AC77500E56BF4 /* InStoreReturnPageViewController.m */,
 				EEB94E95199AC77500E56BF4 /* InStoreReturnPageViewController.xib */,
+				EEB94EBE199C1C6000E56BF4 /* InStoreRecomendedProducts.h */,
+				EEB94EBF199C1C6000E56BF4 /* InStoreRecomendedProducts.m */,
+				EEB94EC0199C1C6000E56BF4 /* InStoreRecomendedProducts.xib */,
 			);
 			name = ReturnPages;
 			sourceTree = "<group>";
@@ -494,6 +512,7 @@
 		EECAA642196F0372008A7E50 /* Pinrose */ = {
 			isa = PBXGroup;
 			children = (
+				EEB94ECC199C25DC00E56BF4 /* Settings.bundle */,
 				EEB94E98199BDAFF00E56BF4 /* Classes */,
 				EEAE98BD1980109A00D19F1A /* models */,
 				EEAE98BB1980106E00D19F1A /* ReturnPages */,
@@ -512,6 +531,10 @@
 		EECAA643196F0372008A7E50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EEB94ED0199C373100E56BF4 /* LandscapeRetina.png */,
+				EEB94ECE199C2D8A00E56BF4 /* FINALIMAGE.png */,
+				EEB94EC5199C222A00E56BF4 /* settings1.png */,
+				EEB94EC3199C21E200E56BF4 /* settings.jpeg */,
 				EEAE995E198FE6D700D19F1A /* musicPink.png */,
 				EEAE991B1980304400D19F1A /* topbar.jpg */,
 				EEAE98F519802A0000D19F1A /* 30ballroom_philosopher.png */,
@@ -780,6 +803,7 @@
 				EECAA6F7196F6A80008A7E50 /* InStoreViewControllerBathroom.xib in Resources */,
 				EE9B647D1979F78A00AD9BDB /* bathroom 1.jpg in Resources */,
 				EE9B64781979F78A00AD9BDB /* Car 4.jpg in Resources */,
+				EEB94ECD199C25DC00E56BF4 /* Settings.bundle in Resources */,
 				EE9B64801979F78A00AD9BDB /* Background3.jpg in Resources */,
 				EEAE990919802A0000D19F1A /* 30campfire_rebel.png in Resources */,
 				EE9B647B1979F78A00AD9BDB /* Car 1.jpg in Resources */,
@@ -791,14 +815,17 @@
 				EEAE991219802A0000D19F1A /* 70campfire_rebel.png in Resources */,
 				EEAE990819802A0000D19F1A /* 30ballroom_philosopher.png in Resources */,
 				EEAE990B19802A0000D19F1A /* 30moonlight_gypsy.png in Resources */,
+				EEB94EC4199C21E200E56BF4 /* settings.jpeg in Resources */,
 				EE47E4C1197DBD48005DC12D /* InStoreViewControllerDontThink.xib in Resources */,
 				EEAE991A19802A0000D19F1A /* 70treehouse_royal.png in Resources */,
 				EE9B64861979F78A00AD9BDB /* Animal2.jpg in Resources */,
 				EE9B647E1979F78A00AD9BDB /* Bathroom4.jpg in Resources */,
+				EEB94ECF199C2D8A00E56BF4 /* FINALIMAGE.png in Resources */,
 				EECAA6DE196F54AE008A7E50 /* InStoreViewControllerColor2.xib in Resources */,
 				EECAA6D9196F52C5008A7E50 /* InStoreViewControllerColor1.xib in Resources */,
 				EE47E4CA197ED220005DC12D /* 2 new.jpg in Resources */,
 				EEAE990E19802A0000D19F1A /* 30sugar_bandit.png in Resources */,
+				EEB94EC6199C222A00E56BF4 /* settings1.png in Resources */,
 				EE9B64691979F78A00AD9BDB /* Texture1.jpg in Resources */,
 				EE9B646A1979F78A00AD9BDB /* Sunset2.jpg in Resources */,
 				EE9B647A1979F78A00AD9BDB /* Car 2.jpg in Resources */,
@@ -814,6 +841,7 @@
 				EE9B64841979F78A00AD9BDB /* Art2.jpg in Resources */,
 				EEAE990D19802A0000D19F1A /* 30rooftop_socialite.png in Resources */,
 				EE9B64731979F78A00AD9BDB /* Flower1.jpg in Resources */,
+				EEB94EC2199C1C6000E56BF4 /* InStoreRecomendedProducts.xib in Resources */,
 				EE9B647C1979F78A00AD9BDB /* bathroom 3.jpg in Resources */,
 				EEAE991419802A0000D19F1A /* 70moonlight_gypsy.png in Resources */,
 				EEAE991919802A0000D19F1A /* 70surf_siren.png in Resources */,
@@ -835,6 +863,7 @@
 				EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */,
 				EE9B646D1979F78A00AD9BDB /* Shape 1.jpg in Resources */,
 				EE9B64821979F78A00AD9BDB /* Background1.jpg in Resources */,
+				EEB94ED1199C373100E56BF4 /* LandscapeRetina.png in Resources */,
 				EE9B6489197AEB0900AD9BDB /* Lips1.jpg in Resources */,
 				EEAE990F19802A0000D19F1A /* 30surf_siren.png in Resources */,
 				EE9B63A5197492DA00AD9BDB /* southern rock.aif in Resources */,
@@ -893,6 +922,7 @@
 				EECAA6D3196F5033008A7E50 /* InStoreViewControllerLips.m in Sources */,
 				EECAA6F1196F68F9008A7E50 /* InStoreViewControllerAnimals.m in Sources */,
 				EE47E4BB197DBA9F005DC12D /* InStoreViewControllerHomePage.m in Sources */,
+				EEB94EC1199C1C6000E56BF4 /* InStoreRecomendedProducts.m in Sources */,
 				EECAA6FB196F6C2D008A7E50 /* InStoreViewControllerZebra.m in Sources */,
 				EEB94EB2199BDAFF00E56BF4 /* NSObject+SBJson.m in Sources */,
 				EECAA6F6196F6A80008A7E50 /* InStoreViewControllerBathroom.m in Sources */,

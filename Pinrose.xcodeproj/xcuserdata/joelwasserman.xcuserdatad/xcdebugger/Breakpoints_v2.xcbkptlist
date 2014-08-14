@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pinrose/InStoreViewControllerQuestion1.m"
-            timestampString = "429136979.285243"
+            timestampString = "429666634.83387"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "272"
-            endingLineNumber = "272">
+            startingLineNumber = "275"
+            endingLineNumber = "275">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -160,27 +160,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pinrose/InStoreViewControllerAge.m"
-            timestampString = "429655022.200567"
+            timestampString = "429664761.270036"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "434"
-            endingLineNumber = "434"
-            landmarkName = "@implementation InStoreViewControllerAge"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Pinrose/InStoreViewControllerAge.m"
-            timestampString = "429655022.200567"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "453"
-            endingLineNumber = "453"
+            startingLineNumber = "132"
+            endingLineNumber = "132"
             landmarkName = "-alertView:clickedButtonAtIndex:"
             landmarkType = "5">
          </BreakpointContent>
@@ -208,7 +192,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pinrose/InStoreViewControllerAge.m"
-            timestampString = "429655022.200567"
+            timestampString = "429664761.270036"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "61"
@@ -224,11 +208,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Pinrose/InStoreViewControllerAge.m"
-            timestampString = "429654760.444566"
+            timestampString = "429664761.270036"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "-finishButton:"
             landmarkType = "5">
          </BreakpointContent>

@@ -104,12 +104,15 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 - (IBAction)nextQuestion:(UIButton *)sender {
     if (self.player1.isPlaying) {
         [[InStoreSession sessionVariables] setObject:@"cool-guy" forKey:@"beat"];
+        [[InStoreSession sessionVariables] setObject:@"ipad" forKey:@"device"];
     }
     if (self.player2.isPlaying) {
         [[InStoreSession sessionVariables] setObject:@"daper" forKey:@"beat"];
+        [[InStoreSession sessionVariables] setObject:@"ipad" forKey:@"device"];
     }
     if (self.player3.isPlaying) {
         [[InStoreSession sessionVariables] setObject:@"rock" forKey:@"beat"];
+        [[InStoreSession sessionVariables] setObject:@"ipad" forKey:@"device"];
     }
     [self.player1 stop];
     [self.player2 stop];
