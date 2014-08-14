@@ -17,7 +17,6 @@
 @implementation InStoreViewController
 
 - (IBAction)startButton:(UIButton *)sender {
-    NSDictionary *session = [[NSMutableDictionary alloc] initWithCapacity:15];
     
     
     InStoreViewControllerQuestion1 *Q1 = [[InStoreViewControllerQuestion1 alloc] initWithNibName:nil bundle:nil];

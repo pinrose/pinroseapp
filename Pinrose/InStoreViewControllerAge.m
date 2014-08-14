@@ -79,8 +79,7 @@
         [[NSURLConnection alloc]
          initWithRequest:request delegate:self];
         
-        NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-        NSLog(jsonString);
+
         
         
         NSData *response = [NSURLConnection sendSynchronousRequest:request
@@ -144,6 +143,11 @@ clickedButtonAtIndex:(NSInteger)buttonIndex{
 
 - (void)viewDidLoad
 {
+    CGRect frameRect = _textField.frame;
+    frameRect.size.height = 60;
+    frameRect.size.width = 140;
+    _textField.frame = frameRect;
+    _textField.font = [UIFont systemFontOfSize:24.0f];
     [_textField setDelegate:self];
     _textField.placeholder = @"Enter Age";
     _textField.returnKeyType=UIReturnKeyDone;

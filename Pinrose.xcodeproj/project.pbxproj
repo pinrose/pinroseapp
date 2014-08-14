@@ -118,6 +118,7 @@
 		EEB94ED1199C373100E56BF4 /* LandscapeRetina.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94ED0199C373100E56BF4 /* LandscapeRetina.png */; };
 		EEB94ED3199C3C1200E56BF4 /* pillowtalkpoet.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94ED2199C3C1200E56BF4 /* pillowtalkpoet.png */; };
 		EEB94EDF199C413400E56BF4 /* Icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94EDE199C413400E56BF4 /* Icon2.png */; };
+		EEB94EE1199C44C300E56BF4 /* icon3.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB94EE0199C44C300E56BF4 /* icon3.png */; };
 		EECAA63D196F0372008A7E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63C196F0372008A7E50 /* Foundation.framework */; };
 		EECAA63F196F0372008A7E50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA63E196F0372008A7E50 /* CoreGraphics.framework */; };
 		EECAA641196F0372008A7E50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECAA640196F0372008A7E50 /* UIKit.framework */; };
@@ -312,6 +313,7 @@
 		EEB94ED0199C373100E56BF4 /* LandscapeRetina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LandscapeRetina.png; path = ../../../../../Desktop/LandscapeRetina.png; sourceTree = "<group>"; };
 		EEB94ED2199C3C1200E56BF4 /* pillowtalkpoet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pillowtalkpoet.png; path = ../../../../../Desktop/pillowtalkpoet.png; sourceTree = "<group>"; };
 		EEB94EDE199C413400E56BF4 /* Icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon2.png; sourceTree = "<group>"; };
+		EEB94EE0199C44C300E56BF4 /* icon3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon3.png; sourceTree = "<group>"; };
 		EECAA639196F0372008A7E50 /* Pinrose.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pinrose.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EECAA63C196F0372008A7E50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EECAA63E196F0372008A7E50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -535,6 +537,7 @@
 		EECAA643196F0372008A7E50 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EEB94EE0199C44C300E56BF4 /* icon3.png */,
 				EEB94ED2199C3C1200E56BF4 /* pillowtalkpoet.png */,
 				EEB94EDE199C413400E56BF4 /* Icon2.png */,
 				EEB94ED0199C373100E56BF4 /* LandscapeRetina.png */,
@@ -869,6 +872,7 @@
 				EECAA676196F0409008A7E50 /* InStoreViewControllerQuestion1.xib in Resources */,
 				EE9B64651979F78A00AD9BDB /* zebra 1.jpg in Resources */,
 				EEB5522319709144000EEDDF /* InStoreViewControllerAge.xib in Resources */,
+				EEB94EE1199C44C300E56BF4 /* icon3.png in Resources */,
 				EE9B646D1979F78A00AD9BDB /* Shape 1.jpg in Resources */,
 				EE9B64821979F78A00AD9BDB /* Background1.jpg in Resources */,
 				EEB94ED1199C373100E56BF4 /* LandscapeRetina.png in Resources */,
@@ -1068,6 +1072,7 @@
 				GCC_PREFIX_HEADER = "Pinrose/Pinrose-Prefix.pch";
 				INFOPLIST_FILE = "Pinrose/Pinrose-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "75FF83CA-D5AE-44E6-8252-DFDDB3FE84CC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1085,6 +1090,7 @@
 				GCC_PREFIX_HEADER = "Pinrose/Pinrose-Prefix.pch";
 				INFOPLIST_FILE = "Pinrose/Pinrose-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "75FF83CA-D5AE-44E6-8252-DFDDB3FE84CC";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
