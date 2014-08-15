@@ -17,7 +17,7 @@
 
 @implementation InStoreViewControllerNature
 - (IBAction)nature1Button:(UIButton *)sender {
-        [[InStoreSession sessionVariables] setObject:@"pathwork" forKey:@"painting"];
+        [[InStoreSession sessionVariables] setObject:@"patchwork" forKey:@"painting"];
     InStoreViewControllerSunsets *sunset = [[InStoreViewControllerSunsets alloc] initWithNibName:nil bundle:nil];
     
     [self presentViewController:sunset animated:YES completion:NULL];
